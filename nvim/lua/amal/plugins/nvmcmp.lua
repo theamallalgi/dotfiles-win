@@ -19,11 +19,29 @@ return {
 
 		require("luasnip.loaders.from_vscode").lazy_load()
 
+		-- custom colors
+		vim.api.nvim_set_hl(0, "cmpnormal", { bg = "#15141b", fg = "#554d84" })
+		vim.api.nvim_set_hl(0, "CmpBorder", { bg = "#15141b", fg = "#554d84" })
+		vim.api.nvim_set_hl(0, "CmpCursorLine", { bg = "#1b1a23", fg = "#a277ff", bold = true })
+		vim.api.nvim_set_hl(0, "CmpItemKindText", { bg = "NONE", fg = "#554d84" })
+		vim.api.nvim_set_hl(0, "CmpItemKind", { bg = "NONE", fg = "#554d84" })
+		vim.api.nvim_set_hl(0, "CmpItemAbbr", { bg = "NONE", fg = "#554d84" })
+		vim.api.nvim_set_hl(0, "CmpItemAbbrMatch", { bg = "NONE", fg = "#7a6ebe", bold = true })
+		vim.api.nvim_set_hl(0, "CmpItemAbbrMatchFuzzy", { bg = "NONE", fg = "#7a6ebe" })
+
 		cmp.setup({
 			snippet = {
 				expand = function(args)
 					luasnip.lsp_expand(args.body)
 				end,
+			},
+			window = {
+				completion = cmp.config.window.bordered({
+					winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:CmpCursorLine,Search:None",
+				}),
+				documentation = cmp.config.window.bordered({
+					winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:CmpCursorLine,Search:None",
+				}),
 			},
 			mapping = cmp.mapping.preset.insert({
 				["<C-j>"] = cmp.mapping.select_next_item(),

@@ -7,7 +7,7 @@ return {
 			"rcarriga/nvim-notify",
 			opts = {
 				render = "compact", -- default, compact, minimal, simple
-				stages = "fade", -- fade, fade_in_slide_out, slide, static
+				stages = "fade_in_slide_out", -- fade, fade_in_slide_out, slide, static
 				timeout = 1000,
 				top_down = true,
 			},
@@ -26,6 +26,22 @@ return {
 			bottom_right = "╯",
 		}
 		require("noice").setup({
+			presets = {
+				bottom_search = false, -- use a classic bottom cmdline for search
+				command_palette = true, -- position the cmdline and popupmenu together
+				long_message_to_split = false, -- long messages will be sent to a split
+				inc_rename = false, -- enables an input dialog for incremental renaming
+				lsp_doc_border = true, -- add a border to hover docs and signature help
+			},
+			views = {
+				popup = {
+					border = {
+						style = "rounded",
+						shadow = false, -- Disable shadow here
+					},
+					padding = { 0, 0, 0, 0 }, -- Default padding for all popups
+				},
+			},
 			cmdline = {
 				enabled = true, -- enables the Noice cmdline UI
 				view = "cmdline_popup", -- view for rendering the cmdline. Change to `cmdline` to get a classic cmdline at the bottom
@@ -192,36 +208,10 @@ return {
 					["%[.-%]%((%S-)%)"] = require("noice.util").open, -- markdown links
 				},
 				highlights = {
-					["|%S-|"] = "@text.reference",
-					["@%S+"] = "@parameter",
-					["^%s*(Parameters:)"] = "@text.title",
-					["^%s*(Return:)"] = "@text.title",
-					["^%s*(See also:)"] = "@text.title",
-					["{%S-}"] = "@parameter",
+					["|%S-|"] = { link = "Identifier" },
+					["%[.-%]"] = { link = "Identifier" },
 				},
 			},
-			health = {
-				checker = true, -- Disable if you don't want health checks to run
-			},
-			---@type NoicePresets
-			presets = {
-				-- you can enable a preset by setting it to true, or a table that will override the preset config
-				-- you can also add custom presets that you can enable/disable with enabled=true
-				bottom_search = false, -- use a classic bottom cmdline for search
-				command_palette = false, -- position the cmdline and popupmenu together
-				long_message_to_split = false, -- long messages will be sent to a split
-				inc_rename = false, -- enables an input dialog for inc-rename.nvim
-				lsp_doc_border = false, -- add a border to hover docs and signature help
-			},
-			throttle = 1000 / 30, -- how frequently does Noice need to check for ui updates? This has no effect when in blocking mode.
-			---@type NoiceConfigViews
-			views = {}, ---@see section on views
-			---@type NoiceRouteConfig[]
-			routes = {}, --- @see section on routes
-			---@type table<string, NoiceFilter>
-			status = {}, --- @see section on statusline components
-			---@type NoiceFormatOptions
-			format = {}, --- @see section on formatting
 		})
 	end,
 }
