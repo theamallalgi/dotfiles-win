@@ -1,0 +1,46 @@
+# Inserts a blank line between shell prompts
+add_newline = false
+
+# # Replace the "❯" symbol in the prompt with "➜"
+# [character]                            # The name of the module we are configuring is "character"
+# success_symbol = "[Amal](bold #DC143C)[ @ ](bold yellow)[Ashton](bold #DC143C)[ 🚀 ➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+# error_symbol = "[✗ ➜](bold red)"
+
+# # Disable the package module, hiding it from the prompt completely
+# [package]
+# disabled = true
+
+# New Configuration
+
+# Starship command prompt configuration file. Colour choice and over-use of emoji
+# is to help blend in with Ubuntu MATE default theme, Ambiant-Mate.
+
+
+[line_break]
+disabled = true
+
+[battery]
+disabled = true
+
+[directory]
+truncation_length = 1
+
+# Replace the "❯" symbol in the prompt with "➟"
+[character]      # The name of the module we are configuring is "character"
+success_symbol = "[➜ ](bold green)"
+error_symbol = "[➜ ](bold red)"
+
+# Hide the username. The username will only show in certain scenarios
+# [username]
+# format = "Amal @ "
+# show_always = true
+# style_user = "bold #DC143C"
+
+
+# shows the hostname on new lines
+[hostname]
+ssh_only = false
+# suffix = ">>"
+format = "[Amal](bold #FF0056)[ @ ](bold #00FF00)[Ashton ](bold #FF0056)[in ](#FFBF29)"
+trim_at = ".companyname.com"
+disabled = false

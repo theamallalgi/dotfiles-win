@@ -1,0 +1,966 @@
+{
+	"file_history":
+	[
+		"/C/Users/amall/dotfiles/windows/.lesshst",
+		"/F/Amal/Desktop/nvim/lua/amal/core/settings.lua",
+		"/F/Amal/Desktop/nvim/lua/amal/core/init.lua",
+		"/F/Amal/Desktop/nvim/lua/amal/core/keymaps.lua",
+		"/F/Amal/Desktop/nvim/lua/amal/core/uiconfig.lua",
+		"/C/Users/amall/AppData/Local/nvim/lua/.luarc.json",
+		"/F/Amal/Desktop/nvim/lua/amal/plugins/telescope.lua",
+		"/F/Amal/Desktop/bkp/nvim/lua/amal/core/keymaps.lua",
+		"/F/Amal/Desktop/bkp/nvim/lua/amal/plugins/telescope.lua",
+		"/C/Users/amall/AppData/Local/nvim/lua/plugins/ui/indents.lua",
+		"/C/Users/amall/AppData/Local/nvim/lua/core/options.lua",
+		"/C/Users/amall/AppData/Local/nvim/lua/core/mappings.lua",
+		"/C/Users/amall/AppData/Local/nvim/lua/core/commands.lua",
+		"/F/Amal/Desktop/sitebooker/siteopener.py",
+		"/F/Amal/Desktop/sitebooker/siteopener -legacy.py",
+		"/F/Amal/Desktop/dev/autogoethe/email/emailer.py",
+		"/F/Amal/Desktop/dev/autogoethe/email/README.md",
+		"/F/Amal/Desktop/dev/autogoethe/.gitignore",
+		"/F/Amal/Desktop/coimbatore/scripts/detail_maker.py",
+		"/F/Amal/Desktop/coimbatore/README.md",
+		"/F/Amal/Desktop/coimbatore/scripts/rebound_booker.py",
+		"/F/Amal/Desktop/sitebooker/README.md",
+		"/F/Amal/Desktop/sitebooker/tortest.py",
+		"/C/Users/amall/scoop/apps/tor/current/torrc",
+		"/F/Amal/Desktop/coimbatore/scripts/gzexambooker.py",
+		"/F/Amal/Desktop/shit.lua",
+		"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/alpha.lua",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Preferences.sublime-settings",
+		"/F/Amal/Desktop/ascii.lua",
+		"/F/Amal/Desktop/dev/autogoethe/emailer/goethe mail.py",
+		"/C/Users/amall/AppData/Local/nvim/lua/amal/core/settings.lua",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
+		"/F/Amal/Desktop/sitebooker/something.py",
+		"/F/Amal/Desktop/to-do.txt",
+		"/F/Amal/Desktop/coimbatore/scripts/something.py",
+		"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/goethe coimbatore (17).sh",
+		"/F/Amal/Desktop/coimbatore/scripts/batch_rebound_booker.py",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/aura-theme.sublime-color-scheme",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Aura Theme/aura-theme.tmTheme",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Adaptive.sublime-theme",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Theme - Default/Adaptive.sublime-theme",
+		"/C/Users/amall/AppData/Roaming/alacritty/alacritty.toml",
+		"/C/Users/amall/.config/alacritty/themes/themes/aura.toml",
+		"/C/Users/amall/.config/alacritty/themes/themes/frozenembers.toml",
+		"/C/Users/amall/.config/alacritty/themes/themes/alabaster.toml",
+		"/F/Amal/Desktop/dracula",
+		"/C/Users/amall/AppData/Roaming/alacritty/alacritty.yml",
+		"/C/Users/amall/.config/ohmyposh/frozenembers.toml",
+		"/C/Users/amall/.bashrc",
+		"/C/Users/amall/dotfiles/update.sh",
+		"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/githack_startup.sh",
+		"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/dotfile_updates.sh",
+		"/F/Amal/Desktop/aura theme.lua",
+		"/F/Amal/Desktop/aura theme.toml",
+		"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/lualine.lua",
+		"/F/Amal/Desktop/alpha.lua",
+		"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/dashboard.lua",
+		"/F/Amal/Desktop/dum.lua",
+		"/C/Users/amall/.zshrc",
+		"/C/Users/amall/.oh-my-zsh/themes/frozenembers.zsh-theme",
+		"/C/Users/amall/.oh-my-zsh/themes/robbyrussell.zsh-theme",
+		"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/frozenembers.omp.json",
+		"/C/Users/amall/.oh-my-zsh/themes/dogenpunk.zsh-theme",
+		"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/aliens.omp.json",
+		"/C/Users/amall/AppData/Local/nvim-bkp/init.lua",
+		"/C/Users/amall/AppData/Local/neovide/neovide-settings.json",
+		"/C/Users/amall/AppData/Local/nvim-bkp/general/settings.vim",
+		"/C/Users/amall/AppData/Local/nvim/init.lua",
+		"/C/Users/amall/.config/nvim/init.lua",
+		"/C/Users/amall/AppData/Roaming/mpv/mpv.conf",
+		"/F/amal/desktop/dev/codex/codex.py",
+		"/F/amal/desktop/dev/projects/zenscripts/githack/githack.sh",
+		"/F/amal/desktop/dev/projects/zenscripts/gitfotact/gitfotact.py",
+		"/F/amal/desktop/dev/projects/zenscripts/gitfotact/.github/workflows/index_starter.yml",
+		"/F/amal/desktop/dev/projects/zenscripts/gitfotact/config.json",
+		"/F/Amal/Desktop/dev/projects/zenscripts/gitfotact/ignored_users.json",
+		"/C/Users/amall/Colorscripts/pwshscript.ps1",
+		"/C/Users/amall/Colorscripts/colorscripts.bat",
+		"/C/Users/amall/Colorscripts/colorscripts.sh",
+		"/C/Users/amall/Colorscripts/Scripts/script-(9)",
+		"/C/Users/amall/Colorscripts/Scripts/script-(1)",
+		"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/remk.omp.json",
+		"/F/Amal/Desktop/dev/newspaper/content.md",
+		"/F/Amal/Desktop/dev/newspaper/generate.py",
+		"/F/Amal/Desktop/dev/projects/zenscripts/gitunfollower/guf.py",
+		"/F/Amal/Desktop/dev/autogoethe/README.md",
+		"/F/Amal/Desktop/sitebooker/run (site).bat",
+		"/F/Amal/Desktop/coimbatore/shortcuts/edit details.bat",
+		"/F/amal/desktop/sitebooker/siteopener.py",
+		"/F/Amal/Desktop/dev/projects/zenscripts/githack/githack.sh",
+		"/F/Amal/Desktop/dev/projects/zenscripts/githack/githack_serv.sh",
+		"/C/Users/amall/dotfiles/windows/readme.txt",
+		"/C/Users/amall/dotfiles/.gitignore",
+		"/C/Users/amall/dotfiles/README.md",
+		"/C/Users/amall/dotfiles/windows/2023-24/readme.txt",
+		"/F/Amal/Desktop/newspaper/generate.py",
+		"/F/Amal/Desktop/newspaper/content.md",
+		"/F/amal/desktop/newspaper/generate.py",
+		"/F/Amal/Desktop/dev/projects/zenscripts/gitfollower/gf.py",
+		"/F/Amal/Desktop/newspaper/run.sh",
+		"/F/Amal/Desktop/syle.css",
+		"/F/Amal/Desktop/newspaper/keys/grnguys-coll-inhaltspapier-39c1cc6ab1e5.json",
+		"/F/Amal/Desktop/newspaper/Inhaltspapier.md",
+		"/F/Amal/Desktop/grnguys-inhaltspapier/content-newsletter.py",
+		"/F/Amal/Desktop/dummy/dummy.py",
+		"/F/Amal/Desktop/dummy/pokemon_description.txt",
+		"/F/Amal/Desktop/dev/docs/customer email/admin message.html",
+		"/F/Amal/Desktop/grnguys-inhaltspapier/.github/workflows/google-api-automation.yml",
+		"/F/Amal/Desktop/grnguys-inhaltspapier/index.py",
+		"/F/Amal/Desktop/grnguys/console/grnguys-coll-inhaltspapier-fee2481f5867.json",
+		"/F/Amal/Desktop/grnguys-inhaltspapier/README.md",
+		"/F/Amal/Desktop/grnguys-inhaltspapier/.github/workflows/index.py",
+		"/F/Amal/Desktop/content-newsletter.py",
+		"/F/Amal/Desktop/dev/docs/customer email/customer_mail.py",
+		"/F/Amal/Desktop/dev/projects/emailer/emailer.py",
+		"/F/Amal/Desktop/dev/projects/emailer/contents/theamallalgi@gmail.com.txt",
+		"/C/Users/amall/AppData/Roaming/lsd/config.yml",
+		"/F/amal/desktop/dev/projects/emailer/%appdata%/lsd",
+		"/C/Users/amall/.config/alacritty/alacritty.yml",
+		"/F/Amal/Desktop/admin message.html",
+		"/F/Amal/Desktop/dev/docs/customer email/index.html",
+		"/F/Amal/Desktop/dev/tools/invoice editor/legacy/editor.py",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/amall/.mintty/themes/frozen embers (beta).minttyrc",
+		"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Color Highlight/Color Highlight.sublime-settings"
+	],
+	"folder_history":
+	[
+		"/F/Amal/Desktop/nvim",
+		"/F/Amal/Desktop/bkp/nvim/lua/amal",
+		"/C/Users/amall/AppData/Local/nvim",
+		"/F/Amal/Desktop/coimbatore",
+		"/F/Amal/Desktop/sitebooker",
+		"/F/amal/desktop/dev/codex",
+		"/F/amal/desktop/dev/projects/zenscripts/gitfotact",
+		"/F/amal/desktop/sitebooker",
+		"/C/Users/amall/dotfiles",
+		"/F/amal/desktop/newspaper",
+		"/F/amal/desktop/dummy"
+	],
+	"last_version": 4180,
+	"last_window_id": 40,
+	"log_indexing": false,
+	"next_update_check": 1724494963,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 571.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			359.0,
+			78.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"url",
+						"urlsb2"
+					],
+					[
+						"le",
+						"levelSelect"
+					],
+					[
+						"background",
+						"background-image"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"sett",
+						"Preferences: Settings"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Preferences: Browse Packages"
+					],
+					[
+						"word",
+						"Word Wrap: Toggle"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"select c",
+						"UI: Select Color Scheme"
+					],
+					[
+						"bro",
+						"Preferences: Browse Packages"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"mini",
+						"View: Toggle Minimap"
+					],
+					[
+						"stat",
+						"View: Toggle Status Bar"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 142.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Preferences.sublime-settings",
+				"/C/Users/amall/dotfiles/windows/.lesshst",
+				"/F/Amal/Desktop/nvim/lua/amal/core/settings.lua",
+				"/F/Amal/Desktop/nvim/lua/amal/core/init.lua",
+				"/F/Amal/Desktop/nvim/lua/amal/core/keymaps.lua",
+				"/F/Amal/Desktop/nvim/lua/amal/core/uiconfig.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/.luarc.json",
+				"/F/Amal/Desktop/nvim/lua/amal/plugins/telescope.lua",
+				"/F/Amal/Desktop/bkp/nvim/lua/amal/core/keymaps.lua",
+				"/F/Amal/Desktop/bkp/nvim/lua/amal/plugins/telescope.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/plugins/ui/indents.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/core/options.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/core/mappings.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/core/commands.lua",
+				"/F/Amal/Desktop/sitebooker/siteopener.py",
+				"/F/Amal/Desktop/sitebooker/siteopener -legacy.py",
+				"/F/Amal/Desktop/dev/autogoethe/email/emailer.py",
+				"/F/Amal/Desktop/dev/autogoethe/email/README.md",
+				"/F/Amal/Desktop/dev/autogoethe/.gitignore",
+				"/F/Amal/Desktop/coimbatore/scripts/detail_maker.py",
+				"/F/Amal/Desktop/coimbatore/README.md",
+				"/F/Amal/Desktop/coimbatore/scripts/rebound_booker.py",
+				"/F/Amal/Desktop/sitebooker/README.md",
+				"/F/Amal/Desktop/sitebooker/tortest.py",
+				"/C/Users/amall/scoop/apps/tor/current/torrc",
+				"/F/Amal/Desktop/coimbatore/scripts/gzexambooker.py",
+				"/F/Amal/Desktop/shit.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/alpha.lua",
+				"/F/Amal/Desktop/ascii.lua",
+				"/F/Amal/Desktop/dev/autogoethe/emailer/goethe mail.py",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/core/settings.lua",
+				"/F/Amal/Desktop/sitebooker/something.py",
+				"/F/Amal/Desktop/to-do.txt",
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Default/Preferences.sublime-settings",
+				"/F/Amal/Desktop/coimbatore/scripts/something.py",
+				"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/goethe coimbatore (17).sh",
+				"/F/Amal/Desktop/coimbatore/scripts/batch_rebound_booker.py",
+				"/C/Users/amall/AppData/Roaming/alacritty/alacritty.toml",
+				"/C/Users/amall/.config/alacritty/themes/themes/aura.toml",
+				"/C/Users/amall/.config/alacritty/themes/themes/frozenembers.toml",
+				"/C/Users/amall/.config/alacritty/themes/themes/alabaster.toml",
+				"/F/Amal/Desktop/dracula",
+				"/C/Users/amall/AppData/Roaming/alacritty/alacritty.yml",
+				"/C/Users/amall/.config/ohmyposh/frozenembers.toml",
+				"/C/Users/amall/.bashrc",
+				"/C/Users/amall/dotfiles/update.sh",
+				"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/githack_startup.sh",
+				"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/dotfile_updates.sh",
+				"/F/Amal/Desktop/aura theme.lua",
+				"/F/Amal/Desktop/aura theme.toml",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/lualine.lua",
+				"/F/Amal/Desktop/alpha.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/dashboard.lua",
+				"/F/Amal/Desktop/dum.lua",
+				"/C/Users/amall/.zshrc",
+				"/C/Users/amall/.oh-my-zsh/themes/frozenembers.zsh-theme",
+				"/C/Users/amall/.oh-my-zsh/themes/robbyrussell.zsh-theme",
+				"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/frozenembers.omp.json",
+				"/C/Users/amall/.oh-my-zsh/themes/dogenpunk.zsh-theme",
+				"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/aliens.omp.json",
+				"/C/Users/amall/AppData/Local/nvim-bkp/init.lua",
+				"/C/Users/amall/AppData/Local/neovide/neovide-settings.json",
+				"/C/Users/amall/AppData/Local/nvim-bkp/general/settings.vim",
+				"/C/Users/amall/AppData/Local/nvim/init.lua",
+				"/C/Users/amall/.config/nvim/init.lua",
+				"/C/Users/amall/AppData/Roaming/mpv/mpv.conf",
+				"/F/amal/desktop/dev/codex/codex.py",
+				"/F/amal/desktop/dev/projects/zenscripts/githack/githack.sh",
+				"/F/amal/desktop/dev/projects/zenscripts/gitfotact/gitfotact.py",
+				"/F/amal/desktop/dev/projects/zenscripts/gitfotact/.github/workflows/index_starter.yml",
+				"/F/amal/desktop/dev/projects/zenscripts/gitfotact/config.json",
+				"/F/Amal/Desktop/dev/projects/zenscripts/gitfotact/ignored_users.json",
+				"/C/Users/amall/Colorscripts/pwshscript.ps1",
+				"/C/Users/amall/Colorscripts/colorscripts.bat",
+				"/C/Users/amall/Colorscripts/colorscripts.sh",
+				"/C/Users/amall/Colorscripts/Scripts/script-(9)",
+				"/C/Users/amall/Colorscripts/Scripts/script-(1)",
+				"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/remk.omp.json",
+				"/F/Amal/Desktop/dev/newspaper/content.md",
+				"/F/Amal/Desktop/dev/newspaper/generate.py",
+				"/F/Amal/Desktop/dev/projects/zenscripts/gitunfollower/guf.py",
+				"/F/Amal/Desktop/dev/autogoethe/README.md",
+				"/F/Amal/Desktop/sitebooker/run (site).bat",
+				"/F/Amal/Desktop/coimbatore/shortcuts/edit details.bat",
+				"/F/amal/desktop/sitebooker/siteopener.py",
+				"/F/Amal/Desktop/dev/projects/zenscripts/githack/githack.sh",
+				"/F/Amal/Desktop/dev/projects/zenscripts/githack/githack_serv.sh",
+				"/C/Users/amall/dotfiles/windows/readme.txt",
+				"/C/Users/amall/dotfiles/.gitignore",
+				"/C/Users/amall/dotfiles/README.md",
+				"/C/Users/amall/dotfiles/windows/2023-24/readme.txt",
+				"/F/Amal/Desktop/newspaper/generate.py",
+				"/F/Amal/Desktop/newspaper/content.md",
+				"/F/Amal/Desktop/dev/projects/zenscripts/gitfollower/gf.py",
+				"/F/amal/desktop/newspaper/generate.py",
+				"/F/Amal/Desktop/newspaper/run.sh",
+				"/F/Amal/Desktop/syle.css",
+				"/F/Amal/Desktop/newspaper/keys/grnguys-coll-inhaltspapier-39c1cc6ab1e5.json",
+				"/F/Amal/Desktop/newspaper/Inhaltspapier.md",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/content-newsletter.py",
+				"/F/Amal/Desktop/dummy/dummy.py",
+				"/F/Amal/Desktop/dummy/pokemon_description.txt",
+				"/F/Amal/Desktop/dev/docs/customer email/admin message.html",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/.github/workflows/google-api-automation.yml",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/index.py",
+				"/F/Amal/Desktop/grnguys/console/grnguys-coll-inhaltspapier-fee2481f5867.json",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/README.md",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/.github/workflows/index.py",
+				"/F/Amal/Desktop/content-newsletter.py",
+				"/F/Amal/Desktop/dev/docs/customer email/customer_mail.py",
+				"/F/Amal/Desktop/dev/projects/emailer/emailer.py",
+				"/F/Amal/Desktop/dev/projects/emailer/contents/theamallalgi@gmail.com.txt",
+				"/C/Users/amall/AppData/Roaming/lsd/config.yml",
+				"/F/amal/desktop/dev/projects/emailer/%appdata%/lsd",
+				"/C/Users/amall/.config/alacritty/alacritty.yml",
+				"/F/Amal/Desktop/admin message.html",
+				"/F/Amal/Desktop/dev/docs/customer email/index.html",
+				"/F/Amal/Desktop/dev/tools/invoice editor/legacy/editor.py",
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Users/amall/.mintty/themes/frozen embers (beta).minttyrc"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"{ silent = true }",
+					"vim.keymap.set",
+					"Select Mo",
+					"check",
+					"⣰",
+					"⡆",
+					"⣦",
+					"⣾",
+					"⢠",
+					"⠸",
+					"⣥",
+					"⡇",
+					"⣧",
+					"⢿",
+					"⣛",
+					"⠛",
+					"⣶",
+					"⣷",
+					"⣼",
+					"⢸",
+					"⡿",
+					"⣤",
+					"⠿",
+					"⣿"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"silent",
+					"set",
+					"▄",
+					"█",
+					"▄",
+					"█",
+					"▄",
+					"█",
+					"▄",
+					"█"
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 41.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 192.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 909.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"url",
+						"urlsb2"
+					],
+					[
+						"le",
+						"levelSelect"
+					],
+					[
+						"background",
+						"background-image"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 740,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"sett",
+						"Preferences: Settings"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Preferences: Browse Packages"
+					],
+					[
+						"word",
+						"Word Wrap: Toggle"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"select c",
+						"UI: Select Color Scheme"
+					],
+					[
+						"bro",
+						"Preferences: Browse Packages"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"mini",
+						"View: Toggle Minimap"
+					],
+					[
+						"stat",
+						"View: Toggle Status Bar"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 142.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/amall/dotfiles/windows/.lesshst",
+				"/F/Amal/Desktop/nvim/lua/amal/core/settings.lua",
+				"/F/Amal/Desktop/nvim/lua/amal/core/init.lua",
+				"/F/Amal/Desktop/nvim/lua/amal/core/keymaps.lua",
+				"/F/Amal/Desktop/nvim/lua/amal/core/uiconfig.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/.luarc.json",
+				"/F/Amal/Desktop/nvim/lua/amal/plugins/telescope.lua",
+				"/F/Amal/Desktop/bkp/nvim/lua/amal/core/keymaps.lua",
+				"/F/Amal/Desktop/bkp/nvim/lua/amal/plugins/telescope.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/plugins/ui/indents.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/core/options.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/core/mappings.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/core/commands.lua",
+				"/F/Amal/Desktop/sitebooker/siteopener.py",
+				"/F/Amal/Desktop/sitebooker/siteopener -legacy.py",
+				"/F/Amal/Desktop/dev/autogoethe/email/emailer.py",
+				"/F/Amal/Desktop/dev/autogoethe/email/README.md",
+				"/F/Amal/Desktop/dev/autogoethe/.gitignore",
+				"/F/Amal/Desktop/coimbatore/scripts/detail_maker.py",
+				"/F/Amal/Desktop/coimbatore/README.md",
+				"/F/Amal/Desktop/coimbatore/scripts/rebound_booker.py",
+				"/F/Amal/Desktop/sitebooker/README.md",
+				"/F/Amal/Desktop/sitebooker/tortest.py",
+				"/C/Users/amall/scoop/apps/tor/current/torrc",
+				"/F/Amal/Desktop/coimbatore/scripts/gzexambooker.py",
+				"/F/Amal/Desktop/shit.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/alpha.lua",
+				"/F/Amal/Desktop/ascii.lua",
+				"/F/Amal/Desktop/dev/autogoethe/emailer/goethe mail.py",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/core/settings.lua",
+				"/F/Amal/Desktop/sitebooker/something.py",
+				"/F/Amal/Desktop/to-do.txt",
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Preferences.sublime-settings",
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Default/Preferences.sublime-settings",
+				"/F/Amal/Desktop/coimbatore/scripts/something.py",
+				"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/goethe coimbatore (17).sh",
+				"/F/Amal/Desktop/coimbatore/scripts/batch_rebound_booker.py",
+				"/C/Users/amall/AppData/Roaming/alacritty/alacritty.toml",
+				"/C/Users/amall/.config/alacritty/themes/themes/aura.toml",
+				"/C/Users/amall/.config/alacritty/themes/themes/frozenembers.toml",
+				"/C/Users/amall/.config/alacritty/themes/themes/alabaster.toml",
+				"/F/Amal/Desktop/dracula",
+				"/C/Users/amall/AppData/Roaming/alacritty/alacritty.yml",
+				"/C/Users/amall/.config/ohmyposh/frozenembers.toml",
+				"/C/Users/amall/.bashrc",
+				"/C/Users/amall/dotfiles/update.sh",
+				"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/githack_startup.sh",
+				"/C/Users/amall/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/dotfile_updates.sh",
+				"/F/Amal/Desktop/aura theme.lua",
+				"/F/Amal/Desktop/aura theme.toml",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/lualine.lua",
+				"/F/Amal/Desktop/alpha.lua",
+				"/C/Users/amall/AppData/Local/nvim/lua/amal/plugins/dashboard.lua",
+				"/F/Amal/Desktop/dum.lua",
+				"/C/Users/amall/.zshrc",
+				"/C/Users/amall/.oh-my-zsh/themes/frozenembers.zsh-theme",
+				"/C/Users/amall/.oh-my-zsh/themes/robbyrussell.zsh-theme",
+				"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/frozenembers.omp.json",
+				"/C/Users/amall/.oh-my-zsh/themes/dogenpunk.zsh-theme",
+				"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/aliens.omp.json",
+				"/C/Users/amall/AppData/Local/nvim-bkp/init.lua",
+				"/C/Users/amall/AppData/Local/neovide/neovide-settings.json",
+				"/C/Users/amall/AppData/Local/nvim-bkp/general/settings.vim",
+				"/C/Users/amall/AppData/Local/nvim/init.lua",
+				"/C/Users/amall/.config/nvim/init.lua",
+				"/C/Users/amall/AppData/Roaming/mpv/mpv.conf",
+				"/F/amal/desktop/dev/codex/codex.py",
+				"/F/amal/desktop/dev/projects/zenscripts/githack/githack.sh",
+				"/F/amal/desktop/dev/projects/zenscripts/gitfotact/gitfotact.py",
+				"/F/amal/desktop/dev/projects/zenscripts/gitfotact/.github/workflows/index_starter.yml",
+				"/F/amal/desktop/dev/projects/zenscripts/gitfotact/config.json",
+				"/F/Amal/Desktop/dev/projects/zenscripts/gitfotact/ignored_users.json",
+				"/C/Users/amall/Colorscripts/pwshscript.ps1",
+				"/C/Users/amall/Colorscripts/colorscripts.bat",
+				"/C/Users/amall/Colorscripts/colorscripts.sh",
+				"/C/Users/amall/Colorscripts/Scripts/script-(9)",
+				"/C/Users/amall/Colorscripts/Scripts/script-(1)",
+				"/C/Users/amall/AppData/Local/Programs/oh-my-posh/themes/remk.omp.json",
+				"/F/Amal/Desktop/dev/newspaper/content.md",
+				"/F/Amal/Desktop/dev/newspaper/generate.py",
+				"/F/Amal/Desktop/dev/projects/zenscripts/gitunfollower/guf.py",
+				"/F/Amal/Desktop/dev/autogoethe/README.md",
+				"/F/Amal/Desktop/sitebooker/run (site).bat",
+				"/F/Amal/Desktop/coimbatore/shortcuts/edit details.bat",
+				"/F/amal/desktop/sitebooker/siteopener.py",
+				"/F/Amal/Desktop/dev/projects/zenscripts/githack/githack.sh",
+				"/F/Amal/Desktop/dev/projects/zenscripts/githack/githack_serv.sh",
+				"/C/Users/amall/dotfiles/windows/readme.txt",
+				"/C/Users/amall/dotfiles/.gitignore",
+				"/C/Users/amall/dotfiles/README.md",
+				"/C/Users/amall/dotfiles/windows/2023-24/readme.txt",
+				"/F/Amal/Desktop/newspaper/generate.py",
+				"/F/Amal/Desktop/newspaper/content.md",
+				"/F/Amal/Desktop/dev/projects/zenscripts/gitfollower/gf.py",
+				"/F/amal/desktop/newspaper/generate.py",
+				"/F/Amal/Desktop/newspaper/run.sh",
+				"/F/Amal/Desktop/syle.css",
+				"/F/Amal/Desktop/newspaper/keys/grnguys-coll-inhaltspapier-39c1cc6ab1e5.json",
+				"/F/Amal/Desktop/newspaper/Inhaltspapier.md",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/content-newsletter.py",
+				"/F/Amal/Desktop/dummy/dummy.py",
+				"/F/Amal/Desktop/dummy/pokemon_description.txt",
+				"/F/Amal/Desktop/dev/docs/customer email/admin message.html",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/.github/workflows/google-api-automation.yml",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/index.py",
+				"/F/Amal/Desktop/grnguys/console/grnguys-coll-inhaltspapier-fee2481f5867.json",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/README.md",
+				"/F/Amal/Desktop/grnguys-inhaltspapier/.github/workflows/index.py",
+				"/F/Amal/Desktop/content-newsletter.py",
+				"/F/Amal/Desktop/dev/docs/customer email/customer_mail.py",
+				"/F/Amal/Desktop/dev/projects/emailer/emailer.py",
+				"/F/Amal/Desktop/dev/projects/emailer/contents/theamallalgi@gmail.com.txt",
+				"/C/Users/amall/AppData/Roaming/lsd/config.yml",
+				"/F/amal/desktop/dev/projects/emailer/%appdata%/lsd",
+				"/C/Users/amall/.config/alacritty/alacritty.yml",
+				"/F/Amal/Desktop/admin message.html",
+				"/F/Amal/Desktop/dev/docs/customer email/index.html",
+				"/F/Amal/Desktop/dev/tools/invoice editor/legacy/editor.py",
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/amall/AppData/Roaming/Sublime Text/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Users/amall/.mintty/themes/frozen embers (beta).minttyrc"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"{ silent = true }",
+					"vim.keymap.set",
+					"Select Mo",
+					"check",
+					"⣰",
+					"⡆",
+					"⣦",
+					"⣾",
+					"⢠",
+					"⠸",
+					"⣥",
+					"⡇",
+					"⣧",
+					"⢿",
+					"⣛",
+					"⠛",
+					"⣶",
+					"⣷",
+					"⣼",
+					"⢸",
+					"⡿",
+					"⣤",
+					"⠿",
+					"⣿"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"silent",
+					"set",
+					"▄",
+					"█",
+					"▄",
+					"█",
+					"▄",
+					"█",
+					"▄",
+					"█"
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/amall/AppData/Roaming/Sublime Text/Packages/User/Preferences.sublime-settings",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 740,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JSON/JSON.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 60.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 41.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,699,359,78,1268,6133e4b24ca0e843be554c81ad7043cb",
+			"project": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"_vintageous_last_char_search_character": "c",
+				"_vintageous_last_char_search_command": "vi_t",
+				"_vintageous_reset_during_init": true
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 192.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			},
+			"window_id": 33,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

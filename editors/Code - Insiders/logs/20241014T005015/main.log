@@ -1,0 +1,12 @@
+2024-10-14 00:50:45.251 [info] update#setState idle
+2024-10-14 00:50:51.397 [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+2024-10-14 00:50:51.638 [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+2024-10-14 00:50:59.026 [error] CodeWindow: detected unresponsive
+2024-10-14 00:51:12.591 [info] update#setState checking for updates
+2024-10-14 00:51:25.976 [info] update#setState downloading
+2024-10-14 00:51:46.696 [info] update#setState downloaded
+2024-10-14 00:51:52.614 [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+2024-10-14 00:52:53.221 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 10097ms.
+2024-10-14 00:52:53.327 [info] Extension signature verification result for ms-vscode.vscode-typescript-next: Success. Executed: true. Duration: 11798ms.
+2024-10-14 00:52:55.146 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 2856ms.
+2024-10-14 00:55:56.319 [info] Extension host with pid 6772 exited with code: 0, signal: unknown.

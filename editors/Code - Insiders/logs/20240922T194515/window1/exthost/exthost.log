@@ -1,0 +1,128 @@
+2024-09-22 19:45:23.216 [info] Extension host with pid 9668 started
+2024-09-22 19:45:23.217 [info] Skipping acquiring lock for c:\Users\amall\AppData\Roaming\Code - Insiders\User\workspaceStorage\d576686f2d08126bcf01763e458a9c19.
+2024-09-22 19:45:24.167 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-22 19:45:24.430 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-22 19:45:24.599 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-22 19:45:25.314 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-22 19:45:26.787 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-22 19:45:26.954 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-22 19:45:27.652 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-22 19:45:28.286 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-22 19:45:30.605 [info] Eager extensions activated
+2024-09-22 19:45:31.013 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 19:45:31.043 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 19:45:31.420 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 19:45:32.608 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 19:45:32.919 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 19:45:32.985 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 19:45:33.101 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 19:51:09.224 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:11.182 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:19.521 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:20.988 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:21.333 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:24.282 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:25.120 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:25.639 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:31.301 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 19:51:34.583 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-09-22 20:04:00.083 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:04:01.951 [error] Error: ENOENT: no such file or directory, open 'c:\Users\amall\AppData\Roaming\Code - Insiders\User\globalStorage\vscodevim.vim\.registers'
+2024-09-22 20:08:01.015 [info] ExtensionService#_doActivateExtension BrandonKirbyson.vscode-animations, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:09:54.363 [error] Error: command 'extension.uninstallCustomCSS' not found
+    at s8e.n (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1254:1341)
+    at s8e.executeCommand (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1254:1273)
+2024-09-22 20:10:01.805 [info] ExtensionService#_doActivateExtension drcika.apc-extension, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:01.987 [error] Activating extension drcika.apc-extension failed due to an error:
+2024-09-22 20:10:01.987 [error] TypeError: Cannot read properties of undefined (reading 'filename')
+	at Object.<anonymous> (c:\Users\amall\.vscode-insiders\extensions\drcika.apc-extension-0.4.1\dist\patch.js:17:52)
+	at Module._compile (node:internal/modules/cjs/loader:1373:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1432:10)
+	at Module.load (node:internal/modules/cjs/loader:1215:32)
+	at Module._load (node:internal/modules/cjs/loader:1031:12)
+	at c._load (node:electron/js2c/node_init:2:13801)
+	at e._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:10870)
+	at t._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:22459)
+	at i._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:3161)
+	at Module.require (node:internal/modules/cjs/loader:1240:19)
+	at require (node:internal/modules/helpers:179:18)
+	at Object.<anonymous> (c:\Users\amall\.vscode-insiders\extensions\drcika.apc-extension-0.4.1\dist\extension.js:7:17)
+	at Module._compile (node:internal/modules/cjs/loader:1373:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1432:10)
+	at Module.load (node:internal/modules/cjs/loader:1215:32)
+	at Module._load (node:internal/modules/cjs/loader:1031:12)
+	at c._load (node:electron/js2c/node_init:2:13801)
+	at e._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:10870)
+	at t._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:22459)
+	at i._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:3161)
+	at Module.require (node:internal/modules/cjs/loader:1240:19)
+	at require (node:internal/modules/helpers:179:18)
+	at sB.xb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23797)
+	at async Promise.all (index 0)
+2024-09-22 20:10:01.991 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-22 20:10:02.401 [info] Extension host with pid 9668 exiting with code 0
+2024-09-22 20:10:08.911 [info] Extension host with pid 5936 started
+2024-09-22 20:10:08.911 [info] Skipping acquiring lock for c:\Users\amall\AppData\Roaming\Code - Insiders\User\workspaceStorage\d576686f2d08126bcf01763e458a9c19.
+2024-09-22 20:10:09.048 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-22 20:10:09.218 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-22 20:10:09.281 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-22 20:10:09.777 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-22 20:10:11.447 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-22 20:10:11.469 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-22 20:10:11.826 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-22 20:10:12.244 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-22 20:10:12.759 [info] Eager extensions activated
+2024-09-22 20:10:13.428 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:13.443 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:13.612 [info] ExtensionService#_doActivateExtension BrandonKirbyson.vscode-animations, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:13.633 [info] ExtensionService#_doActivateExtension drcika.apc-extension, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:13.689 [error] Activating extension drcika.apc-extension failed due to an error:
+2024-09-22 20:10:13.689 [error] TypeError: Cannot read properties of undefined (reading 'filename')
+	at Object.<anonymous> (c:\Users\amall\.vscode-insiders\extensions\drcika.apc-extension-0.4.1\dist\patch.js:17:52)
+	at Module._compile (node:internal/modules/cjs/loader:1373:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1432:10)
+	at Module.load (node:internal/modules/cjs/loader:1215:32)
+	at Module._load (node:internal/modules/cjs/loader:1031:12)
+	at c._load (node:electron/js2c/node_init:2:13801)
+	at e._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:10870)
+	at t._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:22459)
+	at i._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:3161)
+	at Module.require (node:internal/modules/cjs/loader:1240:19)
+	at require (node:internal/modules/helpers:179:18)
+	at Object.<anonymous> (c:\Users\amall\.vscode-insiders\extensions\drcika.apc-extension-0.4.1\dist\extension.js:7:17)
+	at Module._compile (node:internal/modules/cjs/loader:1373:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1432:10)
+	at Module.load (node:internal/modules/cjs/loader:1215:32)
+	at Module._load (node:internal/modules/cjs/loader:1031:12)
+	at c._load (node:electron/js2c/node_init:2:13801)
+	at e._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:10870)
+	at t._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:22459)
+	at i._load (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:3161)
+	at Module.require (node:internal/modules/cjs/loader:1240:19)
+	at require (node:internal/modules/helpers:179:18)
+	at sB.xb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23797)
+	at async Promise.all (index 0)
+2024-09-22 20:10:13.690 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:14.260 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:14.511 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:14.564 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:14.689 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:15.264 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-09-22 20:10:22.434 [error] Error: command 'apc.extension.enable' not found
+    at s8e.n (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1254:1341)
+    at s8e.executeCommand (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1254:1273)
+2024-09-22 20:21:21.316 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-22 20:21:21.593 [error] TypeError: r.some is not a function
+	at d.saveToDisk (c:\Users\amall\.vscode-insiders\extensions\vscodevim.vim-1.28.1\out\extension.js:2:646151)
+	at t.deactivate (c:\Users\amall\.vscode-insiders\extensions\vscodevim.vim-1.28.1\out\extension.js:2:176792)
+	at sB.eb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11727)
+	at file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9877
+	at Array.map (<anonymous>)
+	at sB.$ (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9865)
+	at sB.terminate (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10108)
+	at L3.terminate (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1424)
+	at ps (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:15058)
+	at MessagePortMain.<anonymous> (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619)
+2024-09-22 20:21:21.617 [info] Extension host with pid 5936 exiting with code 0

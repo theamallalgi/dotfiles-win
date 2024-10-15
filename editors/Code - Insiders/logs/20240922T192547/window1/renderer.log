@@ -1,0 +1,57 @@
+2024-09-22 19:25:52.756 [info] Started local extension host with pid 5332.
+2024-09-22 19:25:52.948 [info] Started initializing default profile extensions in extensions installation folder. file:///c%3A/Users/amall/.vscode-insiders/extensions
+2024-09-22 19:25:54.967 [info] Completed initializing default profile extensions in extensions installation folder. file:///c%3A/Users/amall/.vscode-insiders/extensions
+2024-09-22 19:25:56.033 [error] [network] #2: https://main.vscode-cdn.net/core/insiders.json - error GET Failed to fetch
+2024-09-22 19:25:56.034 [error] TypeError: Failed to fetch
+    at TMs (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3074:39863)
+    at vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3074:41044
+    at fst.c (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:488:27297)
+    at fst.request (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3074:41036)
+    at qrt.g (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3405:1637)
+    at qrt.f (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3405:1574)
+    at new qrt (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3405:1543)
+    at qat.o (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1310:1586)
+    at qat.createInstance (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1310:1083)
+    at cCe.F (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:477:37924)
+    at l (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:477:37602)
+2024-09-22 19:26:01.839 [info] [perf] Render performance baseline is 69ms
+2024-09-22 19:26:56.192 [info] Settings Sync: Updating due to change in sessions
+2024-09-22 19:26:56.194 [info] Settings Sync: Updated current session fa8eba0a80fc7d29
+2024-09-22 19:31:12.094 [warning] Settings pattern "application.*" doesn't match any settings
+2024-09-22 19:32:28.408 [warning] Settings pattern "application.*" doesn't match any settings
+2024-09-22 19:33:33.957 [warning] Settings pattern "application.*" doesn't match any settings
+2024-09-22 19:33:36.763 [warning] Settings pattern "application.*" doesn't match any settings
+2024-09-22 19:36:36.613 [error] Attempting to access step which does not exist in registry ms-toolsai.jupyter#jupyterWelcome#ipynb.newUntitledIpynb: Error: Attempting to access step which does not exist in registry ms-toolsai.jupyter#jupyterWelcome#ipynb.newUntitledIpynb
+    at tZe.bb (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:2552:25054)
+    at tZe.progressStep (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:2552:22794)
+    at vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:2552:23054
+    at Set.forEach (<anonymous>)
+    at tZe.progressByEvent (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:2552:23038)
+    at IQ.value (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:2552:17885)
+    at x.B (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:28:733)
+    at x.C (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:28:803)
+    at x.fire (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1020)
+    at s8e.n (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1254:1478)
+    at s8e.executeCommand (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1254:1039)
+    at d6e.open (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1277:403)
+    at g6e.open (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1277:1674)
+2024-09-22 19:36:57.365 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 21ms.
+2024-09-22 19:36:58.173 [info] Started local extension host with pid 9240.
+2024-09-22 19:37:05.296 [info] [perf] Render performance baseline is 596ms
+2024-09-22 19:37:05.673 [error] [network] #5: https://main.vscode-cdn.net/core/insiders.json - error GET Failed to fetch
+2024-09-22 19:37:05.675 [error] TypeError: Failed to fetch
+    at TMs (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3074:39863)
+    at vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3074:41044
+    at fst.c (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:488:27297)
+    at fst.request (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3074:41036)
+    at qrt.g (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3405:1637)
+    at qrt.f (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3405:1574)
+    at new qrt (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:3405:1543)
+    at qat.o (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1310:1586)
+    at qat.createInstance (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:1310:1083)
+    at cCe.F (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:477:37924)
+    at l (vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:477:37602)
+2024-09-22 19:37:19.399 [error] [network] #6: https://marketplace.visualstudio.com/_apis/public/gallery/searchrelevancy/extensionquery - error POST Canceled
+2024-09-22 19:37:24.394 [error] [network] #8: https://marketplace.visualstudio.com/_apis/public/gallery/searchrelevancy/extensionquery - error POST Canceled
+2024-09-22 19:39:16.227 [warning] Settings pattern "application.*" doesn't match any settings
+2024-09-22 19:39:19.068 [warning] Settings pattern "application.*" doesn't match any settings

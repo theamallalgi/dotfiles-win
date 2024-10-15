@@ -1,0 +1,4 @@
+[
+	{ "keys": ["shift+o"], "command": "build" },
+	{ "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+]

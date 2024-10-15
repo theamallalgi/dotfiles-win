@@ -1,0 +1,210 @@
+2024-09-22 19:25:58.957 [info] [main] Log level: Info
+2024-09-22 19:25:58.957 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2024-09-22 19:25:59.801 [info] [main] Using git "2.46.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2024-09-22 19:25:59.801 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-22 19:25:59.866 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-22 19:33:21.898 [info] > git rev-parse --show-toplevel [567ms]
+2024-09-22 19:33:21.898 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-22 19:37:09.417 [info] [main] Log level: Info
+2024-09-22 19:37:09.580 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2024-09-22 19:37:09.580 [info] [main] Using git "2.46.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2024-09-22 19:37:09.580 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-22 19:37:09.999 [info] > git rev-parse --show-toplevel [704ms]
+2024-09-22 19:37:09.999 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:37:10.636 [info] > git rev-parse --show-toplevel [613ms]
+2024-09-22 19:37:10.636 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:37:10.891 [info] > git rev-parse --show-toplevel [239ms]
+2024-09-22 19:37:10.891 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:37:11.470 [info] > git rev-parse --show-toplevel [557ms]
+2024-09-22 19:37:11.470 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:37:11.657 [info] > git rev-parse --show-toplevel [167ms]
+2024-09-22 19:37:11.657 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:37:11.665 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (1)
+2024-09-22 19:37:12.965 [info] > git rev-parse --show-toplevel [303ms]
+2024-09-22 19:37:12.965 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:37:35.710 [info] > git rev-parse --show-toplevel [300ms]
+2024-09-22 19:37:35.710 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:37:37.993 [info] > git rev-parse --show-toplevel [568ms]
+2024-09-22 19:37:37.994 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:38:26.369 [info] > git rev-parse --show-toplevel [154ms]
+2024-09-22 19:38:26.369 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:38:38.667 [info] > git rev-parse --show-toplevel [104ms]
+2024-09-22 19:38:38.668 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:38:59.744 [info] > git rev-parse --show-toplevel [139ms]
+2024-09-22 19:38:59.744 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:39:39.270 [info] > git rev-parse --show-toplevel [154ms]
+2024-09-22 19:39:39.270 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:39:42.486 [info] > git rev-parse --show-toplevel [132ms]
+2024-09-22 19:39:42.486 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:39:47.973 [info] > git rev-parse --show-toplevel [214ms]
+2024-09-22 19:39:47.973 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:40:06.095 [info] > git rev-parse --show-toplevel [173ms]
+2024-09-22 19:40:06.095 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:40:21.220 [info] > git rev-parse --show-toplevel [309ms]
+2024-09-22 19:40:21.220 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:41:09.924 [info] > git rev-parse --show-toplevel [118ms]
+2024-09-22 19:41:09.924 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:41:58.437 [info] > git rev-parse --show-toplevel [122ms]
+2024-09-22 19:41:58.437 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:42:25.148 [info] > git rev-parse --show-toplevel [227ms]
+2024-09-22 19:42:25.148 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:43:59.923 [info] > git rev-parse --show-toplevel [123ms]
+2024-09-22 19:43:59.923 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:44:25.097 [info] > git rev-parse --show-toplevel [131ms]
+2024-09-22 19:44:25.097 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio
+2024-09-22 19:44:46.266 [info] > git rev-parse --show-toplevel [144ms]
+2024-09-22 19:44:46.266 [info] fatal: detected dubious ownership in repository at 'F:/Amal/Desktop/dev/projects/portfolio'
+'F:/Amal/Desktop/dev/projects/portfolio' is owned by:
+	(inconvertible) (S-1-5-21-4067341377-85959512-1669002092-1001)
+but the current user is:
+	LANCELOT/amall (S-1-5-21-3226816596-2008358663-1737456560-1007)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory F:/Amal/Desktop/dev/projects/portfolio

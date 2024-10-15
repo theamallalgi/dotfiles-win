@@ -1,0 +1,81 @@
+//  ██╗░░░██╗░██████╗  ░█████╗░░█████╗░██████╗░███████╗
+//  ██║░░░██║██╔════╝░░██╔══██╗██╔══██╗██╔══██╗██╔════╝
+//  ╚██╗░██╔╝╚█████╗░░░██║░░╚═╝██║░░██║██║░░██║█████╗░░
+//  ░╚████╔╝░░╚═══██╗░░██║░░██╗██║░░██║██║░░██║██╔══╝░░
+//  ░░╚██╔╝░░██████╔╝░░╚█████╔╝╚█████╔╝██████╔╝███████╗
+//  ░░░╚═╝░░░╚═════╝░░░░╚════╝░░╚════╝░╚═════╝░╚══════╝
+//
+//  ░██████╗███████╗████████╗████████╗██╗███╗░░██╗░██████╗░░██████╗
+//  ██╔════╝██╔════╝╚══██╔══╝╚══██╔══╝██║████╗░██║██╔════╝░██╔════╝
+//  ╚█████╗░█████╗░░░░░██║░░░░░░██║░░░██║██╔██╗██║██║░░██╗░╚█████╗░
+//  ░╚═══██╗██╔══╝░░░░░██║░░░░░░██║░░░██║██║╚████║██║░░╚██╗░╚═══██╗
+//  ██████╔╝███████╗░░░██║░░░░░░██║░░░██║██║░╚███║╚██████╔╝██████╔╝
+//  ╚═════╝░╚══════╝░░░╚═╝░░░░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═════╝░
+{
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Zsh": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu"
+      ],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "debug.terminal.clearBeforeReusing": true,
+  "terminal.integrated.fontFamily": "JetbrainsMono Nerd Font",
+  "terminal.integrated.fontWeight": "500",
+  "editor.fontFamily": "Cartograph CF, FiraCode NF,  monospace",
+  "editor.fontWeight": "600",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "terminal.integrated.cursorStyle": "block",
+  "terminalCursor.foreground": "#ffff00",
+  "security.workspace.trust.banner": "always",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "window.title": "${dirty}${activeEditorShort}",
+  "code-runner.runInTerminal": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/styles/css"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "editor.cursorWidth": 3,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderControlCharacters": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.colorTheme": "Aura Dracula Spirit"
+}

@@ -1,0 +1,29 @@
+2024-09-22 19:25:48.554 [info] update#setState idle
+2024-09-22 19:26:18.510 [info] update#setState checking for updates
+2024-09-22 19:26:18.617 [info] update#setState idle
+2024-09-22 19:27:11.205 [info] Extension signature verification result for adamcaviness.theme-monokai-dark-soda: Success. Executed: true. Duration: 3677ms.
+2024-09-22 19:27:11.309 [info] Extension signature verification result for naumovs.color-highlight: Success. Executed: true. Duration: 3716ms.
+2024-09-22 19:27:11.854 [info] Extension signature verification result for xabikos.javascriptsnippets: Success. Executed: true. Duration: 4955ms.
+2024-09-22 19:27:11.960 [info] Extension signature verification result for theamallalgi.kenkai-theme: Success. Executed: true. Duration: 2391ms.
+2024-09-22 19:27:12.021 [info] Extension signature verification result for ms-toolsai.jupyter-keymap: Success. Executed: true. Duration: 4452ms.
+2024-09-22 19:27:12.230 [info] Extension signature verification result for streetsidesoftware.code-spell-checker: Success. Executed: true. Duration: 2253ms.
+2024-09-22 19:27:12.275 [info] Extension signature verification result for formulahendry.code-runner: Success. Executed: true. Duration: 2461ms.
+2024-09-22 19:27:12.379 [info] Extension signature verification result for theamallalgi.frozen-embers: Success. Executed: true. Duration: 2180ms.
+2024-09-22 19:27:12.442 [info] Extension signature verification result for glenn2223.live-sass: Success. Executed: true. Duration: 2163ms.
+2024-09-22 19:27:12.631 [info] Extension signature verification result for adpyke.codesnap: Success. Executed: true. Duration: 2379ms.
+2024-09-22 19:27:13.849 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 1752ms.
+2024-09-22 19:27:13.851 [info] Extension signature verification result for esbenp.prettier-vscode: Success. Executed: true. Duration: 3807ms.
+2024-09-22 19:27:14.588 [info] Extension signature verification result for miguelsolorio.fluent-icons: Success. Executed: true. Duration: 1691ms.
+2024-09-22 19:27:15.586 [info] Extension signature verification result for ms-vscode.vscode-typescript-next: Success. Executed: true. Duration: 3099ms.
+2024-09-22 19:27:19.010 [info] Extension signature verification result for vscode-icons-team.vscode-icons: Success. Executed: true. Duration: 774ms.
+2024-09-22 19:27:19.146 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 1511ms.
+2024-09-22 19:27:19.422 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 1600ms.
+2024-09-22 19:27:50.568 [info] Extension signature verification result for ms-toolsai.jupyter-renderers: Success. Executed: true. Duration: 1396ms.
+2024-09-22 19:27:50.582 [info] Extension signature verification result for ms-toolsai.jupyter: Success. Executed: true. Duration: 1234ms.
+2024-09-22 19:30:25.168 [info] Extension signature verification result for daltonmenezes.aura-theme: Success. Executed: true. Duration: 346ms.
+2024-09-22 19:30:38.981 [info] Extension signature verification result for josemurilloc.aura-spirit-dracula: Success. Executed: true. Duration: 208ms.
+2024-09-22 19:36:55.811 [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+2024-09-22 19:36:55.976 [info] Extension host with pid 5332 exited with code: 0, signal: unknown.
+2024-09-22 19:37:30.414 [info] Extension signature verification result for pkief.material-icon-theme: Success. Executed: true. Duration: 654ms.
+2024-09-22 19:38:00.627 [info] Extension signature verification result for equinusocio.vsc-material-theme-icons: Success. Executed: true. Duration: 526ms.
+2024-09-22 19:45:07.975 [info] Extension host with pid 9240 exited with code: 0, signal: unknown.

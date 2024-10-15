@@ -1,0 +1,66 @@
+//   ▌ ▐·.▄▄ ·  ▄▄·       ·▄▄▄▄  ▄▄▄ .
+//  ▪█·█▌▐█ ▀. ▐█ ▌▪▪     ██▪ ██ ▀▄.▀·
+//  ▐█▐█•▄▀▀▀█▄██ ▄▄ ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄
+//   ███ ▐█▄▪▐█▐███▌▐█▌.▐▌██. ██ ▐█▄▄▌
+//  . ▀   ▀▀▀▀ ·▀▀▀  ▀█▄▀▪▀▀▀▀▀•  ▀▀▀ 
+//   ▄▄·        ▐ ▄ ·▄▄▄▪   ▄▄ •      
+//  ▐█ ▌▪▪     •█▌▐█▐▄▄·██ ▐█ ▀ ▪     
+//  ██ ▄▄ ▄█▀▄ ▐█▐▐▌██▪ ▐█·▄█ ▀█▄     
+//  ▐███▌▐█▌.▐▌██▐█▌██▌.▐█▌▐█▄▪▐█     
+//  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀ ▀▀▀·▀▀▀▀      
+
+{
+    // "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Aura Dracula Spirit",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.colorCustomizations": {
+        "editorSuggestWidget.selectedBackground": "#231739",
+        "sideBar.background": "#140E1A",
+        "list.activeSelectionBackground": "#231739",
+        "list.inactiveSelectionBackground": "#231739",
+        "list.focusBackground": "#231739",
+        "list.hoverBackground": "#231739"
+    },
+    "editor.renderLineHighlight": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": false,
+    "editor.showFoldingControls": "never",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "JetbrainsMono Nerd Font, monospace",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "workbench.editor.showTabs": "none",
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+      "file:///c:/Users/amall/.vscode-insiders/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ],
+    "animations.Enabled": true,
+    "animations.Smooth-Mode": false,
+    "animations.CursorAnimation": true,
+    "animations.CursorAnimationOptions": {
+      "TrailLength": 8,
+      "Color": "#a277ff"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.editorActionsLocation": "hidden"
+}

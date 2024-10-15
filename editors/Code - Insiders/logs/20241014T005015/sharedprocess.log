@@ -1,0 +1,28 @@
+2024-10-14 00:51:54.008 [info] Deleted uninstalled extension from disk brandonkirbyson.vscode-animations c:\Users\amall\.vscode-insiders\extensions\brandonkirbyson.vscode-animations-2.0.3
+2024-10-14 00:51:54.130 [info] Deleted uninstalled extension from disk drcika.apc-extension c:\Users\amall\.vscode-insiders\extensions\drcika.apc-extension-0.4.1
+2024-10-14 00:51:55.195 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\brandonkirbyson.vscode-animations-2.0.3.46ea1450.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\brandonkirbyson.vscode-animations-2.0.3.46ea1450.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-10-14 00:52:28.646 [info] Getting Manifest... ms-python.python
+2024-10-14 00:52:28.669 [info] Getting Manifest... ms-python.vscode-pylance
+2024-10-14 00:52:28.687 [info] Getting Manifest... ms-vscode.vscode-typescript-next
+2024-10-14 00:52:28.960 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.95.0-insider","date":"2024-10-11T18:47:06.292Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-10-14 00:52:28.981 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.95.0-insider","date":"2024-10-11T18:47:06.292Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-10-14 00:52:28.994 [info] Installing extension: ms-vscode.vscode-typescript-next {"productVersion":{"version":"1.95.0-insider","date":"2024-10-11T18:47:06.292Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-10-14 00:52:33.771 [info] Getting Manifest... ms-python.python
+2024-10-14 00:53:00.649 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-vscode.vscode-typescript-next-5.7.20241012: ms-vscode.vscode-typescript-next
+2024-10-14 00:53:00.932 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-vscode.vscode-typescript-next-5.7.20241012
+2024-10-14 00:53:01.309 [info] Marked extension as uninstalled ms-vscode.vscode-typescript-next-5.7.20240921
+2024-10-14 00:53:01.414 [info] Extension installed successfully: ms-vscode.vscode-typescript-next vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-10-14 00:53:46.085 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-python.python-2024.16.1-win32-x64: ms-python.python
+2024-10-14 00:53:46.851 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-python.python-2024.16.1-win32-x64
+2024-10-14 00:53:47.538 [info] Marked extension as uninstalled ms-python.python-2024.14.1-win32-x64
+2024-10-14 00:53:47.994 [info] Extension installed successfully: ms-python.python vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-10-14 00:55:20.312 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-python.vscode-pylance-2024.10.1: ms-python.vscode-pylance
+2024-10-14 00:55:20.607 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-python.vscode-pylance-2024.10.1
+2024-10-14 00:55:20.886 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.9.2
+2024-10-14 00:55:21.038 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json

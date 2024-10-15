@@ -1,0 +1,10 @@
+2024-09-22 19:45:16.170 [info] update#setState idle
+2024-09-22 19:45:18.906 [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+2024-09-22 19:45:46.166 [info] update#setState checking for updates
+2024-09-22 19:45:48.222 [info] update#setState idle
+2024-09-22 20:03:58.095 [info] Extension signature verification result for vscodevim.vim: Success. Executed: true. Duration: 481ms.
+2024-09-22 20:05:56.283 [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+2024-09-22 20:07:56.252 [info] Extension signature verification result for brandonkirbyson.vscode-animations: Success. Executed: true. Duration: 1785ms.
+2024-09-22 20:10:01.189 [info] Extension signature verification result for drcika.apc-extension: Success. Executed: true. Duration: 269ms.
+2024-09-22 20:10:02.404 [info] Extension host with pid 9668 exited with code: 0, signal: unknown.
+2024-09-22 20:21:21.660 [info] Extension host with pid 5936 exited with code: 0, signal: unknown.

@@ -1,0 +1,26 @@
+//   ▌ ▐·.▄▄ ·  ▄▄·       ·▄▄▄▄  ▄▄▄ .
+//  ▪█·█▌▐█ ▀. ▐█ ▌▪▪     ██▪ ██ ▀▄.▀·
+//  ▐█▐█•▄▀▀▀█▄██ ▄▄ ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄
+//   ███ ▐█▄▪▐█▐███▌▐█▌.▐▌██. ██ ▐█▄▄▌
+//  . ▀   ▀▀▀▀ ·▀▀▀  ▀█▄▀▪▀▀▀▀▀•  ▀▀▀ 
+//   ▄▄·        ▐ ▄ ·▄▄▄▪   ▄▄ •      
+//  ▐█ ▌▪▪     •█▌▐█▐▄▄·██ ▐█ ▀ ▪     
+//  ██ ▄▄ ▄█▀▄ ▐█▐▐▌██▪ ▐█·▄█ ▀█▄     
+//  ▐███▌▐█▌.▐▌██▐█▌██▌.▐█▌▐█▄▪▐█     
+//  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀ ▀▀▀·▀▀▀▀      
+
+{
+    // "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Aura Dracula Spirit",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "breadcrumbs.enabled": false,
+}

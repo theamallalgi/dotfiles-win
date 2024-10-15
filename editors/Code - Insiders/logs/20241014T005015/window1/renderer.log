@@ -1,0 +1,11 @@
+2024-10-14 00:51:38.581 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 50ms.
+2024-10-14 00:51:40.191 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 29ms.
+2024-10-14 00:51:40.276 [warning] Creation of workbench contribution 'workbench.contrib.textMateTokenizationInstantiator' took 26ms.
+2024-10-14 00:51:40.521 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 187ms.
+2024-10-14 00:52:05.840 [info] Started local extension host with pid 6772.
+2024-10-14 00:52:18.730 [info] Extension host (LocalProcess pid: 6772) is unresponsive.
+2024-10-14 00:52:19.742 [info] Extension host (LocalProcess pid: 6772) is responsive.
+2024-10-14 00:52:27.305 [info] Extension host (LocalProcess pid: 6772) is unresponsive.
+2024-10-14 00:52:28.962 [info] Extension host (LocalProcess pid: 6772) is responsive.
+2024-10-14 00:52:40.289 [info] [perf] Render performance baseline is 643ms
+2024-10-14 00:55:56.735 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory

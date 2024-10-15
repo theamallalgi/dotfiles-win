@@ -1,0 +1,49 @@
+2024-09-22 19:32:26.771 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:32:27.984 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:32:30.012 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2024-09-22 19:32:30.192 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2024-09-22 19:32:30.222 [info] read schema from vscode: vscode://schemas/launch
+2024-09-22 19:32:30.312 [info] read schema from vscode: vscode://schemas/token-styling
+2024-09-22 19:32:30.316 [info] read schema from vscode: vscode://schemas/textmate-colors
+2024-09-22 19:32:30.335 [info] read schema from vscode: vscode://schemas/workbench-colors
+2024-09-22 19:32:30.947 [info] cancelled
+2024-09-22 19:32:31.863 [info] cancelled
+2024-09-22 19:32:31.867 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:33:21.486 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:33:35.931 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:33:36.316 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:33:37.419 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:33:41.497 [info] schema change detected vscode://schemas/workbench-colors
+2024-09-22 19:33:41.647 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2024-09-22 19:33:41.721 [info] schema change detected vscode://schemas/ignoredSettings
+2024-09-22 19:33:42.130 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:35:02.991 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:35:03.359 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2024-09-22 19:35:03.406 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2024-09-22 19:35:03.428 [info] read schema from vscode: vscode://schemas/workbench-colors
+2024-09-22 19:35:47.188 [info] schema change detected vscode://schemas/workbench-colors
+2024-09-22 19:35:47.191 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:35:47.380 [info] read schema from vscode: vscode://schemas/workbench-colors
+2024-09-22 19:35:47.845 [info] schema change detected vscode://schemas/workbench-colors
+2024-09-22 19:35:47.849 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:35:48.456 [info] read schema from vscode: vscode://schemas/workbench-colors
+2024-09-22 19:36:17.804 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:36:17.808 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:36:21.570 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:36:21.579 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:36:26.824 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:36:26.830 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:36:30.424 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:36:30.437 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:39:17.988 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:39:18.402 [info] schema change detected vscode://schemas/settings/user
+2024-09-22 19:39:19.475 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2024-09-22 19:39:19.478 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2024-09-22 19:39:19.480 [info] read schema from vscode: vscode://schemas/launch
+2024-09-22 19:39:19.482 [info] read schema from vscode: vscode://schemas/token-styling
+2024-09-22 19:39:19.483 [info] read schema from vscode: vscode://schemas/textmate-colors
+2024-09-22 19:39:19.484 [info] read schema from vscode: vscode://schemas/workbench-colors
+2024-09-22 19:39:20.759 [info] cancelled
+2024-09-22 19:39:20.766 [info] read schema from vscode: vscode://schemas/settings/user
+2024-09-22 19:41:05.623 [info] cancelled
+2024-09-22 19:43:55.145 [info] cancelled

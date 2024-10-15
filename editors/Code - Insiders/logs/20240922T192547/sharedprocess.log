@@ -1,0 +1,312 @@
+2024-09-22 19:27:04.529 [info] Getting Manifest... esbenp.prettier-vscode
+2024-09-22 19:27:04.530 [info] Getting Manifest... theamallalgi.frozen-embers
+2024-09-22 19:27:04.531 [info] Getting Manifest... ritwickdey.liveserver
+2024-09-22 19:27:04.531 [info] Getting Manifest... adamcaviness.theme-monokai-dark-soda
+2024-09-22 19:27:04.532 [info] Getting Manifest... miguelsolorio.fluent-icons
+2024-09-22 19:27:04.533 [info] Getting Manifest... xabikos.javascriptsnippets
+2024-09-22 19:27:04.533 [info] Getting Manifest... adpyke.codesnap
+2024-09-22 19:27:04.534 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2024-09-22 19:27:04.535 [info] Getting Manifest... naumovs.color-highlight
+2024-09-22 19:27:04.536 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2024-09-22 19:27:04.536 [info] Getting Manifest... glenn2223.live-sass
+2024-09-22 19:27:04.537 [info] Getting Manifest... theamallalgi.kenkai-theme
+2024-09-22 19:27:04.537 [info] Getting Manifest... formulahendry.code-runner
+2024-09-22 19:27:04.538 [info] Getting Manifest... ms-vscode.vscode-typescript-next
+2024-09-22 19:27:04.539 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2024-09-22 19:27:04.539 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2024-09-22 19:27:04.540 [info] Getting Manifest... ms-python.vscode-pylance
+2024-09-22 19:27:04.540 [info] Getting Manifest... ms-python.python
+2024-09-22 19:27:04.541 [info] Getting Manifest... ms-toolsai.jupyter
+2024-09-22 19:27:05.011 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.013 [info] Installing extension: ms-toolsai.jupyter {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.017 [info] Installing extension: formulahendry.code-runner {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.018 [info] Installing extension: xabikos.javascriptsnippets {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.020 [info] Installing extension: ms-vscode.vscode-typescript-next {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.021 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.022 [info] Installing extension: ms-toolsai.jupyter-renderers {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.022 [info] Installing extension: ms-toolsai.jupyter-keymap {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.023 [info] Installing extension: adamcaviness.theme-monokai-dark-soda {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.024 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.025 [info] Installing extension: ms-python.python {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.026 [info] Installing extension: glenn2223.live-sass {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.027 [info] Installing extension: adpyke.codesnap {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.027 [info] Installing extension: theamallalgi.kenkai-theme {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.028 [info] Installing extension: theamallalgi.frozen-embers {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.029 [info] Installing extension: naumovs.color-highlight {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.030 [info] Installing extension: vscode-icons-team.vscode-icons {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.030 [info] Installing extension: miguelsolorio.fluent-icons {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.031 [info] Installing extension: streetsidesoftware.code-spell-checker {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:27:05.032 [info] Installing the extension without checking dependencies and pack esbenp.prettier-vscode
+2024-09-22 19:27:05.032 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter
+2024-09-22 19:27:05.033 [info] Installing the extension without checking dependencies and pack formulahendry.code-runner
+2024-09-22 19:27:05.033 [info] Installing the extension without checking dependencies and pack xabikos.javascriptsnippets
+2024-09-22 19:27:05.034 [info] Installing the extension without checking dependencies and pack ms-vscode.vscode-typescript-next
+2024-09-22 19:27:05.035 [info] Installing the extension without checking dependencies and pack ritwickdey.liveserver
+2024-09-22 19:27:05.035 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-renderers
+2024-09-22 19:27:05.036 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-keymap
+2024-09-22 19:27:05.036 [info] Installing the extension without checking dependencies and pack adamcaviness.theme-monokai-dark-soda
+2024-09-22 19:27:05.037 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2024-09-22 19:27:05.037 [info] Installing the extension without checking dependencies and pack ms-python.python
+2024-09-22 19:27:05.038 [info] Installing the extension without checking dependencies and pack glenn2223.live-sass
+2024-09-22 19:27:05.039 [info] Installing the extension without checking dependencies and pack adpyke.codesnap
+2024-09-22 19:27:05.039 [info] Installing the extension without checking dependencies and pack theamallalgi.kenkai-theme
+2024-09-22 19:27:05.040 [info] Installing the extension without checking dependencies and pack theamallalgi.frozen-embers
+2024-09-22 19:27:05.040 [info] Installing the extension without checking dependencies and pack naumovs.color-highlight
+2024-09-22 19:27:05.041 [info] Installing the extension without checking dependencies and pack vscode-icons-team.vscode-icons
+2024-09-22 19:27:05.041 [info] Installing the extension without checking dependencies and pack miguelsolorio.fluent-icons
+2024-09-22 19:27:05.042 [info] Installing the extension without checking dependencies and pack streetsidesoftware.code-spell-checker
+2024-09-22 19:27:12.670 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/xabikos.javascriptsnippets-1.8.0: xabikos.javascriptsnippets
+2024-09-22 19:27:12.738 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/adamcaviness.theme-monokai-dark-soda-1.2.0: adamcaviness.theme-monokai-dark-soda
+2024-09-22 19:27:12.824 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\xabikos.javascriptsnippets-1.8.0
+2024-09-22 19:27:12.938 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\adamcaviness.theme-monokai-dark-soda-1.2.0
+2024-09-22 19:27:13.193 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-toolsai.jupyter-keymap-1.1.2: ms-toolsai.jupyter-keymap
+2024-09-22 19:27:14.009 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-toolsai.jupyter-keymap-1.1.2
+2024-09-22 19:27:14.319 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:27:15.147 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/theamallalgi.kenkai-theme-2.1.8: theamallalgi.kenkai-theme
+2024-09-22 19:27:15.297 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\theamallalgi.kenkai-theme-2.1.8
+2024-09-22 19:27:15.474 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:27:15.744 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/theamallalgi.frozen-embers-0.2.0: theamallalgi.frozen-embers
+2024-09-22 19:27:16.237 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\theamallalgi.frozen-embers-0.2.0
+2024-09-22 19:27:17.810 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/glenn2223.live-sass-6.1.2: glenn2223.live-sass
+2024-09-22 19:27:17.926 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\glenn2223.live-sass-6.1.2
+2024-09-22 19:27:18.029 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:27:21.387 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/esbenp.prettier-vscode-11.0.0: esbenp.prettier-vscode
+2024-09-22 19:27:22.297 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\esbenp.prettier-vscode-11.0.0
+2024-09-22 19:27:22.780 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/miguelsolorio.fluent-icons-0.0.18: miguelsolorio.fluent-icons
+2024-09-22 19:27:22.992 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\miguelsolorio.fluent-icons-0.0.18
+2024-09-22 19:27:23.096 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:27:23.504 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/formulahendry.code-runner-0.12.2: formulahendry.code-runner
+2024-09-22 19:27:23.627 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\formulahendry.code-runner-0.12.2
+2024-09-22 19:27:23.757 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:27:28.410 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-vscode.vscode-typescript-next-5.7.20240921: ms-vscode.vscode-typescript-next
+2024-09-22 19:27:28.723 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-vscode.vscode-typescript-next-5.7.20240921
+2024-09-22 19:27:28.856 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/naumovs.color-highlight-2.8.0: naumovs.color-highlight
+2024-09-22 19:27:28.888 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:27:28.957 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\naumovs.color-highlight-2.8.0
+2024-09-22 19:27:29.820 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/streetsidesoftware.code-spell-checker-3.0.1: streetsidesoftware.code-spell-checker
+2024-09-22 19:27:30.377 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\streetsidesoftware.code-spell-checker-3.0.1
+2024-09-22 19:27:30.604 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:27:51.202 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/vscode-icons-team.vscode-icons-12.9.0: vscode-icons-team.vscode-icons
+2024-09-22 19:27:51.329 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\vscode-icons-team.vscode-icons-12.9.0
+2024-09-22 19:27:53.856 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/adpyke.codesnap-1.3.4: adpyke.codesnap
+2024-09-22 19:27:54.884 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\adpyke.codesnap-1.3.4
+2024-09-22 19:27:56.880 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-toolsai.jupyter-renderers-1.0.19: ms-toolsai.jupyter-renderers
+2024-09-22 19:27:57.411 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-toolsai.jupyter-renderers-1.0.19
+2024-09-22 19:28:00.092 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-toolsai.jupyter-2024.9.0-win32-x64: ms-toolsai.jupyter
+2024-09-22 19:28:01.805 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-toolsai.jupyter-2024.9.0-win32-x64
+2024-09-22 19:28:08.015 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-python.python-2024.14.1-win32-x64: ms-python.python
+2024-09-22 19:28:08.371 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-python.python-2024.14.1-win32-x64
+2024-09-22 19:28:08.451 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:28:24.084 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-09-22 19:28:24.194 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ritwickdey.liveserver-5.7.9
+2024-09-22 19:28:24.369 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:28:36.231 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/ms-python.vscode-pylance-2024.9.2: ms-python.vscode-pylance
+2024-09-22 19:28:36.316 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\ms-python.vscode-pylance-2024.9.2
+2024-09-22 19:28:36.423 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:28:36.825 [info] Extension installed successfully: xabikos.javascriptsnippets vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.827 [info] Extension installed successfully: adamcaviness.theme-monokai-dark-soda vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.827 [info] Extension installed successfully: ms-toolsai.jupyter-keymap vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.828 [info] Extension installed successfully: theamallalgi.kenkai-theme vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.828 [info] Extension installed successfully: theamallalgi.frozen-embers vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.829 [info] Extension installed successfully: glenn2223.live-sass vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.831 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.831 [info] Extension installed successfully: miguelsolorio.fluent-icons vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.832 [info] Extension installed successfully: formulahendry.code-runner vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.832 [info] Extension installed successfully: ms-vscode.vscode-typescript-next vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.833 [info] Extension installed successfully: naumovs.color-highlight vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.833 [info] Extension installed successfully: streetsidesoftware.code-spell-checker vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.834 [info] Extension installed successfully: vscode-icons-team.vscode-icons vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.834 [info] Extension installed successfully: adpyke.codesnap vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.835 [info] Extension installed successfully: ms-toolsai.jupyter-renderers vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.835 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.836 [info] Extension installed successfully: ms-python.python vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.836 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:28:36.837 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:16.908 [info] Uninstalling extension from the profile: adpyke.codesnap@1.3.4 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:17.081 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:29:17.087 [info] Marked extension as uninstalled adpyke.codesnap-1.3.4
+2024-09-22 19:29:17.462 [info] Successfully uninstalled extension from the profile adpyke.codesnap@1.3.4 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:29.881 [info] Uninstalling extension from the profile: theamallalgi.frozen-embers@0.2.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:29.973 [info] Marked extension as uninstalled theamallalgi.frozen-embers-0.2.0
+2024-09-22 19:29:30.022 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:29:30.234 [info] Successfully uninstalled extension from the profile theamallalgi.frozen-embers@0.2.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:36.213 [info] Uninstalling extension from the profile: ms-toolsai.jupyter@2024.9.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:36.213 [info] Uninstalling extension from the profile: ms-toolsai.jupyter-keymap@1.1.2 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:36.214 [info] Uninstalling extension from the profile: ms-toolsai.jupyter-renderers@1.0.19 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:36.277 [info] Extensions is already requested to uninstall ms-toolsai.jupyter-keymap
+2024-09-22 19:29:36.277 [info] Extensions is already requested to uninstall ms-toolsai.jupyter-renderers
+2024-09-22 19:29:36.408 [info] Marked extension as uninstalled ms-toolsai.jupyter-2024.9.0-win32-x64
+2024-09-22 19:29:36.528 [info] Marked extension as uninstalled ms-toolsai.jupyter-keymap-1.1.2
+2024-09-22 19:29:36.586 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.19
+2024-09-22 19:29:37.303 [info] Successfully uninstalled extension from the profile ms-toolsai.jupyter@2024.9.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:37.303 [info] Successfully uninstalled extension from the profile ms-toolsai.jupyter-keymap@1.1.2 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:37.304 [info] Successfully uninstalled extension from the profile ms-toolsai.jupyter-renderers@1.0.19 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:47.155 [info] Uninstalling extension from the profile: theamallalgi.kenkai-theme@2.1.8 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:47.686 [info] Marked extension as uninstalled theamallalgi.kenkai-theme-2.1.8
+2024-09-22 19:29:47.730 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:29:47.947 [info] Successfully uninstalled extension from the profile theamallalgi.kenkai-theme@2.1.8 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:51.200 [info] Uninstalling extension from the profile: glenn2223.live-sass@6.1.2 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:51.346 [info] Marked extension as uninstalled glenn2223.live-sass-6.1.2
+2024-09-22 19:29:51.384 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:29:51.607 [info] Successfully uninstalled extension from the profile glenn2223.live-sass@6.1.2 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:54.034 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:54.182 [info] Marked extension as uninstalled ritwickdey.liveserver-5.7.9
+2024-09-22 19:29:54.214 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:29:54.479 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:59.078 [info] Uninstalling extension from the profile: adamcaviness.theme-monokai-dark-soda@1.2.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:29:59.158 [info] Marked extension as uninstalled adamcaviness.theme-monokai-dark-soda-1.2.0
+2024-09-22 19:29:59.203 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:29:59.436 [info] Successfully uninstalled extension from the profile adamcaviness.theme-monokai-dark-soda@1.2.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:30:23.725 [info] Getting Manifest... daltonmenezes.aura-theme
+2024-09-22 19:30:23.765 [info] Installing extension: daltonmenezes.aura-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:30:25.233 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/daltonmenezes.aura-theme-2.1.2: daltonmenezes.aura-theme
+2024-09-22 19:30:25.297 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\daltonmenezes.aura-theme-2.1.2
+2024-09-22 19:30:25.512 [info] Extension installed successfully: daltonmenezes.aura-theme vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:30:33.307 [info] Getting Manifest... josemurilloc.aura-spirit-dracula
+2024-09-22 19:30:33.360 [info] Installing extension: josemurilloc.aura-spirit-dracula {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:30:39.214 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/josemurilloc.aura-spirit-dracula-0.1.10: josemurilloc.aura-spirit-dracula
+2024-09-22 19:30:39.259 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\josemurilloc.aura-spirit-dracula-0.1.10
+2024-09-22 19:30:39.333 [info] Extension installed successfully: josemurilloc.aura-spirit-dracula vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:30:39.343 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:30:57.074 [info] Uninstalling extension from the profile: daltonmenezes.aura-theme@2.1.2 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:30:57.198 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:30:57.202 [info] Marked extension as uninstalled daltonmenezes.aura-theme-2.1.2
+2024-09-22 19:30:57.497 [info] Successfully uninstalled extension from the profile daltonmenezes.aura-theme@2.1.2 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:37:28.386 [info] Getting Manifest... pkief.material-icon-theme
+2024-09-22 19:37:28.539 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:37:34.898 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/pkief.material-icon-theme-5.11.1: pkief.material-icon-theme
+2024-09-22 19:37:34.969 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\pkief.material-icon-theme-5.11.1
+2024-09-22 19:37:35.307 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:37:56.112 [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+2024-09-22 19:37:56.184 [info] Installing extension: equinusocio.vsc-material-theme-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 19:38:19.990 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/equinusocio.vsc-material-theme-icons-3.8.8: equinusocio.vsc-material-theme-icons
+2024-09-22 19:38:20.034 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\equinusocio.vsc-material-theme-icons-3.8.8
+2024-09-22 19:38:20.272 [info] Extension installed successfully: equinusocio.vsc-material-theme-icons vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:38:45.372 [info] Uninstalling extension from the profile: equinusocio.vsc-material-theme-icons@3.8.8 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:38:45.522 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:38:45.526 [info] Marked extension as uninstalled equinusocio.vsc-material-theme-icons-3.8.8
+2024-09-22 19:38:46.072 [info] Successfully uninstalled extension from the profile equinusocio.vsc-material-theme-icons@3.8.8 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:38:50.402 [info] Uninstalling extension from the profile: vscode-icons-team.vscode-icons@12.9.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 19:38:50.526 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:38:50.529 [info] Marked extension as uninstalled vscode-icons-team.vscode-icons-12.9.0
+2024-09-22 19:38:50.803 [info] Successfully uninstalled extension from the profile vscode-icons-team.vscode-icons@12.9.0 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json

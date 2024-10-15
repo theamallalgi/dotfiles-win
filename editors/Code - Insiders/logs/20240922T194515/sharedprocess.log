@@ -1,0 +1,78 @@
+2024-09-22 19:45:23.758 [info] vscode-icons-team.vscode-icons 12.9.0 Running post uninstall script
+2024-09-22 19:45:28.752 [error] Failed to run post uninstall script vscode-icons-team.vscode-icons 12.9.0
+2024-09-22 19:45:28.753 [error] timed out
+2024-09-22 19:45:29.106 [info] Deleted uninstalled extension from disk adamcaviness.theme-monokai-dark-soda c:\Users\amall\.vscode-insiders\extensions\adamcaviness.theme-monokai-dark-soda-1.2.0
+2024-09-22 19:45:29.119 [info] Deleted uninstalled extension from disk daltonmenezes.aura-theme c:\Users\amall\.vscode-insiders\extensions\daltonmenezes.aura-theme-2.1.2
+2024-09-22 19:45:29.143 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter-keymap c:\Users\amall\.vscode-insiders\extensions\ms-toolsai.jupyter-keymap-1.1.2
+2024-09-22 19:45:29.175 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter-renderers c:\Users\amall\.vscode-insiders\extensions\ms-toolsai.jupyter-renderers-1.0.19
+2024-09-22 19:45:29.193 [info] Deleted uninstalled extension from disk theamallalgi.kenkai-theme c:\Users\amall\.vscode-insiders\extensions\theamallalgi.kenkai-theme-2.1.8
+2024-09-22 19:45:29.332 [info] Deleted uninstalled extension from disk theamallalgi.frozen-embers c:\Users\amall\.vscode-insiders\extensions\theamallalgi.frozen-embers-0.2.0
+2024-09-22 19:45:29.433 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter c:\Users\amall\.vscode-insiders\extensions\ms-toolsai.jupyter-2024.9.0-win32-x64
+2024-09-22 19:45:29.456 [info] Deleted uninstalled extension from disk glenn2223.live-sass c:\Users\amall\.vscode-insiders\extensions\glenn2223.live-sass-6.1.2
+2024-09-22 19:45:29.496 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\adamcaviness.theme-monokai-dark-soda-1.2.0.-8713169.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\adamcaviness.theme-monokai-dark-soda-1.2.0.-8713169.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 19:45:30.305 [info] Deleted uninstalled extension from disk adpyke.codesnap c:\Users\amall\.vscode-insiders\extensions\adpyke.codesnap-1.3.4
+2024-09-22 19:45:30.311 [info] Deleted uninstalled extension from disk vscode-icons-team.vscode-icons c:\Users\amall\.vscode-insiders\extensions\vscode-icons-team.vscode-icons-12.9.0
+2024-09-22 19:45:31.793 [info] Deleted uninstalled extension from disk equinusocio.vsc-material-theme-icons c:\Users\amall\.vscode-insiders\extensions\equinusocio.vsc-material-theme-icons-3.8.8
+2024-09-22 19:45:32.182 [info] Deleted uninstalled extension from disk ritwickdey.liveserver c:\Users\amall\.vscode-insiders\extensions\ritwickdey.liveserver-5.7.9
+2024-09-22 19:50:50.012 [error] [uncaught exception in sharedProcess]: Can not add index to parent of type property: Error: Can not add index to parent of type property
+    at al (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:41:1764)
+    at Gt (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:96:63101)
+    at Vs (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:96:84235)
+    at _g (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:96:84422)
+    at Ra.ub (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:96:92116)
+    at async Ra.R (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:96:32433)
+2024-09-22 20:03:56.243 [info] Getting Manifest... vscodevim.vim
+2024-09-22 20:03:56.406 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 20:03:58.441 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/vscodevim.vim-1.28.1: vscodevim.vim
+2024-09-22 20:03:58.511 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\vscodevim.vim-1.28.1
+2024-09-22 20:03:58.612 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 20:03:58.725 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 20:07:47.777 [info] Getting Manifest... brandonkirbyson.vscode-animations
+2024-09-22 20:07:47.965 [info] Installing extension: brandonkirbyson.vscode-animations {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 20:07:59.742 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/brandonkirbyson.vscode-animations-2.0.3: brandonkirbyson.vscode-animations
+2024-09-22 20:07:59.876 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\brandonkirbyson.vscode-animations-2.0.3
+2024-09-22 20:07:59.989 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 20:08:00.174 [info] Extension installed successfully: brandonkirbyson.vscode-animations vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 20:09:59.803 [info] Getting Manifest... drcika.apc-extension
+2024-09-22 20:09:59.852 [info] Installing extension: drcika.apc-extension {"context":{"extensionInstallSource":"command"},"isMachineScoped":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json","path":"/c:/Users/amall/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0-insider","date":"2024-09-20T05:03:57.400Z"}}
+2024-09-22 20:10:01.352 [info] Extracted extension to file:///c%3A/Users/amall/.vscode-insiders/extensions/drcika.apc-extension-0.4.1: drcika.apc-extension
+2024-09-22 20:10:01.402 [info] Renamed to c:\Users\amall\.vscode-insiders\extensions\drcika.apc-extension-0.4.1
+2024-09-22 20:10:01.492 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 20:10:01.514 [info] Extension installed successfully: drcika.apc-extension vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 20:13:57.438 [info] Uninstalling extension from the profile: brandonkirbyson.vscode-animations@2.0.3 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 20:13:57.619 [info] Marked extension as uninstalled brandonkirbyson.vscode-animations-2.0.3
+2024-09-22 20:13:58.019 [info] Successfully uninstalled extension from the profile brandonkirbyson.vscode-animations@2.0.3 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 20:14:03.618 [info] Uninstalling extension from the profile: drcika.apc-extension@0.4.1 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json
+2024-09-22 20:14:03.776 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\amall\.vscode-insiders\extensions\extensions.json.vsctmp'
+    at hm.create (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39253)
+    at Es (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:39360)
+    at Fr.ib (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:22698)
+    at Fr.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:69:16031)
+    at async eh.stat (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:84484)
+    at async Kl.yb (file:///c:/Program%20Files/Microsoft%20VS%20Code%20Insiders/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:68:66600)
+2024-09-22 20:14:03.913 [info] Marked extension as uninstalled drcika.apc-extension-0.4.1
+2024-09-22 20:14:04.033 [info] Successfully uninstalled extension from the profile drcika.apc-extension@0.4.1 vscode-userdata:/c%3A/Users/amall/.vscode-insiders/extensions/extensions.json

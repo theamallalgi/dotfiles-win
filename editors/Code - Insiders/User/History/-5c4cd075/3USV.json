@@ -1,0 +1,18 @@
+//   ▌ ▐·.▄▄ ·  ▄▄·       ·▄▄▄▄  ▄▄▄ .
+//  ▪█·█▌▐█ ▀. ▐█ ▌▪▪     ██▪ ██ ▀▄.▀·
+//  ▐█▐█•▄▀▀▀█▄██ ▄▄ ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄
+//   ███ ▐█▄▪▐█▐███▌▐█▌.▐▌██. ██ ▐█▄▄▌
+//  . ▀   ▀▀▀▀ ·▀▀▀  ▀█▄▀▪▀▀▀▀▀•  ▀▀▀ 
+//   ▄▄·        ▐ ▄ ·▄▄▄▪   ▄▄ •      
+//  ▐█ ▌▪▪     •█▌▐█▐▄▄·██ ▐█ ▀ ▪     
+//  ██ ▄▄ ▄█▀▄ ▐█▐▐▌██▪ ▐█·▄█ ▀█▄     
+//  ▐███▌▐█▌.▐▌██▐█▌██▌.▐█▌▐█▄▪▐█     
+//  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀ ▀▀▀·▀▀▀▀      
+
+{
+    // "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Aura Dracula Spirit",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": false
+}

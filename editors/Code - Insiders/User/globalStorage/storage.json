@@ -1,0 +1,67 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///f%3A/Amal/Desktop/dev/projects/portfolio": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1728847238997": "__default__profile__"
+        }
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.machineId": "161e2aa2c6940f4d0c1d5c7bd453255cddcec5edf33ff9ccedc236a0f8bbf78a",
+    "telemetry.sqmId": "{A5AF8365-2BD7-450F-9124-BB87079C10D5}",
+    "telemetry.devDeviceId": "09c8e68c-ec86-4d9d-91bc-3396bc987624",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1728847238997"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "C:\\Users\\amall\\AppData\\Roaming\\Code - Insiders\\Backups\\1728847238997",
+            "uiState": {
+                "mode": 1,
+                "x": 398,
+                "y": 7,
+                "width": 962,
+                "height": 624
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#140e1a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#140e1a",
+            "editorBackground": "#140e1a",
+            "titleBarBackground": "#100b14",
+            "titleBarBorder": "#000000",
+            "activityBarBackground": "#140e1a",
+            "activityBarBorder": "#000000",
+            "sideBarBackground": "#140e1a",
+            "sideBarBorder": "#000000",
+            "statusBarBackground": "#100b15",
+            "statusBarBorder": "#000000",
+            "statusBarNoFolderBackground": "#100b15"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    }
+}
