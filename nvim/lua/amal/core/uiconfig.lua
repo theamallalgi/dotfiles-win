@@ -89,48 +89,48 @@ vim.api.nvim_set_hl(0, "TelescopeMatching", {
 })
 
 -- hide status line when alpha is ready
-vim.api.nvim_create_autocmd("User", {
-	pattern = "AlphaReady",
-	callback = function()
-		vim.opt.laststatus = 0
-	end
-})
-vim.api.nvim_create_autocmd("BufLeave", {
-	pattern = "*alpha*",
-	callback = function()
-		if #vim.fn.getbufinfo({ buflisted = 1 }) > 1 then
-			vim.opt.laststatus = 2
-		else
-			vim.opt.laststatus = 0
-		end
-	end
-})
-vim.api.nvim_create_autocmd("BufEnter", {
-	callback = function()
-		if vim.bo.filetype ~= "alpha" then
-			vim.opt.laststatus = 2
-		end
-	end
-})
+-- vim.api.nvim_create_autocmd("User", {
+-- pattern = "AlphaReady",
+-- callback = function()
+-- vim.opt.laststatus = 0
+-- end
+-- })
+-- vim.api.nvim_create_autocmd("BufLeave", {
+-- pattern = "*alpha*",
+-- callback = function()
+-- if #vim.fn.getbufinfo({ buflisted = 1 }) > 1 then
+-- vim.opt.laststatus = 2
+-- else
+-- vim.opt.laststatus = 0
+-- end
+-- end
+-- })
+-- vim.api.nvim_create_autocmd("BufEnter", {
+-- callback = function()
+-- if vim.bo.filetype ~= "alpha" then
+-- vim.opt.laststatus = 2
+-- end
+-- end
+-- })
 
 -- hides the cursor when on alpha
 -- vim.api.nvim_create_autocmd('User', {
-	-- pattern = 'AlphaReady',
-	-- desc = 'hide cursor for alpha',
-	-- callback = function()
-		-- local hl = vim.api.nvim_get_hl_by_name('Cursor', true)
-		-- hl.blend = 100
-		-- vim.api.nvim_set_hl(0, 'Cursor', hl)
-		-- vim.opt.guicursor:append('a:Cursor/lCursor')
-	-- end,
+-- pattern = 'AlphaReady',
+-- desc = 'hide cursor for alpha',
+-- callback = function()
+-- local hl = vim.api.nvim_get_hl_by_name('Cursor', true)
+-- hl.blend = 100
+-- vim.api.nvim_set_hl(0, 'Cursor', hl)
+-- vim.opt.guicursor:append('a:Cursor/lCursor')
+-- end,
 -- })
 -- vim.api.nvim_create_autocmd('BufUnload', {
-	-- buffer = 0,
-	-- desc = 'show cursor after alpha',
-	-- callback = function()
-		-- local hl = vim.api.nvim_get_hl_by_name('Cursor', true)
-		-- hl.blend = 0
-		-- vim.api.nvim_set_hl(0, 'Cursor', hl)
-		-- vim.opt.guicursor:remove('a:Cursor/lCursor')
-	-- end,
+-- buffer = 0,
+-- desc = 'show cursor after alpha',
+-- callback = function()
+-- local hl = vim.api.nvim_get_hl_by_name('Cursor', true)
+-- hl.blend = 0
+-- vim.api.nvim_set_hl(0, 'Cursor', hl)
+-- vim.opt.guicursor:remove('a:Cursor/lCursor')
+-- end,
 -- })

@@ -9,7 +9,8 @@ return {
 			version = "v2.*",
 			build = "make install_jsregexp",
 		},
-		"rafamadriz/friendly-snippets",
+		"saadparwaiz1/cmp_luasnip", -- for autocompletion
+		"rafamadriz/friendly-snippets", -- useful snippets
 		"onsails/lspkind.nvim", -- vs-code like pictograms
 	},
 	config = function()
@@ -30,6 +31,9 @@ return {
 		vim.api.nvim_set_hl(0, "CmpItemAbbrMatchFuzzy", { bg = "NONE", fg = "#7a6ebe" })
 
 		cmp.setup({
+			completion = {
+				completeopt = "menu,menuone,preview,noselect",
+			},
 			snippet = {
 				expand = function(args)
 					luasnip.lsp_expand(args.body)

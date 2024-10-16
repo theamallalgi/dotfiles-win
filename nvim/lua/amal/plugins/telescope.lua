@@ -28,6 +28,12 @@ return {
 		keymap.set("n", "<space><space>", "<cmd>:Telescope find_files<CR>", { desc = "Fuzzy find files in cwd" })
 		keymap.set(
 			"n",
+			"<space>cc",
+			"<cmd>:Telescope colorscheme<CR>",
+			{ desc = "Skim through colorschemes in Telescope" }
+		)
+		keymap.set(
+			"n",
 			"<Leader>o",
 			"<cmd>lua require'telescope.builtin'.oldfiles(require('telescope.themes').get_dropdown({ previewer = false }))<cr>",
 			{ desc = "Fuzzy recent files in cwd" }

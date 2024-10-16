@@ -6,7 +6,7 @@ return {
 		options = {
 			mode = "tabs",
 			always_show_bufferline = false,
-			indicator = { style = 'none' },
+			indicator = { style = "none" },
 			seperator_style = "slant",
 			offsets = {
 				{
