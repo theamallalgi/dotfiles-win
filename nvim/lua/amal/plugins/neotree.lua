@@ -13,9 +13,18 @@ return {
 			end,
 		})
 	end,
-	opts = {
-		filesystem = {
-			hijack_netrw_behavior = "open_current",
+	opts = {},
+	filesystem = {
+		hijack_netrw_behavior = "open_current",
+		filtered_items = {
+			hide_dotfiles = false,
+			hide_by_name = {
+				".git",
+				".DS_Store",
+			},
+			always_show = {
+				".env",
+			},
 		},
 	},
 	dependencies = {

@@ -62,7 +62,7 @@ local auraline = {
 
 return {
 	"nvim-lualine/lualine.nvim",
-	lazyload=true,
+	lazyload = true,
 	config = function()
 		require("lualine").setup({
 			options = {
@@ -70,7 +70,7 @@ return {
 				component_separators = "|",
 				icons_enabled = false,
 				section_separators = { left = "", right = "" },
-				-- disabled_filetypes = { "neo-tree" },
+				disabled_filetypes = { "neo-tree", "alpha" },
 			},
 			sections = {
 				lualine_a = { "mode" },

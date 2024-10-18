@@ -8,14 +8,7 @@ local set = vim.keymap.set
 local silent = { remap = false, silent = true }
 local remap = { remap = false }
 
--- important remaps
--- vim.api.nvim_set_keymap('i', '<Up>', '', { noremap = true, silent = true })
--- vim.api.nvim_set_keymap('i', '<Down>', '', { noremap = true, silent = true })
--- vim.api.nvim_set_keymap('i', '<Left>', '', { noremap = true, silent = true })
--- vim.api.nvim_set_keymap('i', '<Right>', '', { noremap = true, silent = true })
-
 -- general
-set("n", "zz", ":ZenMode<CR>", silent) -- neotree reveal with (ctrl+n)
 set("n", "<Leader>s", ":write<CR>", silent) -- saves the file with (space-s)
 set("n", "Q", "<C-W>q") -- quits the window/screen with (shift+q) or (Q)
 set("n", "<Leader>q", "<cmd>wq<cr>") -- saves and quits the tab with (shift+q) or (Q)
@@ -24,6 +17,7 @@ set("n", "<leader>/", ":normal gcc<CR><DOWN>", silent) -- comments the line with
 set("v", "<leader>/", ":normal gcc<CR><DOWN>", silent) -- comments the line with (space+/) or uncomments it
 set("n", "<C-a>", "<cmd>Alpha<cr>", silent) -- opens the dashboard (alpha)
 set({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>") -- clear search with <esc>
+-- set("n", "zz", ":ZenMode<CR>", silent) -- neotree reveal with (ctrl+n)
 
 -- neotree config
 set("n", "<C-b>", ":Neotree position=left dir=%:p:h:h reveal_file=%:p<CR>y<CR>", silent)

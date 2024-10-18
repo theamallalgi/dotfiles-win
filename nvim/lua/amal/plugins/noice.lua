@@ -30,7 +30,7 @@ return {
 				bottom_search = false, -- use a classic bottom cmdline for search
 				command_palette = true, -- position the cmdline and popupmenu together
 				long_message_to_split = false, -- long messages will be sent to a split
-				inc_rename = false, -- enables an input dialog for incremental renaming
+				inc_rename = true, -- enables an input dialog for incremental renaming
 				lsp_doc_border = true, -- add a border to hover docs and signature help
 			},
 			views = {

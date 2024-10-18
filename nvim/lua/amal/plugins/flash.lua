@@ -1,10 +1,22 @@
 return {
 	"folke/flash.nvim",
 	event = "VeryLazy",
-	opts = {},
+	opts = {
+		highlight = {
+			backdrop = true,
+			matches = true,
+			priority = 5000,
+			groups = {
+				match = "MyFlashMatch",
+				current = "MyFlashCurrent",
+				backdrop = "MyFlashBackdrop",
+				label = "MyFlashLabel",
+			},
+		},
+	},
 	keys = {
 		{
-			"zk",
+			"zz",
 			mode = { "n", "x", "o" },
 			function()
 				require("flash").jump()
@@ -12,7 +24,7 @@ return {
 			desc = "Flash",
 		},
 		{
-			"Zk",
+			"zv",
 			mode = { "n", "x", "o" },
 			function()
 				require("flash").treesitter()
