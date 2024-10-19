@@ -25,7 +25,7 @@ local lightergray = "#776eae"
 -- prompt
 vim.api.nvim_set_hl(0, "TelescopePromptBorder", {
 	fg = magenta,
-	bg = darkgray,
+	-- bg = darkgray,
 })
 
 vim.api.nvim_set_hl(0, "TelescopePromptNormal", {
@@ -34,7 +34,8 @@ vim.api.nvim_set_hl(0, "TelescopePromptNormal", {
 })
 
 vim.api.nvim_set_hl(0, "TelescopePromptTitle", {
-	fg = blue,
+	fg = black,
+	bg = blue,
 })
 
 vim.api.nvim_set_hl(0, "TelescopePromptCounter", {
@@ -48,7 +49,7 @@ vim.api.nvim_set_hl(0, "TelescopePromptPrefix", {
 -- results
 vim.api.nvim_set_hl(0, "TelescopeResultsBorder", {
 	fg = magenta,
-	bg = darkgray,
+	-- bg = darkgray,
 })
 
 vim.api.nvim_set_hl(0, "TelescopeResultsNormal", {
@@ -57,7 +58,8 @@ vim.api.nvim_set_hl(0, "TelescopeResultsNormal", {
 })
 
 vim.api.nvim_set_hl(0, "TelescopeResultsTitle", {
-	fg = magenta,
+	fg = black,
+	bg = blue,
 })
 
 vim.api.nvim_set_hl(0, "TelescopeSelectionCaret", {
@@ -67,7 +69,7 @@ vim.api.nvim_set_hl(0, "TelescopeSelectionCaret", {
 -- preview
 vim.api.nvim_set_hl(0, "TelescopePreviewBorder", {
 	fg = magenta,
-	bg = darkgray,
+	-- bg = darkgray,
 })
 
 vim.api.nvim_set_hl(0, "TelescopePreviewNormal", {
@@ -76,7 +78,8 @@ vim.api.nvim_set_hl(0, "TelescopePreviewNormal", {
 })
 
 vim.api.nvim_set_hl(0, "TelescopePreviewTitle", {
-	fg = magenta,
+	fg = black,
+	bg = blue,
 })
 
 -- selection
@@ -103,3 +106,19 @@ vim.api.nvim_set_hl(0, "CmpItemKind", { bg = "NONE", fg = "#554d84" })
 vim.api.nvim_set_hl(0, "CmpItemAbbr", { bg = "NONE", fg = "#554d84" })
 vim.api.nvim_set_hl(0, "CmpItemAbbrMatch", { bg = "NONE", fg = "#7a6ebe", bold = true })
 vim.api.nvim_set_hl(0, "CmpItemAbbrMatchFuzzy", { bg = "NONE", fg = "#7a6ebe" })
+
+-- telescope config
+vim.cmd([[hi TelescopeNormal guifg=red guibg=blue]])
+vim.cmd([[hi TelescopePrompt guifg=cyan]])
+vim.cmd([[hi TelescopeResults guifg=blue]])
+
+-- neo tree config
+vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", { bg = "NONE", fg = yellow })
+vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", { bg = "NONE", fg = yellow })
+vim.api.nvim_set_hl(0, "NeoTreeFileName", { bg = "NONE", fg = blue })
+vim.api.nvim_set_hl(0, "NeoTreeTitleBar", { bg = "NONE", fg = blue })
+vim.api.nvim_set_hl(0, "NeoTreeCursorLine", { bg = "#21202b" })
+vim.api.nvim_set_hl(0, "NeoTreeFloatBorder", { bg = darkgray, fg = blue })
+vim.api.nvim_set_hl(0, "NeoTreeFloatNormal", { bg = darkgray, fg = magenta })
+vim.api.nvim_set_hl(0, "NeoTreeFloatTitle", { bg = blue, fg = black })
+vim.api.nvim_set_hl(0, "NeoTreeIndentMarker", { bg = "NONE", fg = "#4f3e29" })

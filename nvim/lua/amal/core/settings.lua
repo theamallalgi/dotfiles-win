@@ -31,6 +31,11 @@ vim.cmd("set cmdheight=0")
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
+-- netrw config
+vim.g.netrw_banner = 0 -- disable the how tos and stuff from netrw window
+vim.g.netrw_mouse = 2 -- mouse config for netrw
+-- vim.cmd("let g:netrw_liststyle = 3") -- sets the default file explorer style to tree structure
+
 -- Misc Config
 vim.o.guifont = "JetbrainsMono Nerd Font:h11" -- sets the default font and height
 vim.g.mapleader = " " -- maps the leader key
@@ -40,7 +45,6 @@ vim.cmd("set number") -- sets line numbers
 vim.cmd("set relativenumber") -- sets relative line numbers
 vim.cmd("set nowrap") -- turns off word wrap
 vim.cmd("set fileformat=unix") -- turns file format to unix style
-vim.cmd("let g:netrw_liststyle = 3") -- sets the default file explorer style to tree structure
 vim.opt.showmode = false -- disables the ~ symbol (end of buffer indicator)
 vim.o.termguicolors = true -- sets proper terminal colors
 vim.o.completeopt = "menuone,noselect" -- have a better completion experience
@@ -54,8 +58,3 @@ if vim.g.neovide then
 	vim.g.neovide_cursor_animate_command_line = false -- disables cursor animation on cmd mode
 	-- colorscheme tokyonight-night -- colorscheme for neovide
 end
-
--- telescope config
-vim.cmd([[hi TelescopeNormal guifg=red guibg=blue]])
-vim.cmd([[hi TelescopePrompt guifg=cyan]])
-vim.cmd([[hi TelescopeResults guifg=blue]])
