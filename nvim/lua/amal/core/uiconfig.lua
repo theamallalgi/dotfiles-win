@@ -22,75 +22,6 @@ local lightgray = "#433e62"
 local inactivegray = "#3b4261"
 local lightergray = "#776eae"
 
--- prompt
-vim.api.nvim_set_hl(0, "TelescopePromptBorder", {
-	fg = magenta,
-	-- bg = darkgray,
-})
-
-vim.api.nvim_set_hl(0, "TelescopePromptNormal", {
-	fg = blue,
-	bg = gry,
-})
-
-vim.api.nvim_set_hl(0, "TelescopePromptTitle", {
-	fg = black,
-	bg = blue,
-})
-
-vim.api.nvim_set_hl(0, "TelescopePromptCounter", {
-	fg = inactivegray,
-})
-
-vim.api.nvim_set_hl(0, "TelescopePromptPrefix", {
-	fg = green,
-})
-
--- results
-vim.api.nvim_set_hl(0, "TelescopeResultsBorder", {
-	fg = magenta,
-	-- bg = darkgray,
-})
-
-vim.api.nvim_set_hl(0, "TelescopeResultsNormal", {
-	fg = lightergray,
-	bg = darkgray,
-})
-
-vim.api.nvim_set_hl(0, "TelescopeResultsTitle", {
-	fg = black,
-	bg = blue,
-})
-
-vim.api.nvim_set_hl(0, "TelescopeSelectionCaret", {
-	fg = orange,
-})
-
--- preview
-vim.api.nvim_set_hl(0, "TelescopePreviewBorder", {
-	fg = magenta,
-	-- bg = darkgray,
-})
-
-vim.api.nvim_set_hl(0, "TelescopePreviewNormal", {
-	fg = white,
-	bg = darkgray,
-})
-
-vim.api.nvim_set_hl(0, "TelescopePreviewTitle", {
-	fg = black,
-	bg = blue,
-})
-
--- selection
-vim.api.nvim_set_hl(0, "TelescopeSelection", {
-	fg = magenta,
-	-- bg = gray,
-})
-vim.api.nvim_set_hl(0, "TelescopeMatching", {
-	fg = green,
-})
-
 -- flash nvim setup
 vim.api.nvim_set_hl(0, "MyFlashBackdrop", { bg = "NONE", fg = "#3d375e" }) -- backdrop
 vim.api.nvim_set_hl(0, "MyFlashMatch", { bg = blue, fg = purple3 }) -- search matches
@@ -108,9 +39,24 @@ vim.api.nvim_set_hl(0, "CmpItemAbbrMatch", { bg = "NONE", fg = "#7a6ebe", bold =
 vim.api.nvim_set_hl(0, "CmpItemAbbrMatchFuzzy", { bg = "NONE", fg = "#7a6ebe" })
 
 -- telescope config
-vim.cmd([[hi TelescopeNormal guifg=red guibg=blue]])
-vim.cmd([[hi TelescopePrompt guifg=cyan]])
-vim.cmd([[hi TelescopeResults guifg=blue]])
+vim.api.nvim_set_hl(0, "TelescopePromptBorder", { fg = magenta })
+vim.api.nvim_set_hl(0, "TelescopePromptNormal", { fg = blue, bg = gry })
+vim.api.nvim_set_hl(0, "TelescopePromptTitle", { fg = black, bg = blue, bold = true })
+vim.api.nvim_set_hl(0, "TelescopePromptCounter", { fg = inactivegray })
+vim.api.nvim_set_hl(0, "TelescopePromptPrefix", { fg = magenta })
+vim.api.nvim_set_hl(0, "TelescopeResultsBorder", { fg = magenta })
+vim.api.nvim_set_hl(0, "TelescopeResults", { fg = magenta })
+vim.api.nvim_set_hl(0, "TelescopeResultsNormal", { fg = magenta, bg = darkgray })
+vim.api.nvim_set_hl(0, "TelescopeResultsTitle", { fg = black, bg = blue, bold = true })
+vim.api.nvim_set_hl(0, "TelescopePreviewBorder", { fg = magenta })
+vim.api.nvim_set_hl(0, "TelescopePreviewNormal", { fg = white, bg = darkgray })
+vim.api.nvim_set_hl(0, "TelescopePreviewTitle", { fg = black, bg = blue, bold = true })
+vim.api.nvim_set_hl(0, "TelescopeMatching", { fg = green })
+vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = blue, fg = red })
+vim.api.nvim_set_hl(0, "TelescopePrompt", { fg = cyan })
+vim.api.nvim_set_hl(0, "TelescopeResults", { fg = blue })
+vim.api.nvim_set_hl(0, "TelescopeSelection", { fg = magenta, bg = "#21202b", bold = true })
+vim.api.nvim_set_hl(0, "TelescopeSelectionCaret", { fg = orange, bg = "#21202b" })
 
 -- neo tree config
 vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", { bg = "NONE", fg = yellow })
@@ -122,3 +68,7 @@ vim.api.nvim_set_hl(0, "NeoTreeFloatBorder", { bg = darkgray, fg = blue })
 vim.api.nvim_set_hl(0, "NeoTreeFloatNormal", { bg = darkgray, fg = magenta })
 vim.api.nvim_set_hl(0, "NeoTreeFloatTitle", { bg = blue, fg = black })
 vim.api.nvim_set_hl(0, "NeoTreeIndentMarker", { bg = "NONE", fg = "#4f3e29" })
+
+-- lazy config
+vim.api.nvim_set_hl(0, "LazyNormal", { bg = darkgray })
+vim.api.nvim_set_hl(0, "FloatBorder", { bg = "NONE", fg = magenta })

@@ -15,6 +15,9 @@ return {
 
 		telescope.setup({
 			defaults = {
+				color_devicons = false,
+				entry_prefix = " ",
+				shorten_path = true,
 				prompt_prefix = "   ",
 				selection_caret = " ▶  ",
 				path_display = { "smart" },

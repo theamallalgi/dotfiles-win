@@ -23,14 +23,15 @@ require("lazy").setup({ { import = "amal.plugins" } }, {
 		notify = false,
 	},
 	change_detection = {
+		enabled = true,
 		notify = false,
 	},
-	-- ui = {
-	-- border = "none",
-	-- size = {
-	-- width = 0.8,
-	-- height = 0.8,
-	-- },
-	-- backdrop = 80,
-	-- },
+	ui = {
+		border = "rounded",
+		size = {
+			width = 0.8,
+			height = 0.8,
+		},
+		backdrop = 80,
+	},
 })
