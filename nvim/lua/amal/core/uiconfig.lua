@@ -1,3 +1,9 @@
+-- ▄• ▄▌▪     ▄▄·        ▐ ▄ ·▄▄▄▪   ▄▄ •
+-- █▪██▌██   ▐█ ▌▪▪     •█▌▐█▐▄▄·██ ▐█ ▀ ▪
+-- █▌▐█▌▐█·  ██ ▄▄ ▄█▀▄ ▐█▐▐▌██▪ ▐█·▄█ ▀█▄
+-- ▐█▄█▌▐█▌  ▐███▌▐█▌.▐▌██▐█▌██▌.▐█▌▐█▄▪▐█
+--  ▀▀▀ ▀▀▀  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀ ▀▀▀·▀▀▀▀
+
 local normal_hl = vim.api.nvim_get_hl_by_name("Normal", true)
 
 local purple1 = "#333352"
@@ -21,6 +27,10 @@ local darkgray = "#15141b"
 local lightgray = "#433e62"
 local inactivegray = "#3b4261"
 local lightergray = "#776eae"
+
+-- nvim stuff
+vim.api.nvim_set_hl(0, "CursorLine", { bg = darkgray })
+vim.api.nvim_set_hl(0, "CursorLineNR", { bg = darkgray, fg = lightergray })
 
 -- flash nvim setup
 vim.api.nvim_set_hl(0, "MyFlashBackdrop", { bg = "NONE", fg = "#3d375e" }) -- backdrop

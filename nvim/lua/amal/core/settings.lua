@@ -48,6 +48,7 @@ vim.cmd("set fileformat=unix") -- turns file format to unix style
 vim.opt.showmode = false -- disables the ~ symbol (end of buffer indicator)
 vim.o.termguicolors = true -- sets proper terminal colors
 vim.o.completeopt = "menuone,noselect" -- have a better completion experience
+vim.opt.cursorline = true -- sets the cursor line
 
 -- theme related config
 -- vim.g.nord_disable_background = true
