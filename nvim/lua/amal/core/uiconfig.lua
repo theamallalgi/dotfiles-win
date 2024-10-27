@@ -82,3 +82,14 @@ vim.api.nvim_set_hl(0, "NeoTreeIndentMarker", { bg = "NONE", fg = "#4f3e29" })
 -- lazy config
 vim.api.nvim_set_hl(0, "LazyNormal", { bg = darkgray })
 vim.api.nvim_set_hl(0, "FloatBorder", { bg = "NONE", fg = magenta })
+
+-- highlight on yank
+vim.api.nvim_set_hl(0, "IncSearch", { bg = red, fg = black })
+vim.api.nvim_create_autocmd("TextYankPost", {
+	callback = function()
+		vim.highlight.on_yank({
+			higroup = "IncSearch",
+			timeout = 200,
+		})
+	end,
+})
