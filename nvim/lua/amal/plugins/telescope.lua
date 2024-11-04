@@ -21,33 +21,38 @@ return {
 				prompt_prefix = "   ",
 				selection_caret = " ▶  ",
 				path_display = { "smart" },
+
+				-- Load sorting strategy for faster performance
+				-- sorting_strategy = "ascending",
+				layout_strategy = "vertical", -- Faster in some cases than the default
+				cache_picker = {
+					num_pickers = 10, -- Limit the cache for faster repeated access
+				},
 			},
 		})
 
-		telescope.load_extension("fzf")
-		telescope.load_extension("file_browser") -- load file_browser extension
+		-- Lazy-load extensions only when needed
+		local load_extension = function(name)
+			pcall(telescope.load_extension, name)
+		end
+		load_extension("fzf")
+		load_extension("file_browser")
 
 		-- Keybindings
 		keymap.set("n", "<space><space>", "<cmd>:Telescope find_files<CR>", { desc = "Fuzzy find files in cwd" })
-		keymap.set(
-			"n",
-			"<space>cc",
-			"<cmd>:Telescope colorscheme<CR>",
-			{ desc = "Skim through colorschemes in Telescope" }
-		)
-		keymap.set(
-			"n",
-			"<Leader>o",
-			"<cmd>lua require'telescope.builtin'.oldfiles(require('telescope.themes').get_dropdown({ previewer = false }))<cr>",
-			{ desc = "Fuzzy recent files in cwd" }
-		)
+		keymap.set("n", "<space>cc", "<cmd>:Telescope colorscheme<CR>", { desc = "Browse colorschemes" })
+		keymap.set("n", "<Leader>o", function()
+			builtin.oldfiles(require("telescope.themes").get_dropdown({ previewer = false }))
+		end, { desc = "Recent files in cwd" })
 		keymap.set("n", "<Leader>fs", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
-		keymap.set("n", "<Leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Fuzzy string under cursor in cwd" })
-		keymap.set("n", "<Leader>b", builtin.buffers, {}) -- shows open buffers with (space-b)
-		keymap.set("n", "<Leader>f", function() -- opens the file browser
+		keymap.set("n", "<Leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "String under cursor in cwd" })
+		keymap.set("n", "<Leader>b", builtin.buffers, {}) -- Shows open buffers with (space-b)
+
+		keymap.set("n", "<Leader>f", function()
 			local function telescope_buffer_dir()
 				return vim.fn.expand("%:p:h")
 			end
+			load_extension("file_browser") -- Lazy-load file_browser extension only here
 
 			telescope.extensions.file_browser.file_browser({
 				path = "%:p:h",
@@ -61,6 +66,9 @@ return {
 			})
 		end, { desc = "Open File Browser with the path of the current buffer" })
 
-		require("amal.core.uiconfig") -- telescope ui settings
+		-- Import only if necessary, to delay load
+		vim.defer_fn(function()
+			require("amal.core.uiconfig")
+		end, 100) -- Slight delay to load UI settings
 	end,
 }
