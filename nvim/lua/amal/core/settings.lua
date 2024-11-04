@@ -18,6 +18,9 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
+-- tabline setup
+vim.opt.showtabline = 0
+
 -- clipboard
 vim.cmd("set clipboard+=unnamedplus")
 -- vim.cmd("set paste")

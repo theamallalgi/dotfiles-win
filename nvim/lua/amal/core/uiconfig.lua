@@ -61,7 +61,7 @@ vim.api.nvim_set_hl(0, "TelescopeResultsTitle", { fg = black, bg = blue, bold = 
 vim.api.nvim_set_hl(0, "TelescopePreviewBorder", { fg = magenta })
 vim.api.nvim_set_hl(0, "TelescopePreviewNormal", { fg = white, bg = darkgray })
 vim.api.nvim_set_hl(0, "TelescopePreviewTitle", { fg = black, bg = blue, bold = true })
-vim.api.nvim_set_hl(0, "TelescopeMatching", { fg = green })
+vim.api.nvim_set_hl(0, "TelescopeMatching", { fg = green, bg = purple2 })
 vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = blue, fg = red })
 vim.api.nvim_set_hl(0, "TelescopePrompt", { fg = cyan })
 vim.api.nvim_set_hl(0, "TelescopeResults", { fg = blue })
@@ -89,7 +89,7 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	callback = function()
 		vim.highlight.on_yank({
 			higroup = "IncSearch",
-			timeout = 200,
+			timeout = 300,
 		})
 	end,
 })
