@@ -15,8 +15,9 @@ set("n", "<Leader>q", "<cmd>wq<cr>") -- saves and quits the tab with (shift+q) o
 set("n", "<Leader>h", ":noh<CR>", silent) -- clears search highlights (space+h)
 set("n", "<leader>/", ":normal gcc<CR><DOWN>", silent) -- comments the line with (space+/) or uncomments it
 set("v", "<leader>/", ":normal gcc<CR><DOWN>", silent) -- comments the line with (space+/) or uncomments it
-set("n", "<C-a>", "<cmd>Alpha<cr>", silent) -- opens the dashboard (alpha)
+set("n", "<C-a>", "ggVG", silent) -- selects the entire document
 set({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>") -- clear search with <esc>
+-- set("n", "<C-a>", "<cmd>Alpha<cr>", silent) -- opens the dashboard (alpha)
 -- set("n", "zz", ":ZenMode<CR>", silent) -- neotree reveal with (ctrl+n)
 
 -- neotree config
@@ -61,7 +62,8 @@ set("n", "<leader><tab><tab>", "<cmd>tabnew<cr>", { desc = "New Tab" })
 set("n", "<leader><tab>d", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 set("n", "<leader>]", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 set("n", "<leader>[", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
-set("n", "<Tab>", ":BufferLineCycleNext<CR>", silent)
+set("n", "<Tab>", ":bnext<CR>", silent)
+-- set("n", "<Tab>", ":BufferLineCycleNext<CR>", silent)
 
 -- size and stuff
 set("n", "<C-Up>", "<cmd>resize -2<cr>", silent)
