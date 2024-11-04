@@ -1,5 +1,6 @@
 local colors = {
 	black = "#1a1b26",
+	darkblack = "#131218",
 	white = "#edecee",
 	red = "#ff6767",
 	green = "#61ffca",
@@ -10,49 +11,35 @@ local colors = {
 	orange = "#ff7b7b",
 	gray = "#29263c",
 	darkgray = "#15141b",
-	lightgray = "#433e62",
+	lightgray = "#7153b2", -- 433e62
 	inactivegray = "#3b4261",
 }
 
 local auraline = {
 	normal = {
-		a = { fg = colors.black, bg = colors.blue },
-		b = { fg = colors.blue, bg = colors.gray },
-		c = { fg = colors.blue },
-		x = { fg = colors.blue },
-		y = { fg = colors.blue, bg = colors.gray },
-		z = { fg = colors.black, bg = colors.blue },
+		a = { fg = colors.blue, bg = colors.black },
+		b = { fg = colors.lightgray, bg = colors.darkblack },
+		c = { fg = colors.lightgray, bg = colors.darkblack },
+		x = { fg = colors.lightgray, bg = colors.darkblack },
+		y = { fg = colors.lightgray, bg = colors.darkblack },
+		z = { fg = colors.lightgray, bg = colors.darkblack },
 	},
-
 	insert = {
-		a = { fg = colors.black, bg = colors.green },
-		b = { fg = colors.green },
-		c = { fg = colors.green },
-		x = { fg = colors.green },
-		y = { fg = colors.green },
-		z = { fg = colors.black, bg = colors.green },
+		a = { fg = colors.green, bg = "#123127" },
+		z = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	visual = {
-		a = { fg = colors.black, bg = colors.orange },
-		b = { fg = colors.orange },
-		c = { fg = colors.orange },
-		x = { fg = colors.orange },
-		y = { fg = colors.orange },
-		z = { fg = colors.black, bg = colors.orange },
+		a = { fg = colors.yellow, bg = "#4b3b27" },
+		z = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	replace = {
-		a = { fg = colors.black, bg = colors.red },
-		b = { fg = colors.red },
-		c = { fg = colors.red },
-		x = { fg = colors.red },
-		y = { fg = colors.red },
-		z = { fg = colors.black, bg = colors.red },
+		a = { fg = colors.red, bg = "#652929" },
+		z = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	command = {
-		a = { fg = colors.black, bg = colors.yellow },
-		z = { fg = colors.black, bg = colors.yellow },
+		a = { fg = colors.orange, bg = "#4b2424" },
+		z = { fg = colors.lightgray, bg = colors.darkblack },
 	},
-
 	inactive = {
 		a = { fg = colors.inactivegray, bg = colors.magenta },
 		b = { fg = colors.inactivegray, bg = colors.magenta },
@@ -63,26 +50,31 @@ local auraline = {
 return {
 	"nvim-lualine/lualine.nvim",
 	lazyload = true,
+	dependencies = {
+		"meuter/lualine-so-fancy.nvim",
+	},
 	config = function()
 		require("lualine").setup({
 			options = {
 				theme = auraline,
-				component_separators = "|",
-				icons_enabled = false,
-				section_separators = { left = "", right = "" },
-				disabled_filetypes = { "neo-tree", "alpha" },
+				globalstatus = true,
+				component_separators = { left = "|", right = "|" },
+				-- icons_enabled = false,
+				section_separators = { left = "", right = "" }, -- { left = "", right = "" }
+				disabled_filetypes = { "alpha" },
+				fmt = string.lower,
 			},
 			sections = {
-				lualine_a = { "mode" },
-				lualine_b = { "branch", "diff", "diagnostics" },
-				lualine_c = { "filename" },
-				lualine_x = { "filetype" },
-				lualine_y = { "progress" },
-				lualine_z = { "location" },
+				lualine_a = { { "fancy_mode", width = 3 } },
+				lualine_b = { "fancy_branch", { "filename", path = 0, symbols = { modified = "*" } } },
+				lualine_c = {},
+				lualine_x = {}, -- filetype
+				lualine_y = {},
+				lualine_z = { "location", "progress" },
 			},
 			inactive_sections = {},
 			tabline = {},
-			extension = {},
+			extensions = { "neo-tree", "lazy" },
 		})
 	end,
 }
