@@ -62,8 +62,8 @@ set("n", "<leader><tab><tab>", "<cmd>tabnew<cr>", { desc = "New Tab" })
 set("n", "<leader><tab>d", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 set("n", "<leader>]", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 set("n", "<leader>[", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
-set("n", "<Tab>", ":bnext<CR>", silent)
--- set("n", "<Tab>", ":BufferLineCycleNext<CR>", silent)
+-- set("n", "<Tab>", ":bnext<CR>", silent)
+set("n", "<Tab>", ":BufferLineCycleNext<CR>", silent)
 
 -- size and stuff
 set("n", "<C-Up>", "<cmd>resize -2<cr>", silent)
