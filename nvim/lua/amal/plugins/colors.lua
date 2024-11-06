@@ -11,17 +11,11 @@
 
 return {
 	{
-		"baliestri/aura-theme",
+		"theamallalgi/zitchdog",
 		lazy = false,
 		priority = 1000,
 		config = function(plugin)
-			vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
-			vim.cmd([[colorscheme aura-dark]])
-			vim.api.nvim_set_hl(0, "Visual", { bg = "#21202b" }) -- selection background
-			-- seperators
-			vim.api.nvim_set_hl(0, "WinSeparator", { fg = "#0f0f14", bg = "NONE" })
-			vim.api.nvim_set_hl(0, "StatusLine", { fg = "NONE", bg = "NONE" })
-			vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "NONE", bg = "NONE" })
+			vim.cmd([[colorscheme zitchdog]])
 		end,
 	},
 	-- {
