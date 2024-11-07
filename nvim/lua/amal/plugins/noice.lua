@@ -48,10 +48,7 @@ return {
 				opts = {
 					border = {
 						style = "rounded",
-						text = {
-							top = "", -- Title for the popup
-							-- top_align = "center",
-						},
+						text = { top = "" },
 					},
 				}, -- global options for the cmdline. See section on views
 				---@type table<string, CmdlineFormat>
