@@ -103,4 +103,6 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 
 -- lazy config
 -- vim.api.nvim_set_hl(0, "LazyNormal", { bg = darkgray })
--- vim.api.nvim_set_hl(0, "FloatBorder", { bg = "NONE", fg = magenta })
+-- vim.api.nvim_set_hl(0, "FloatBorder", { fg = magenta })
+-- vim.api.nvim_set_hl(0, "FloatTitle", { fg = magenta })
+-- vim.api.nvim_set_hl(0, "Float", { fg = magenta })
