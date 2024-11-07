@@ -66,7 +66,7 @@ return {
 			},
 			sections = {
 				lualine_a = { { "fancy_mode", width = 3 } },
-				lualine_b = { "fancy_branch", { "filename", path = 0, symbols = { modified = "*" } } },
+				lualine_b = { "fancy_branch", { "filename", path = 0, symbols = { modified = "󰫢" } } },
 				lualine_c = {},
 				lualine_x = {}, -- filetype
 				lualine_y = {},
