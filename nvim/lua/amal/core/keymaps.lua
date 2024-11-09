@@ -6,7 +6,6 @@
 
 local set = vim.keymap.set
 local silent = { remap = false, silent = true }
-local remap = { remap = false }
 
 -- general
 set("n", "<Leader>s", ":write<CR>", silent) -- saves the file with (space-s)
