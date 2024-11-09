@@ -39,7 +39,7 @@ vim.g.netrw_banner = 0 -- disable the how tos and stuff from netrw window
 vim.g.netrw_mouse = 2 -- mouse config for netrw
 -- vim.cmd("let g:netrw_liststyle = 3") -- sets the default file explorer style to tree structure
 
--- Misc Config
+-- misc config
 vim.o.guifont = "JetbrainsMono Nerd Font:h11" -- sets the default font and height
 vim.g.mapleader = " " -- maps the leader key
 vim.g.maplocalleader = "\\" -- local leader key config
@@ -52,6 +52,14 @@ vim.opt.showmode = false -- disables the ~ symbol (end of buffer indicator)
 vim.o.termguicolors = true -- sets proper terminal colors
 vim.o.completeopt = "menuone,noselect" -- have a better completion experience
 vim.opt.cursorline = true -- sets the cursor line
+vim.opt.ignorecase = true -- ignore case in search patterns
+vim.opt.numberwidth = 4 -- set number column width to 2 {default 4}
+vim.opt.sidescrolloff = 8 -- Makes sure there are always eight lines of context
+vim.opt.fillchars = { eob = " " } -- change the character at the end of buffer
 
 -- theme related config
 -- vim.g.nord_disable_background = true
+
+-- timeout and update config
+vim.opt.timeoutlen = 1000 -- time to wait for a mapped sequence to complete (in milliseconds)
+vim.opt.updatetime = 100 -- faster completion (4000ms default)
