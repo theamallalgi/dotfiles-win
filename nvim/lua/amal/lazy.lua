@@ -34,4 +34,6 @@ require("lazy").setup({ { import = "amal.plugins" } }, {
 		},
 		backdrop = 80,
 	},
+	pills = true,
+	title = nil,
 })
