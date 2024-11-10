@@ -62,6 +62,22 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["emmet_ls"] = function()
+				nvim_lsp["emmet_ls"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+					filetypes = {
+						"html",
+						"typescriptreact",
+						"javascriptreact",
+						"css",
+						"sass",
+						"scss",
+						"less",
+						"svelte",
+					},
+				})
+			end,
 		})
 	end,
 }
