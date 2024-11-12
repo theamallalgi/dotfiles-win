@@ -6,10 +6,11 @@ return {
 		{ "folke/neodev.nvim", opts = {} },
 	},
 	config = function()
+		-- disable LSP diagnostic signs/icons in the gutter
+		vim.diagnostic.config({ signs = false })
+
 		local nvim_lsp = require("lspconfig")
 		local mason_lspconfig = require("mason-lspconfig")
-
-		local protocol = require("vim.lsp.protocol")
 
 		local on_attach = function(client, bufnr)
 			-- format on save
@@ -76,6 +77,13 @@ return {
 						"less",
 						"svelte",
 					},
+				})
+			end,
+			["rust_analyzer"] = function()
+				nvim_lsp["rust_analyzer"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+					diagnostics = { enable = false },
 				})
 			end,
 		})
