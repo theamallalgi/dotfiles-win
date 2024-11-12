@@ -40,6 +40,7 @@ return {
 
 		-- Keybindings
 		keymap.set("n", "<space><space>", "<cmd>:Telescope find_files<CR>", { desc = "Fuzzy find files in cwd" })
+		keymap.set("n", "<space>tn", "<cmd>:Telescope noice<CR>", { desc = "Find noice previous messages" })
 		keymap.set("n", "<space>cc", "<cmd>:Telescope colorscheme<CR>", { desc = "Browse colorschemes" })
 		keymap.set("n", "<Leader>o", function()
 			builtin.oldfiles(require("telescope.themes").get_dropdown({ previewer = false }))
