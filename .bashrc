@@ -25,6 +25,7 @@ alias gw="git commit -m"
 alias ga="git add"
 alias gs="git status"
 alias gp="git push"
+alias gg="lazygit"
 
 # # Location Aliases
 alias home='cd /f/amal/'
