@@ -4,8 +4,6 @@
 -- ▐█▄█▌▐█▌  ▐███▌▐█▌.▐▌██▐█▌██▌.▐█▌▐█▄▪▐█
 --  ▀▀▀ ▀▀▀  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀ ▀▀▀·▀▀▀▀
 
-local normal_hl = vim.api.nvim_get_hl_by_name("Normal", true)
-
 local purple1 = "#333352"
 local purple2 = "#232338"
 local purple3 = "#12121c"
