@@ -13,14 +13,14 @@
 - MPV Configuration
 
 - Editor Configuration
-  
+
   - VSCode
   - Sublime Text
 
 - Game Save Files
 
 - Userprofile files
-  
+
   - Bash & Zsh Configuration
   - Starship Configuration
 
@@ -33,7 +33,7 @@
 - Git >= **2.19.0** (for partial clones support
 
 - a [Nerd Font](https://www.nerdfonts.com/) (v3.0 or greater)
-  
+
   - Jetbrains Mono
   - Cartograph CF
 
@@ -42,14 +42,15 @@
 - a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
 
 - for [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) **(optional)**
-  
+
   - **live grep**: [ripgrep](https://github.com/BurntSushi/ripgrep)
   - **find files**: [fd](https://github.com/sharkdp/fd)
 
 - a terminal that support true color and undercurl:
-  
+
   - [Alacritty](https://github.com/alacritty/alacritty)  **(Linux, Macos & Windows)**
   - [Windows Terminal](https://github.com/microsoft/terminal)  **(Linux, Macos & Windows)**
+
 * [Aura Theme](https://github.com/daltonmenezes/aura-theme/) **- Dark Theme (optional)**
 
 #### Shell/Terminal Setup
@@ -78,42 +79,44 @@
 
 <img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv%20idle%20s.png?raw=true" title="" alt="mpv idle s" data-align="center">
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim%20a.png?raw=true" title="" alt="nvim a" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim-dash.png?raw=true" alt="alacritty" data-align="center">
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim%20b.png?raw=true" title="" alt="nvim b" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim-telescope.png?raw=true" alt="alacritty" data-align="center">
 
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim%20c.png?raw=true" alt="nvim c" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim-neotree.png?raw=true" alt="alacritty" data-align="center">
+
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim-loading.png?raw=true" alt="alacritty" data-align="center">
+
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim-code.png?raw=true" alt="alacritty" data-align="center">
+
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim-buff.png?raw=true" alt="alacritty" data-align="center">
+
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim-buff2.png?raw=true" alt="alacritty" data-align="center">
 
 ## The Installation
 
 ### 1. Setup the Files
 
 - #### Linux/MacOS/WSL
-  
+
   nvim folder: `~/.config/nvim`
-  
-  * Download the zip file or clone the this repo: `github.com/theamallalgi/dotfiles/`
-  
-  * Open the dotfiles folder, move or copy the nvim folder
-  
-  * Paste the folder within the `~/.config` folder
-  
-  * Open nvim with `nvim`
-  
+
+  - Download the zip file or clone the this repo: `github.com/theamallalgi/dotfiles/`
+  - Open the dotfiles folder, move or copy the nvim folder
+  - Paste the folder within the `~/.config` folder
+  - Open nvim with `nvim`
+
   **available on bash, zsh, fish**
 
 - #### Windows
-  
+
   nvim folder: `c:/user/appdata/local/nvim`
-  
+
   - Download the zip file or clone the this repo: `github.com/theamallalgi/dotfiles/`
-  
   - Open the dotfiles folder, move or copy the nvim folder
-  
   - Paste the folder within the `%LocalAppData%` folder
-  
   - Open nvim with `nvim`
-  
+
   **available on cmd, pwsh, git bash/zsh (yes you can setup zsh on windows!)**
 
 ### 2. Delete Junk
