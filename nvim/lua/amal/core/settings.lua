@@ -9,6 +9,8 @@
 --  ▐█▄▪▐█▐█▄▄▌ ▐█▌· ▐█▌·▐█▌██▐█▌▐█▄▪▐█▐█▄▪▐█
 --   ▀▀▀▀  ▀▀▀  ▀▀▀  ▀▀▀ ▀▀▀▀▀ █▪·▀▀▀▀  ▀▀▀▀
 
+local vim = vim
+
 -- indentation config
 vim.opt.autoindent = true
 vim.opt.smartindent = true
@@ -63,3 +65,7 @@ vim.opt.fillchars = { eob = " " } -- change the character at the end of buffer
 -- timeout and update config
 vim.opt.timeoutlen = 1000 -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.updatetime = 100 -- faster completion (4000ms default)
+
+-- terminal config
+vim.cmd([[let &shell = '"C:/Program Files/Git/bin/bash.exe"']])
+vim.cmd([[let &shellcmdflag = '-s']])
