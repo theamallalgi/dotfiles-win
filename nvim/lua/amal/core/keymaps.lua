@@ -19,6 +19,14 @@ set({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>") -- clear search with <esc>
 -- set("n", "<C-a>", "<cmd>Alpha<cr>", silent) -- opens the dashboard (alpha)
 -- set("n", "zz", ":ZenMode<CR>", silent) -- neotree reveal with (ctrl+n)
 
+-- paste over currently selected text without yanking it
+set("v", "p", '"_dp')
+set("v", "P", '"_dP')
+
+-- Move to start/end of line
+set({ "n", "x", "o" }, "H", "^", silent)
+set({ "n", "x", "o" }, "L", "g_", silent)
+
 -- neotree config
 set("n", "<C-b>", ":Neotree position=left dir=%:p:h:h reveal_file=%:p<CR>y<CR>", silent)
 set("n", "<C-n>", ":Neotree filesystem toggle<CR>", silent) -- neotree reveal with (ctrl+n)
@@ -69,3 +77,6 @@ set("n", "<C-Up>", "<cmd>resize -2<cr>", silent)
 set("n", "<C-Down>", "<cmd>resize +2<cr>", silent)
 set("n", "<C-Left>", "<cmd>vertical resize -2<cr>", silent)
 set("n", "<C-Right>", "<cmd>vertical resize +2<cr>", silent)
+
+-- terminal config
+-- set("n", "<C-\\>", ":ToggleTerm dir=%:p:h<CR>")
