@@ -50,7 +50,12 @@ return {
 		end
 
 		-- Set footer
-		dashboard.section.footer.val = { " on days like these kids like you should be playing nintendo games " }
+		dashboard.section.footer.val = {
+			"",
+			"",
+			"",
+			"[ on days like these kids like you should be playing nintendo games ]",
+		}
 		vim.api.nvim_set_hl(0, "AlphaFooter", { fg = "#2f234b", bg = "NONE", italic = false })
 		dashboard.section.footer.opts.hl = "AlphaFooter"
 
