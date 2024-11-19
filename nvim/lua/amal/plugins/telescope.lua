@@ -9,7 +9,6 @@ return {
 	},
 	config = function()
 		local telescope = require("telescope")
-		local actions = require("telescope.actions")
 		local builtin = require("telescope.builtin")
 		local keymap = vim.keymap
 
@@ -24,9 +23,18 @@ return {
 
 				-- Load sorting strategy for faster performance
 				-- sorting_strategy = "ascending",
-				layout_strategy = "vertical", -- Faster in some cases than the default
+				layout_strategy = "vertical",
+				layout_config = { preview_cutoff = 0 },
 				cache_picker = {
 					num_pickers = 10, -- Limit the cache for faster repeated access
+				},
+			},
+			extensions = {
+				fzf = {
+					fuzzy = true,
+					override_generic_sorter = true,
+					override_file_sorter = true,
+					case_mode = "smart_case",
 				},
 			},
 		})
