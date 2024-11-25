@@ -16,17 +16,13 @@ import = [
 ]
 
 # changes the home directory the console opens in
-working_directory = "c:/Users/Amal Lalgi"
+# working_directory = "c:/Users/Amal Lalgi"
+working_directory = "."
 
 # the cursor style
 [cursor.style]
 blinking = "On"
 shape = "Block"
-
-# font setup
-[font.normal]
-family = "JetbrainsMono Nerd Font"
-style = "Bold"
 
 # scrolling history
 [scrolling]
@@ -39,11 +35,11 @@ program = "C:/Program Files/Git/bin/bash"
 
 # window setup
 [window]
-decorations = "full" # configs the title bar and the buttons
+decorations = "none" # configs the title bar and the buttons
 title = "Terminal" # the window name
-dimensions = { columns = 110, lines = 30 } # size of the window
+dimensions = { columns = 111, lines = 39 } # size of the window (110(c), 30(l))
 padding = { x = 8, y = 2 } # padding of the window
-position = {x = 452, y = 8 } # position of the window when starting up
+position = { x = 452, y = 8 } # position of the window when starting up
 
 # hotkey config
 [keyboard]
@@ -52,3 +48,31 @@ bindings = [
 	{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" }, # creates a new window
 	{ key = "v", mods = "Control", action = "Paste" }, # pastes with ctrl+v
 ]
+
+# Scrolling and History
+# [scrolling]
+# history = 10000
+# multiplier = 3
+
+# Additional Color related settings
+[colors]
+draw_bold_text_with_bright_colors = true
+
+# Font related settings
+[font]
+# offset.x=0
+# offset.y=3
+# glyph_offset.x=0
+# glyph_offset.y=2
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "ExtraBold"
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "ExtraBold Italic"
