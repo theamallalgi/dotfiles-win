@@ -1,0 +1,76 @@
+#   ▄▄▄· ▄▄▌   ▄▄▄·  ▄▄· ▄▄▄  ▪  ▄▄▄▄▄▄▄▄▄▄ ▄· ▄▌
+#  ▐█ ▀█ ██•  ▐█ ▀█ ▐█ ▌▪▀▄ █·██ •██  •██  ▐█▪██▌
+#  ▄█▀▀█ ██▪  ▄█▀▀█ ██ ▄▄▐▀▀▄ ▐█· ▐█.▪ ▐█.▪▐█▌▐█▪
+#  ▐█ ▪▐▌▐█▌▐▌▐█ ▪▐▌▐███▌▐█•█▌▐█▌ ▐█▌· ▐█▌· ▐█▀·.
+#   ▀  ▀ .▀▀▀  ▀  ▀ ·▀▀▀ .▀  ▀▀▀▀ ▀▀▀  ▀▀▀   ▀ •
+#   ▄▄·        ▐ ▄ ·▄▄▄   ▄▄▄▄▄      • ▌ ▄ ·. ▄▄▌
+#  ▐█ ▌▪▪     •█▌▐█▐▄▄·   •██  ▪     ·██ ▐███▪██•
+#  ██ ▄▄ ▄█▀▄ ▐█▐▐▌██▪     ▐█.▪ ▄█▀▄ ▐█ ▌▐▌▐█·██▪
+#  ▐███▌▐█▌.▐▌██▐█▌██▌.    ▐█▌·▐█▌.▐▌██ ██▌▐█▌▐█▌▐▌
+#  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀  ▀  ▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀.▀▀▀
+
+# imports and sets up the colorscheme
+import = [
+	# "~/.config/alacritty/themes/themes/aura.toml" # aura theme (custom)
+	"~/.config/alacritty/themes/themes/frozenembers.toml" # frozen embers theme
+]
+
+# changes the home directory the console opens in
+working_directory = "."
+
+# the cursor style
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+# scrolling history
+[scrolling]
+history = 10000
+
+# sets the default shell
+[shell]
+args = ["--login"]
+program = "C:/Program Files/Git/bin/bash"
+
+# window setup
+[window]
+decorations = "full" # configs the title bar and the buttons
+title = "Terminal" # the window name
+dimensions = { columns = 110, lines = 30 } # size of the window (110(c), 30(l))
+padding = { x = 8, y = 2 } # padding of the window
+position = { x = 452, y = 8 } # position of the window when starting up
+
+# hotkey config
+[keyboard]
+bindings = [
+	{ key = "Back", mods = "Control", chars = "\u0017" }, # ctrl+bckspce - delete word
+	{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" }, # creates a new window
+	{ key = "v", mods = "Control", action = "Paste" }, # pastes with ctrl+v
+]
+
+# Scrolling and History
+# [scrolling]
+# history = 10000
+# multiplier = 3
+
+# Additional Color related settings
+[colors]
+draw_bold_text_with_bright_colors = true
+
+# Font related settings
+[font]
+# offset.x=0
+# offset.y=3
+# glyph_offset.x=0
+# glyph_offset.y=2
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "ExtraBold"
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
