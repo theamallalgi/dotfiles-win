@@ -6,8 +6,8 @@
 
 # # Aliases
 alias cl="clear && colorscript" # clear command with colorscripts
-alias colorscript="~/Colorscripts/colorscripts.sh" # colorscripts setup
-alias c="clear && ~/Colorscripts/Scripts/./script-\(9\)" # color script reset
+alias colorscript="~/colorscripts/colorscripts.sh" # colorscripts setup
+alias c="clear && ~/colorscripts/scripts/./script-\(9\)" # color script reset
 alias watch="sass --style compressed --watch" # watches and compiles sass in real time
 alias sb="clear && source ~/.bashrc" # clears and sources the bashrc file
 alias vim="neovide" # neovide
@@ -17,6 +17,8 @@ alias la="ls -al" # lists everything
 alias lt="lsd --tree" # tree list view but with lsd
 alias pc="clear && py" # clears the terminal and opens python
 alias ..="cd ../" # goes back one level
+alias x="exit" # well you can read can't you?
+alias len="ls -1 | wc -l"
 # alias cd="z" # setsup zoxide as the cd command (must have it installed)
 
 # # Git Aliases
