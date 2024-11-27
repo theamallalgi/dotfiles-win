@@ -1,6 +1,6 @@
 #! /bin/bash
 
-randomScript="Colorscripts/Scripts/script-($(( $RANDOM % 30 + 1 )))"
+randomScript="colorscripts/scripts/script-($(( $RANDOM % 29 + 1 )))"
 
 ~/$randomScript
 
