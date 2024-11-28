@@ -69,42 +69,64 @@
 
 - Oh my Posh **(Command Line Client)**
 
-### The Gallery
+## The Gallery
 
+### Alacritty
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -head.png?raw=true" alt="alacritty" data-align="center">
 <details>
     <summary>🔽 see more alacritty images</summary>
 
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -1.png?raw=true" alt="alacritty" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -2.png?raw=true" alt="alacritty" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -3.png?raw=true" alt="alacritty" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -4.png?raw=true" alt="alacritty" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -5.png?raw=true" alt="alacritty" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -6.png?raw=true" alt="alacritty" data-align="center">
+  ## Alacritty Screengrabs
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -1.png?raw=true" alt="alacritty" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -2.png?raw=true" alt="alacritty" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -3.png?raw=true" alt="alacritty" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -4.png?raw=true" alt="alacritty" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -5.png?raw=true" alt="alacritty" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -6.png?raw=true" alt="alacritty" data-align="center">
 
 </details>
 
+### Mpv Player
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -head.png?raw=true" alt="mpv" data-align="center">
 <details>
     <summary>🔽 see more images of my mpv config</summary>
 
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -1.png?raw=true" alt="mpv" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -2.png?raw=true" alt="mpv" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -3.png?raw=true" alt="mpv" data-align="center">
+  ## Mpv Player Screengrabs
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -1.png?raw=true" alt="mpv" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -2.png?raw=true" alt="mpv" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -3.png?raw=true" alt="mpv" data-align="center">
 
 </details>
 
+### Neovim
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="alacritty" data-align="center">
 <details>
     <summary>🔽 see more of my nvim images</summary>
 
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -2.png?raw=true" alt="nvim" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -3.png?raw=true" alt="nvim" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -4.png?raw=true" alt="nvim" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -5.png?raw=true" alt="nvim" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -6.png?raw=true" alt="nvim" data-align="center">
-    <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -7.png?raw=true" alt="nvim" data-align="center">
+  ## Neovim Screengrabs
+
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -2.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -3.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -4.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -5.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -6.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -7.png?raw=true" alt="nvim" data-align="center">
 
 </details>
 
