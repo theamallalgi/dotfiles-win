@@ -74,9 +74,9 @@
 ### Alacritty
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -head.png?raw=true" alt="alacritty" data-align="center">
 <details>
-    <summary>🔽 see more alacritty images</summary>
+    <summary>see more alacritty images</summary>
 
-  ## Alacritty Screengrabs
+  ## 🪙 Alacritty Screengrabs
   
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -1.png?raw=true" alt="alacritty" data-align="center">
   
@@ -95,9 +95,9 @@
 ### Mpv Player
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -head.png?raw=true" alt="mpv" data-align="center">
 <details>
-    <summary>🔽 see more images of my mpv config</summary>
+    <summary>see more images of my mpv config</summary>
 
-  ## Mpv Player Screengrabs
+  ## 🪙 Mpv Player Screengrabs
   
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -1.png?raw=true" alt="mpv" data-align="center">
   
@@ -110,9 +110,9 @@
 ### Neovim
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="alacritty" data-align="center">
 <details>
-    <summary>🔽 see more of my nvim images</summary>
+    <summary>see more of my nvim images</summary>
 
-  ## Neovim Screengrabs
+  ## 🪙 Neovim Screengrabs
 
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
   
