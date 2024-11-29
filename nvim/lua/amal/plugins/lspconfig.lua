@@ -79,6 +79,13 @@ return {
 					},
 				})
 			end,
+			["gopls"] = function()
+				nvim_lsp["gopls"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+					diagnostics = { enable = false },
+				})
+			end,
 			["rust_analyzer"] = function()
 				nvim_lsp["rust_analyzer"].setup({
 					on_attach = on_attach,

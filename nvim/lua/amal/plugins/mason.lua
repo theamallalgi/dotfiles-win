@@ -16,6 +16,7 @@ return {
 				"jsonls",
 				"ts_ls",
 				"pyright",
+        "gopls",
 				"emmet_ls",
 				"rust_analyzer",
 			},
