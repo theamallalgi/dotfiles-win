@@ -14,10 +14,11 @@ return {
 		"theamallalgi/zitchdog",
 		lazy = false,
 		priority = 1000,
-		config = function(plugin)
+		config = function()
 			vim.cmd([[colorscheme zitchdog]])
 		end,
 	},
+	-- { "rose-pine/neovim", name = "rose-pine" },
 	-- {
 	-- tokyonight (night) (moon/storm/night/day)
 	-- "folke/tokyonight.nvim",
