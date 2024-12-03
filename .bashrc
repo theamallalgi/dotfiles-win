@@ -13,8 +13,8 @@ alias sb="clear && source ~/.bashrc" # clears and sources the bashrc file
 alias vim="neovide" # neovide
 alias vi="nvim" # neovim
 alias cat="bat" # better cat command
-alias la="ls -al" # lists everything
-alias lt="lsd --tree" # tree list view but with lsd
+# alias la="ls -al" # lists everything
+# alias lt="lsd --tree" # tree list view but with lsd
 alias pc="clear && py" # clears the terminal and opens python
 alias ..="cd ../" # goes back one level
 alias x="exit" # well you can read can't you?
@@ -114,6 +114,21 @@ eval "$(zoxide init bash)" # zoxide
 eval "$(fzf --bash)" # fzf key bindings and fuzzy completion
 eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/frozenembers.toml)" # oh my posh
 
+# Config for Cli tools (ensure that fd is installed)
+# fzf fuzzy find
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git "
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND" # default fzf (folders and files)
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git" # fzf navigate to folders
+# default fzf settings
+export FZF_DEFAULT_OPTS="--height 50% --layout=reverse --border --color=bg+:#311d42,gutter:-1,hl:#26f96b,fg:#b267e6,bg:-1,hl+:#26f96b,fg+:#b267e6,pointer:#b267e6,prompt:#f92672,border:#b267e6,spinner:#f9a826"
+export FZF_CTRL_T_OPTS="--preview 'bat --color=always -n --line-range :500 {}'"
+export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | head -200'"
+# eza - next level ls (dir)
+# options :  --no-filesize --no-time --no-permissions --long
+alias ls="eza --no-filesize --no-permissions --all --color=always --icons=never --no-user" 
+alias la="eza --no-filesize --long --all --color=always --icons=always --no-user" 
+alias lt="eza --no-filesize --tree --color=always --icons=always" 
+
 # Startup
 colorscript # displays a random colorscript on startup
 # ~/colorscripts/scripts/./script-\(9\) # display the 9th colorscript
@@ -123,4 +138,5 @@ colorscript # displays a random colorscript on startup
 #   exec zsh
 # fi
 
-. "$HOME/.cargo/env"
+# setup env variables
+. "$HOME/.cargo/env" # cargo env variables
