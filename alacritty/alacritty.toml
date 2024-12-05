@@ -11,8 +11,8 @@
 
 # imports and sets up the colorscheme
 import = [
-	# "~/.config/alacritty/themes/themes/aura.toml" # aura theme (custom)
-	"~/.config/alacritty/themes/themes/frozenembers.toml" # frozen embers theme
+	"~/.config/alacritty/themes/themes/zitchdog.toml" # zitchdog theme (custom)
+	# "~/.config/alacritty/themes/themes/frozenembers.toml" # frozen embers theme
 ]
 
 # changes the home directory the console opens in
