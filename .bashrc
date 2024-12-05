@@ -56,7 +56,7 @@ export PROMPT_DIRTRIM=3
 shopt -s globstar
 
 # Ignore saving short- and other listed commands to the history file.
-HISTIGNORE=?:??:history
+# HISTIGNORE=?:??:history
 
 # The maximum number of lines in the history file.
 HISTFILESIZE=99999
