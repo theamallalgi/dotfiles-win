@@ -5,7 +5,7 @@ return {
 		local alpha = require("alpha")
 		local dashboard = require("alpha.themes.dashboard")
 
-		-- Set header
+		-- set header
 		dashboard.section.header.val = {
 			"  ⠀ ████   ████       ⠀ ████   ████       ⠀ ████   ████    ",
 			"  ███   ███   ███     ███   ███   ███ ⠀   ███   ███   ███  ",
@@ -18,22 +18,22 @@ return {
 			"",
 		}
 
-		-- Define custom highlight groups
+		-- define custom highlight groups
 		vim.api.nvim_set_hl(0, "AlphaHeader", { fg = "#a277ff", bg = "NONE" })
 		vim.api.nvim_set_hl(0, "AlphaButtonText", { fg = "#635e80", bg = "NONE", bold = true })
 		vim.api.nvim_set_hl(0, "AlphaButtonShortcut", { fg = "#46425c", bg = "NONE", italic = false })
+		vim.api.nvim_set_hl(0, "AlphaFooter", { fg = "#2f234b", bg = "NONE", italic = false })
 
-		-- Set menu with custom highlights
+		-- set menu with custom highlights
 		dashboard.section.buttons.val = {
 			dashboard.button("SPC n", "󰓎  → create new file", "<cmd>ene<CR>"),
 			dashboard.button("SPC e", "󰓎  → toggle explorer", ":Neotree filesystem toggle<CR>"),
 			dashboard.button("SPC r", "󰓎  → recent files", ":Telescope oldfiles<CR>"),
-			-- dashboard.button("SPC f", "󰓎  → find a file", "<cmd>Telescope find_files<CR>"),
 			dashboard.button("SPC l", "󰓎  → lazy plugins", "<cmd>Lazy<CR>"),
 			dashboard.button("q", "󰓎  → quit neovim", "<cmd>qa<CR>"),
 		}
 
-		-- Layout configuration to center everything vertically
+		-- layout configuration to center everything vertically
 		dashboard.config.layout = {
 			{ type = "padding", val = math.floor(vim.fn.winheight(0) * 0.2) }, -- Adjust top padding to vertically center
 			dashboard.section.header,
@@ -42,58 +42,45 @@ return {
 			dashboard.section.footer,
 		}
 
-		-- Apply highlight groups to buttons
+		-- apply highlight groups to buttons
 		dashboard.section.header.opts.hl = "AlphaHeader"
 		for _, button in ipairs(dashboard.section.buttons.val) do
-			button.opts.hl = "AlphaButtonText" -- Text highlight
-			button.opts.hl_shortcut = "AlphaButtonShortcut" -- Shortcut highlight
+			button.opts.hl = "AlphaButtonText" -- text highlight
+			button.opts.hl_shortcut = "AlphaButtonShortcut" -- shortcut highlight
 		end
 
-		-- Set footer
+		-- footer configuration
+		local function get_random_quote() -- function to read and load the quotes from the JSON file
+			local file_path = "C:/Users/amall/AppData/Local/nvim/lua/amal/plugins/config/quotes.json" -- update with your actual path
+			local file = io.open(file_path, "r")
+			if not file then
+				return "[ on days like these kids like you should be playing nintendo games. ]"
+			end
+			local content = file:read("*all")
+			file:close()
+			local quotes = vim.fn.json_decode(content).quotes
+			math.randomseed(os.time())
+			local random_index = math.random(1, #quotes)
+			return quotes[random_index]
+		end
+
 		dashboard.section.footer.val = {
 			"",
 			"",
 			"",
-			"[ on days like these kids like you should be playing nintendo games ]",
+			get_random_quote(), -- update the footer section with the random quote
 		}
-		vim.api.nvim_set_hl(0, "AlphaFooter", { fg = "#2f234b", bg = "NONE", italic = false })
-		dashboard.section.footer.opts.hl = "AlphaFooter"
 
-		-- Send config to alpha
-		alpha.setup(dashboard.opts)
+		dashboard.section.footer.opts.hl = "AlphaFooter" -- set footer
 
-		-- Disable folding on alpha buffer
-		vim.cmd([[autocmd FileType alpha setlocal nofoldenable]])
+		alpha.setup(dashboard.opts) -- send config to alpha
+
+		-- vim commands
+		vim.cmd([[autocmd FileType alpha setlocal nofoldenable]]) -- disable folding on alpha buffer
 	end,
 }
 
--- dashboard.section.header.val = {
--- '           ▄ ▄                   ',
--- '       ▄   ▄▄▄     ▄ ▄▄▄ ▄ ▄     ',
--- '       █ ▄ █▄█ ▄▄▄ █ █▄█ █ █     ',
--- '    ▄▄ █▄█▄▄▄█ █▄█▄█▄▄█▄▄█ █     ',
--- '  ▄ █▄▄█ ▄ ▄▄ ▄█ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ',
--- '  █▄▄▄▄ ▄▄▄ █ ▄ ▄▄▄ ▄ ▄▄▄ ▄ ▄ █ ▄',
--- '▄ █ █▄█ █▄█ █ █ █▄█ █ █▄█ ▄▄▄ █ █',
--- '█▄█ ▄ █▄▄█▄▄█ █ ▄▄█ █ ▄ █ █▄█▄█ █',
--- '    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ █▄█▄▄▄█    ',
--- }
-
--- dashboard.section.header.val = {
--- ⠀⠀⠀⠀⠀⠀⢠⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣤⠀⠀⠀⠀⠀⠀⢠⣤⣤⡄⠀⠀⠀⠀⠀⠀⠀
--- ⠀⠀⠀⠀⠀⣰⣿⣿⣿⣥⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⡀⠀⢠⣤⣤⣤⣤⣿⣿⣿⣤⣤⣤⣤⡄⠀⣼⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
--- ⠀⠀⠀⣠⣾⣿⣿⣿⡿⠿⣿⣿⡿⠿⣿⣿⣿⠿⣿⣿⣿⡿⠿⠇⠀⠸⠿⢿⣿⣿⠿⠿⠿⣿⣿⣿⠿⠇⢠⣿⣿⣯⣤⣤⣤⣤⣤⡄⠀⠀
--- ⠀⠀⠙⢿⣿⢿⣿⣿⡆⠀⣿⣿⡇⠀⣿⣿⡇⠀⢸⣿⣿⠀⠀⠀⠀⠀⣤⣬⣿⣿⣦⣤⣤⣿⣿⣧⣤⡀⣼⣿⣿⡿⠿⢿⣿⣿⡿⠇⠀⠀
--- ⠀⠀⢠⣤⣤⣼⣿⣿⣦⣤⣿⣿⣧⣤⣿⣿⣷⣤⣼⣿⣿⣤⣤⣤⠀⠀⣿⣿⡿⠿⢿⣿⡿⠿⢿⣿⣿⣿⣿⣿⣿⡆⠀⢸⣿⣿⠃⠀⠀⠀
--- ⠀⠀⠸⠿⠿⢿⣿⣿⡿⠿⣿⣿⡿⠿⣿⣿⡿⠿⢿⣿⣿⠿⠿⠿⠀⠀⣿⣿⢀⣤⣼⣿⣧⣤⡀⣿⣿⣿⣿⢿⣿⣧⠀⣾⣿⡿⠀⠀⠀⠀
--- ⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⣿⣿⡇⠀⣿⣿⡇⠀⢸⣿⣿⠀⠀⠀⠀⠀⣿⣿⠘⠛⢻⣿⡟⠛⠃⣿⣿⡏⠁⠘⣿⣿⣦⣿⣿⠇⠀⠀⠀⠀
--- ⠀⠀⠀⣶⣶⣾⣿⣿⣷⣶⣿⣿⣷⣶⣿⣿⣷⣶⣾⣿⣿⣶⣶⣶⠀⠀⣿⣿⠀⣶⣾⣿⣷⣶⠀⣿⣿⡇⠀⠀⢹⣿⣿⣿⡿⠀⠀⠀⠀⠀
--- ⠀⠀⠀⠛⠛⣛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⢛⣛⠛⠛⠀⠀⣿⣿⠀⣿⣏⣉⣹⣿⠀⣿⣿⡇⠀⠀⢀⣿⣿⣿⡅⠀⠀⠀⠀⠀
--- ⠀⠀⠀⠀⣼⣿⣿⠇⠀⢰⣿⣿⡀⠀⢲⣿⣿⡄⠀⠻⣿⣿⣧⡀⠀⠀⣿⣿⠀⣿⡿⠿⠿⠿⠀⣿⣿⡇⢀⣴⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀
--- ⠀⠀⢀⣼⣿⣿⠏⠀⠀⢸⣿⣿⡇⠀⠈⣿⣿⣷⠀⠀⠹⣿⣿⣷⡀⠀⣿⣿⠀⠉⠁⠀⠠⣤⣤⣿⣿⣷⣿⣿⡿⠋⠀⠙⢿⣿⣿⠦⠀⠀
--- ⠀⠀⠈⠉⠛⠋⠀⠀⠀⠈⠛⠉⠁⠀⠀⠙⠋⠉⠀⠀⠀⠘⠛⠉⠁⠀⠛⠛⠀⠀⠀⠀⠀⠛⠛⠛⠋⠀⠛⠉⠀⠀⠀⠀⠀⠙⠋⠀⠀⠀
--- }
-
+-- ascii art
 -- dashboard.section.header.val = {
 -- "  ⠀ ████   ████       ⠀ ████   ████       ⠀ ████   ████    ",
 -- "  ███   ███   ███     ███   ███   ███ ⠀   ███   ███   ███  ",
