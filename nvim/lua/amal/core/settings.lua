@@ -46,6 +46,7 @@ vim.o.guifont = "JetbrainsMono Nerd Font:h11" -- sets the default font and heigh
 vim.g.mapleader = " " -- maps the leader key
 vim.g.maplocalleader = "\\" -- local leader key config
 vim.opt.autoread = true -- updates vim after file update outside
+-- vim.opt.statuscolumn = "%s %l %r " -- relative line numbers
 vim.cmd("set number") -- sets line numbers
 vim.cmd("set relativenumber") -- sets relative line numbers
 vim.cmd("set nowrap") -- turns off word wrap
