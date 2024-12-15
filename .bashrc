@@ -5,9 +5,8 @@
 # ▀ ·▀▀▀▀  ▀  ▀  ▀▀▀▀ ▀▀▀ ·.▀  ▀·▀▀▀ 
 
 # Aliases
-alias cl="clear && colorscript" # clear command with colorscripts
-alias colorscript="~/colorscripts/colorscripts.sh" # colorscripts setup
-alias c="clear && ~/colorscripts/scripts/./script-\(9\)" # color script reset
+alias cl="clear && colorscript -r" # clear command with colorscripts
+alias c="clear && colorscript -e zwaves" # color script reset (zwaves)
 alias watch="sass --style compressed --watch" # watches and compiles sass in real time
 alias sb="clear && source ~/.bashrc" # clears and sources the bashrc file
 alias vim="neovide" # neovide
@@ -126,12 +125,11 @@ export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | 
 # eza - next level ls (dir)
 # options :  --no-filesize --no-time --no-permissions --long
 alias ls="eza --no-filesize --no-permissions --all --color=always --icons=never --no-user" 
-alias la="eza --no-filesize --long --all --color=always --icons=always --no-user" 
+alias la="eza --no-filesize --long --header --group-directories-first --group --all --color=always --icons=always --no-user" 
 alias lt="eza --no-filesize --tree --color=always --icons=always" 
 
 # Startup
-colorscript # displays a random colorscript on startup
-# ~/colorscripts/scripts/./script-\(9\) # display the 9th colorscript
+colorscript --random # displays a random colorscript on startup
 
 # initialize zsh at startup
 # if [ -t 1 ]; then
