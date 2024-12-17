@@ -42,7 +42,7 @@ vim.g.netrw_mouse = 2 -- mouse config for netrw
 -- vim.cmd("let g:netrw_liststyle = 3") -- sets the default file explorer style to tree structure
 
 -- misc config
-vim.o.guifont = "JetbrainsMono Nerd Font:h11" -- sets the default font and height
+vim.o.guifont = "JetBrainsMono Nerd Font Mono:h11" -- sets the default font and height
 vim.g.mapleader = " " -- maps the leader key
 vim.g.maplocalleader = "\\" -- local leader key config
 vim.opt.autoread = true -- updates vim after file update outside
