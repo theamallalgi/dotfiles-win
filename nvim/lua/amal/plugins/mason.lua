@@ -19,7 +19,7 @@ return {
 				"gopls",
 				"emmet_ls",
 				"rust_analyzer",
-				"bash-language-server",
+				"bashls",
 			},
 		})
 
