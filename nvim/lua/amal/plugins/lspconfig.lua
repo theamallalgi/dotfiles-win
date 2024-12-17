@@ -93,6 +93,13 @@ return {
 					diagnostics = { enable = false },
 				})
 			end,
+			["bash-language-server"] = function()
+				nvim_lsp["bash-language-server"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+					diagnostics = { enable = false },
+				})
+			end,
 		})
 	end,
 }

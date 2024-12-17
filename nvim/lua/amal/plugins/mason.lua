@@ -16,9 +16,10 @@ return {
 				"jsonls",
 				"ts_ls",
 				"pyright",
-        "gopls",
+				"gopls",
 				"emmet_ls",
 				"rust_analyzer",
+				"bash-language-server",
 			},
 		})
 
