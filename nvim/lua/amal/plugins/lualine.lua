@@ -1,18 +1,18 @@
 local colors = {
-	black = "#1a1b26",
-	darkblack = "#131218",
-	white = "#edecee",
-	red = "#ff6767",
-	green = "#61ffca",
-	blue = "#a277ff",
-	magenta = "#a277ff",
-	cyan = "#61ffca",
-	yellow = "#ffca85",
-	orange = "#ff7b7b",
-	gray = "#29263c",
-	darkgray = "#15141b",
-	lightgray = "#7153b2", -- 433e62
-	inactivegray = "#3b4261",
+	black = "#100d17", -- 1a1b26 (night)
+	darkblack = "#0b080e", -- 131218 (night)
+	white = "#d0b6d0", -- edecee (night)
+	red = "#e4374b", -- ff6767 (night)
+	green = "#46cea9", -- 61ffca (night)
+	blue = "#8443e3", -- a277ff  (night)
+	magenta = "#8443e3", -- a277ff (night)
+	cyan = "#46cea9", -- 61ffca (night)
+	yellow = "#e49068", -- ffca85 (night)
+	orange = "#e4465e", -- ff7b7b (night)
+	gray = "#191226", -- 29263c (night)
+	darkgray = "#0d0910", -- 15141b (night)
+	lightgray = "#542a91", -- 7153b2 (night)
+	inactivegray = "#272045", -- 3b4261 (night)
 }
 
 local auraline = {
