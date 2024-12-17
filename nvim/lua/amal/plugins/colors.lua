@@ -15,7 +15,7 @@ return {
 		lazy = false,
 		priority = 1000,
 		config = function()
-			vim.cmd([[colorscheme zitchdog]])
+			vim.cmd([[colorscheme zitchdog-night]])
 		end,
 	},
 	-- { "rose-pine/neovim", name = "rose-pine" },
