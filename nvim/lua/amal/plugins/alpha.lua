@@ -19,10 +19,10 @@ return {
 		}
 
 		-- define custom highlight groups
-		vim.api.nvim_set_hl(0, "AlphaHeader", { fg = "#a277ff", bg = "NONE" })
-		vim.api.nvim_set_hl(0, "AlphaButtonText", { fg = "#635e80", bg = "NONE", bold = true })
-		vim.api.nvim_set_hl(0, "AlphaButtonShortcut", { fg = "#46425c", bg = "NONE", italic = false })
-		vim.api.nvim_set_hl(0, "AlphaFooter", { fg = "#2f234b", bg = "NONE", italic = false })
+		-- vim.api.nvim_set_hl(0, "AlphaHeader", { fg = "#8443e3", bg = "NONE" })
+		-- vim.api.nvim_set_hl(0, "AlphaButtonText", { fg = "#635e80", bg = "NONE", bold = true })
+		-- vim.api.nvim_set_hl(0, "AlphaButtonShortcut", { fg = "#46425c", bg = "NONE", italic = false })
+		-- vim.api.nvim_set_hl(0, "AlphaFooter", { fg = "#2f234b", bg = "NONE", italic = false })
 
 		-- set menu with custom highlights
 		dashboard.section.buttons.val = {
