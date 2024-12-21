@@ -12,7 +12,7 @@ return {
 			},
 			indent = {
 				char = "|", -- use '|' for indentation character
-				highlight = "CursorLineFold",
+				highlight = "AlphaFooter",
 			},
 		})
 	end,
