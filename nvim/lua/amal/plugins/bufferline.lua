@@ -27,61 +27,61 @@ return {
 		},
 		highlights = {
 			fill = {
-				bg = "#131218",
-				fg = "#7153b2",
+				bg = "#0b080e",
+				fg = "#542a91",
 			},
 			background = {
-				fg = "#7153b2",
-				bg = "#131218",
+				fg = "#542a91",
+				bg = "#0b080e",
 			},
 			buffer_selected = {
-				fg = "#a277ff",
-				bg = "#15141b",
+				fg = "#8443e3",
+				bg = "#0d0910",
 				bold = false,
 				italic = false,
 			},
 			tab = {
-				fg = "#7153b2",
+				fg = "#542a91",
 				bg = "NONE",
 			},
 			tab_selected = {
-				fg = "#a277ff",
-				bg = "#15141b",
+				fg = "#8443e3",
+				bg = "#0d0910",
 			},
 			tab_separator = {
-				fg = "#131218",
+				fg = "#0b080e",
 				bg = "NONE",
 			},
 			tab_separator_selected = {
-				fg = "#131218",
+				fg = "#0b080e",
 				bg = "NONE",
 			},
 			tab_close = {
-				fg = "#29263c",
+				fg = "#191226",
 				bg = "NONE",
 			},
 			close_button = {
-				fg = "#29263c",
+				fg = "#191226",
 				bg = "NONE",
 			},
 			close_button_visible = {
-				fg = "#29263c",
+				fg = "#191226",
 				bg = "NONE",
 			},
 			close_button_selected = {
-				fg = "#a277ff",
+				fg = "#8443e3",
 				bg = "NONE",
 			},
 			modified_visible = {
-				fg = "#ffca85",
+				fg = "#e49068",
 				bg = "NONE",
 			},
 			modified_selected = {
-				fg = "#ffca85",
+				fg = "#e49068",
 				bg = "NONE",
 			},
 			separator = {
-				fg = "#131218",
+				fg = "#0b080e",
 				bg = "NONE",
 			},
 		},
