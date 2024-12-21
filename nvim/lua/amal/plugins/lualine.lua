@@ -15,7 +15,7 @@ local colors = {
 	inactivegray = "#272045", -- 3b4261 (night)
 }
 
-local auraline = {
+local zitchdog = {
 	normal = {
 		a = { fg = colors.blue, bg = colors.black },
 		b = { fg = colors.lightgray, bg = colors.darkblack },
@@ -56,7 +56,7 @@ return {
 	config = function()
 		require("lualine").setup({
 			options = {
-				theme = auraline,
+				theme = zitchdog,
 				globalstatus = true,
 				component_separators = { left = "|", right = "|" },
 				-- icons_enabled = false,
