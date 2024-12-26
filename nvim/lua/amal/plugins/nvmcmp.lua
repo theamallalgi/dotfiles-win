@@ -9,11 +9,13 @@ return {
 		"saadparwaiz1/cmp_luasnip", -- for autocompletion
 		"rafamadriz/friendly-snippets", -- useful snippets
 		"onsails/lspkind.nvim", -- vs-code like pictograms
+		-- "github/copilot.vim", -- coplilot nvim for autocompletion
+		"zbirenbaum/copilot.lua",
 	},
 	config = function()
 		local cmp = require("cmp")
 		local luasnip = require("luasnip")
-		-- local lspkind = require("lspkind")
+		local lspkind = require("lspkind")
 
 		require("luasnip.loaders.from_vscode").lazy_load()
 
@@ -29,9 +31,11 @@ return {
 			window = {
 				completion = cmp.config.window.bordered({
 					winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:CmpCursorLine,Search:None",
+					scrollbar = false,
 				}),
 				documentation = cmp.config.window.bordered({
 					winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:CmpCursorLine,Search:None",
+					scrollbar = false,
 				}),
 			},
 			mapping = cmp.mapping.preset.insert({
@@ -46,7 +50,45 @@ return {
 					select = true,
 				}),
 			}),
+			formatting = {
+				fields = { "abbr", "kind", "menu" },
+				format = lspkind.cmp_format({
+					mode = "symbol_text", -- show symbols and text annotations
+					maxwidth = 50,
+					ellipsis_char = "...",
+					symbol_map = {
+						Text = "", -- example symbols
+						Method = "",
+						Function = "",
+						Constructor = "",
+						Field = "",
+						Variable = "",
+						Class = "",
+						Interface = "",
+						Module = "",
+						Property = "",
+						Unit = "",
+						Value = "",
+						Enum = "",
+						Keyword = "",
+						Snippet = "",
+						Color = "",
+						File = "",
+						Reference = "",
+						Folder = "",
+						EnumMember = "",
+						Constant = "",
+						Struct = "",
+						Event = "",
+						Operator = "",
+						TypeParameter = "",
+						Copilot = "",
+					},
+				}),
+				expandable_indicator = true,
+			},
 			sources = cmp.config.sources({
+				{ name = "copilot", priority = 1000 },
 				{ name = "nvim_lsp" },
 				{ name = "nvim_lua" },
 				{ name = "luasnip" },
