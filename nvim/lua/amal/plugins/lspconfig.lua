@@ -3,6 +3,7 @@ return {
 	event = { "bufreadpre", "bufnewfile" },
 	dependencies = {
 		"hrsh7th/cmp-nvim-lsp",
+		"github/copilot.vim",
 		{ "folke/neodev.nvim", opts = {} },
 	},
 	config = function()
@@ -25,7 +26,7 @@ return {
 			end
 		end
 
-		local capabilities = require("cmp_nvim_lsp").default_capabilities()
+		local capabilities = require("cmp_nvim_lsp").default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 		mason_lspconfig.setup_handlers({
 			function(server)
