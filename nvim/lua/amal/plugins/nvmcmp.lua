@@ -4,13 +4,11 @@ return {
 	dependencies = {
 		"hrsh7th/cmp-buffer", -- source for text in buffer
 		"hrsh7th/cmp-path", -- source for file system paths
-		"L3MON4D3/LuaSnip",
-		"hrsh7th/cmp-nvim-lsp",
+		"L3MON4D3/LuaSnip", -- snippets engine
+		"hrsh7th/cmp-nvim-lsp", -- snippets for LSP
 		"saadparwaiz1/cmp_luasnip", -- for autocompletion
 		"rafamadriz/friendly-snippets", -- useful snippets
 		"onsails/lspkind.nvim", -- vs-code like pictograms
-		-- "github/copilot.vim", -- coplilot nvim for autocompletion
-		"zbirenbaum/copilot.lua",
 	},
 	config = function()
 		local cmp = require("cmp")
@@ -88,7 +86,6 @@ return {
 				expandable_indicator = true,
 			},
 			sources = cmp.config.sources({
-				{ name = "copilot", priority = 1000 },
 				{ name = "nvim_lsp" },
 				{ name = "nvim_lua" },
 				{ name = "luasnip" },

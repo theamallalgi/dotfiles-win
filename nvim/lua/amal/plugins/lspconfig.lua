@@ -3,7 +3,6 @@ return {
 	event = { "bufreadpre", "bufnewfile" },
 	dependencies = {
 		"hrsh7th/cmp-nvim-lsp",
-		"github/copilot.vim",
 		{ "folke/neodev.nvim", opts = {} },
 	},
 	config = function()
