@@ -22,23 +22,27 @@ local zitchdog = {
 		c = { fg = colors.lightgray, bg = colors.darkblack },
 		x = { fg = colors.lightgray, bg = colors.darkblack },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
-		z = { fg = colors.lightgray, bg = colors.darkblack },
+		z = { fg = colors.green, bg = "#123127" },
 	},
 	insert = {
 		a = { fg = colors.green, bg = "#123127" },
-		z = { fg = colors.lightgray, bg = colors.darkblack },
+		z = { fg = colors.green, bg = "#123127" },
+		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	visual = {
 		a = { fg = colors.yellow, bg = "#4b3b27" },
-		z = { fg = colors.lightgray, bg = colors.darkblack },
+		z = { fg = colors.yellow, bg = "#4b3b27" },
+		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	replace = {
 		a = { fg = colors.red, bg = "#652929" },
-		z = { fg = colors.lightgray, bg = colors.darkblack },
+		z = { fg = colors.red, bg = "#652929" },
+		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	command = {
 		a = { fg = colors.orange, bg = "#4b2424" },
-		z = { fg = colors.lightgray, bg = colors.darkblack },
+		z = { fg = colors.orange, bg = "#4b2424" },
+		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	inactive = {
 		a = { fg = colors.inactivegray, bg = colors.magenta },
@@ -66,11 +70,18 @@ return {
 			},
 			sections = {
 				lualine_a = { { "fancy_mode", width = 3 } },
-				lualine_b = { "fancy_branch", { "filename", path = 0, symbols = { modified = "󰫢" } } },
-				lualine_c = {},
-				lualine_x = {}, -- filetype
-				lualine_y = {},
-				lualine_z = { "location", "progress" },
+				lualine_b = {},
+				lualine_c = {
+					"fancy_branch",
+					{ "filename", path = 0, symbols = { modified = "󰫢" } },
+				},
+				lualine_x = {},
+				lualine_y = { "location", "progress" },
+				lualine_z = {
+					function()
+						return _G.copilot_enabled and "" or ""
+					end,
+				},
 			},
 			inactive_sections = {},
 			tabline = {},
