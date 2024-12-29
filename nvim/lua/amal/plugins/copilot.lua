@@ -1,7 +1,9 @@
 return {
 	"zbirenbaum/copilot.lua",
 	cmd = "Copilot",
-	event = "InsertEnter",
+	keys = {
+		{ "<leader>cp", ":lua toggle_copilot()<CR>", mode = "n", noremap = true, silent = true },
+	},
 	config = function()
 		-- Define a global variable for Copilot toggle
 		_G.copilot_enabled = false
