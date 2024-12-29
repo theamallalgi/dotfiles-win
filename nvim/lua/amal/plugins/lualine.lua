@@ -79,7 +79,7 @@ return {
 				lualine_y = { "location", "progress" },
 				lualine_z = {
 					function()
-						return _G.copilot_enabled and "" or ""
+						return _G.copilot_enabled and " " or ""
 					end,
 				},
 			},
