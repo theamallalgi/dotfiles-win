@@ -16,12 +16,6 @@ return {
 		vim.api.nvim_create_autocmd("LspAttach", {
 			group = vim.api.nvim_create_augroup("UserLspConfig", {}),
 			callback = function(ev)
-				-- Disable formatting for Python
-				if vim.bo.filetype == "python" then
-					ev.client.server_capabilities.documentFormattingProvider = false
-					ev.client.server_capabilities.documentRangeFormattingProvider = false
-				end
-
 				-- Set keybinds
 				local opts = { buffer = ev.buf, silent = true }
 				opts.desc = "Show LSP references"
@@ -95,12 +89,6 @@ return {
 
 			["pyright"] = function()
 				lspconfig["pyright"].setup({
-					-- Disable Pyright formatting to prevent conflict with isort/black
-					on_attach = function(client, bufnr)
-						if client.name == "pyright" then
-							client.resolved_capabilities.document_formatting = false
-						end
-					end,
 					capabilities = capabilities,
 				})
 			end,
@@ -130,6 +118,17 @@ return {
 				lspconfig["rust_analyzer"].setup({
 					capabilities = capabilities,
 					diagnostics = { enable = false },
+				})
+			end,
+
+			["ruff"] = function()
+				lspconfig["ruff"].setup({
+					on_init = function(client)
+						if client.name == "ruff" then
+							-- Disable hover in favor of Pyright
+							client.server_capabilities.hoverProvider = false
+						end
+					end,
 				})
 			end,
 

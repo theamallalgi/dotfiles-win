@@ -16,8 +16,14 @@ return {
 				yaml = { "prettier" },
 				liquid = { "prettier" },
 				lua = { "stylua" },
-				python = { { "isort", timeout_ms = 5000 }, "black" }, -- Increased timeout for isort
 				sh = { "shfmt" },
+				python = function(bufnr)
+					if require("conform").get_formatter_info("ruff_format", bufnr).available then
+						return { "ruff_fix", "ruff_format", "ruff_organize_imports" }
+					else
+						return { "isort", "black" }
+					end
+				end,
 			},
 			format_on_save = {
 				lsp_fallback = false, -- Prevent conflicts with LSP formatting
