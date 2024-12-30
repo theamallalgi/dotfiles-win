@@ -34,6 +34,17 @@ require("lazy").setup({ { import = "amal.plugins" } }, {
 		},
 		backdrop = 80,
 	},
+	performance = {
+		rtp = {
+			disabled_plugins = {
+				"gzip",
+				"tarPlugin",
+				"tohtml",
+				"tutor",
+				"zipPlugin",
+			},
+		},
+	},
 	pills = true,
 	title = nil,
 })
