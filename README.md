@@ -1,6 +1,6 @@
 # Amal's Dotfiles and Configurations
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/intro.png?raw=true" title="" alt="intro" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/header.jpg?raw=true" title="" alt="header" data-align="center">
 
 ## The Contents
 
