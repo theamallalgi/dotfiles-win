@@ -71,6 +71,30 @@
 
 ## The Gallery
 
+### Neovim
+
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="alacritty" data-align="center">
+<details>
+    <summary>see more of my nvim images</summary>
+
+## 🪙 Neovim Screengrabs
+
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -2.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -3.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -4.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -5.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -6.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -7.png?raw=true" alt="nvim" data-align="center">
+
+</details>
+
 ### Alacritty
 
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -head.png?raw=true" alt="alacritty" data-align="center">
@@ -106,30 +130,6 @@
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -2.png?raw=true" alt="mpv" data-align="center">
   
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -3.png?raw=true" alt="mpv" data-align="center">
-
-</details>
-
-### Neovim
-
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="alacritty" data-align="center">
-<details>
-    <summary>see more of my nvim images</summary>
-
-## 🪙 Neovim Screengrabs
-
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -2.png?raw=true" alt="nvim" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -3.png?raw=true" alt="nvim" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -4.png?raw=true" alt="nvim" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -5.png?raw=true" alt="nvim" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -6.png?raw=true" alt="nvim" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -7.png?raw=true" alt="nvim" data-align="center">
 
 </details>
 
