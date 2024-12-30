@@ -17,13 +17,14 @@ return {
 				liquid = { "prettier" },
 				lua = { "stylua" },
 				sh = { "shfmt" },
-				python = function(bufnr)
-					if require("conform").get_formatter_info("ruff_format", bufnr).available then
-						return { "ruff_fix", "ruff_format", "ruff_organize_imports" }
-					else
-						return { "isort", "black" }
-					end
-				end,
+				-- python = function(bufnr)
+				-- if require("conform").get_formatter_info("ruff_format", bufnr).available then
+				-- return { "ruff_fix", "ruff_format", "ruff_organize_imports" }
+				-- else
+				-- return { "isort", "black" }
+				-- end
+				-- end,
+				python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
 			},
 			format_on_save = {
 				lsp_fallback = false, -- Prevent conflicts with LSP formatting
