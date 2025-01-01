@@ -2,8 +2,9 @@ return {
 	"neovim/nvim-lspconfig",
 	event = { "BufReadPre", "BufNewFile" },
 	dependencies = {
-		{ "williamboman/mason.nvim", config = true },
 		"williamboman/mason-lspconfig.nvim",
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		{ "williamboman/mason.nvim", config = true },
 		{ "j-hui/fidget.nvim", opts = {} },
 		{ "b0o/schemastore.nvim" },
 		{ "hrsh7th/cmp-nvim-lsp" },
@@ -11,11 +12,11 @@ return {
 	config = function()
 		require("mason").setup({
 			ui = {
-				border = "rounded",
+				-- border = "rounded",
 				icons = {
-					package_installed = "✓",
-					package_pending = "➜",
-					package_uninstalled = "✗",
+					package_installed = "󰄬",
+					package_pending = "󰁔",
+					package_uninstalled = "󰅖",
 				},
 			},
 		})
@@ -38,85 +39,13 @@ return {
 				map("<leader>p", require("telescope.builtin").lsp_document_symbols, "Document Symbols")
 				map("<leader>ws", require("telescope.builtin").lsp_workspace_symbols, "Workspace Symbols")
 				map("<leader>Ws", require("telescope.builtin").lsp_dynamic_workspace_symbols, "Workspace Symbols")
-
 				map("gl", vim.diagnostic.open_float, "Open Diagnostic Float")
 				map("K", vim.lsp.buf.hover, "Hover Documentation")
 				map("gs", vim.lsp.buf.signature_help, "Signature Documentation")
 				map("gD", vim.lsp.buf.declaration, "Goto Declaration")
 				map("<leader>ca", vim.lsp.buf.code_action, "Code Actions")
-
+				map("<leader>mp", vim.lsp.buf.format, "Format Buffer")
 				map("<leader>v", "<cmd>vsplit | lua vim.lsp.buf.definition()<cr>", "Goto Definition in Vertical Split")
-
-				-- local wk = require("which-key")
-				-- wk.add({
-				-- { "<leader>la", vim.lsp.buf.code_action, desc = "Code Action" },
-				-- { "<leader>lA", vim.lsp.buf.range_code_action, desc = "Range Code Actions" },
-				-- {
-				-- "<leader>ls",
-				-- vim.lsp.buf.signature_help,
-				-- desc = "Display Signature Information",
-				-- },
-				-- { "<leader>lr", vim.lsp.buf.rename, desc = "Rename all references" },
-				-- { "<leader>lf", vim.lsp.buf.format, desc = "Format" },
-				-- { "<leader>li", require("telescope.builtin").lsp_implementations, desc = "Implementation" },
-				-- { "<leader>lw", require("telescope.builtin").diagnostics, desc = "Diagnostics" },
-				-- {
-				-- "<leader>lc",
-				-- require("config.utils").copyFilePathAndLineNumber,
-				-- desc = "Copy File Path and Line Number",
-				-- },
-
-				-- W = {
-				--   name = "+Workspace",
-				--   a = { vim.lsp.buf.add_workspace_folder, "Add Folder" },
-				--   r = { vim.lsp.buf.remove_workspace_folder, "Remove Folder" },
-				--   l = {
-				--     function()
-				--       print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
-				--     end,
-				--     "List Folders",
-				--   },
-				-- },
-
-				-- { "<leader>Wa", vim.lsp.buf.add_workspace_folder, desc = "Workspace Add Folder" },
-				-- {
-				-- "<leader>Wr",
-				-- vim.lsp.buf.remove_workspace_folder,
-				-- desc = "Workspace Remove Folder",
-				-- },
-				-- {
-				-- "<leader>Wl",
-				-- function()
-				-- print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
-				-- end,
-				-- desc = "Workspace List Folders",
-				-- },
-				-- })
-
-				-- Thank you teej
-				-- https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua#L502
-				-- local client = vim.lsp.get_client_by_id(event.data.client_id)
-				-- if client and client.server_capabilities.documentHighlightProvider then
-				-- local highlight_augroup = vim.api.nvim_create_augroup("nvim-lsp-highlight", { clear = false })
-				-- vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
-				-- buffer = event.buf,
-				-- group = highlight_augroup,
-				-- callback = vim.lsp.buf.document_highlight,
-				-- })
-
-				-- vim.api.nvim_create_autocmd({ "CursorMoved", "CursorMovedI" }, {
-				-- buffer = event.buf,
-				-- group = highlight_augroup,
-				-- callback = vim.lsp.buf.clear_references,
-				-- })
-				-- vim.api.nvim_create_autocmd("LspDetach", {
-				-- group = vim.api.nvim_create_augroup("nvim-lsp-detach", { clear = true }),
-				-- callback = function(event2)
-				-- vim.lsp.buf.clear_references()
-				-- vim.api.nvim_clear_autocmds({ group = "nvim-lsp-highlight", buffer = event2.buf })
-				-- end,
-				-- })
-				-- end
 			end,
 		})
 
@@ -168,15 +97,6 @@ return {
 			settings = {
 				Lua = {},
 			},
-		})
-
-		-- Gleam LSP
-		-- For some reason mason doesn't work with gleam lsp
-		require("lspconfig").gleam.setup({
-			cmd = { "gleam", "lsp" },
-			filetypes = { "gleam" },
-			root_dir = require("lspconfig").util.root_pattern("gleam.toml", ".git"),
-			capabilities = capabilities,
 		})
 
 		vim.diagnostic.config({
