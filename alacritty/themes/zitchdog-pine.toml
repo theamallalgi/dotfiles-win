@@ -2,7 +2,7 @@
 
 # primary colors
 [colors.primary]
-background = "#0d0910"
+background = "#0c080f"
 foreground = "#844364"
 
 # cursor colors
@@ -16,7 +16,7 @@ background = "#150e19"
 
 # normal colors
 [colors.normal]
-black = "#0d0910"
+black = "#0c080f"
 red = "#e43728"
 green = "#46914d"
 yellow = "#e47833"
