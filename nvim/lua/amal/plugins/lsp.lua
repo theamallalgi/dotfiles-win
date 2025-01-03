@@ -32,6 +32,14 @@ return {
 					vim.keymap.set("n", keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
 				end
 
+        -- format on save (with lsp)
+				vim.api.nvim_create_autocmd("BufWritePre", {
+					buffer = event.buf,
+					callback = function()
+						vim.lsp.buf.format({ async = false })
+					end,
+				})
+
 				map("gd", require("telescope.builtin").lsp_definitions, "Goto Definition")
 				map("gr", require("telescope.builtin").lsp_references, "Goto References")
 				map("gi", require("telescope.builtin").lsp_implementations, "Goto Implementation")
@@ -49,8 +57,6 @@ return {
 			end,
 		})
 
-		-- local capabilities = vim.lsp.protocol.make_client_capabilities()
-		-- capabilities = require("cmp_nvim_lsp").default_capabilities(capabilities)
 		local capabilities = vim.lsp.protocol.make_client_capabilities()
 		capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
