@@ -18,6 +18,7 @@ alias ..="cd ../"                             # goes back one level
 alias x="exit"                                # well you can read can't you?
 alias ex="explorer ."                         # opens the windows explorer
 alias len="ls -1 | wc -l"                     # prints the count of elements in current folder
+alias rmcr="sed -i 's/\r//g'"
 # alias la="ls -al"                           # lists everything
 # alias lt="lsd --tree"                       # tree list view but with lsd
 # alias cd="z"                                # setsup zoxide as the cd command (must have it installed)
