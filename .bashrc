@@ -12,6 +12,7 @@ alias sb="clear && source ~/.bashrc"          # clears and sources the bashrc fi
 alias vim="neovide"                           # neovide
 alias vi="nvim"                               # neovim
 alias cat="bat"                               # better cat command
+alias py="python"                             # sets python
 alias pc="clear && py"                        # clears the terminal and opens python
 alias ..="cd ../"                             # goes back one level
 alias x="exit"                                # well you can read can't you?
@@ -141,9 +142,6 @@ colorscript --random # displays a random colorscript on startup
 # if [ -t 1 ]; then
 #   exec zsh
 # fi
-
-# setup env variables
-. "$HOME/.cargo/env" # cargo env variables
 
 # starship prompt
 # eval "$(starship init bash)"
