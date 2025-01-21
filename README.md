@@ -26,6 +26,8 @@
 
 ## The Setup
 
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk.jpg?raw=true" title="" alt="current desktop" data-align="center">
+
 #### Nvim Requirements
 
 - Neovim >= **0.9.0**
