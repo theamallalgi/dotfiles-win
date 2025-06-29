@@ -1,3 +1,5 @@
+-- autocmd.lua - commands and automations to run with nvim
+
 local api = vim.api
 
 -- don't auto comment new line
@@ -12,15 +14,6 @@ api.nvim_create_autocmd("BufReadPost", {
 		if mark[1] > 0 and mark[1] <= lcount then
 			pcall(vim.api.nvim_win_set_cursor, 0, mark)
 		end
-	end,
-})
-
--- Enable spell checking for certain file types
-api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
-	pattern = { "*.txt", "*.md", "*.tex" },
-	callback = function()
-		vim.opt.spell = true
-		vim.opt.spelllang = "en,de"
 	end,
 })
 

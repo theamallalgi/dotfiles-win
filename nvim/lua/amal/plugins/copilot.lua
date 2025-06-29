@@ -2,9 +2,6 @@ return {
 	"zbirenbaum/copilot.lua",
 	cmd = "Copilot",
 	build = ":Copilot auth",
-	keys = {
-		{ "<leader>cp", ":lua toggle_copilot()<CR>", mode = "n", noremap = true, silent = true },
-	},
 	config = function()
 		_G.copilot_enabled = false -- Define a global variable for Copilot toggle
 
