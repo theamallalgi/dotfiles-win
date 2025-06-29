@@ -1,85 +1,90 @@
 return {
-  {
-    "nvimtools/none-ls.nvim",
-    event = { "BufReadPre", "BufNewFile" },
-    dependencies = {
-      "jay-babu/mason-null-ls.nvim",
-      "nvim-lua/plenary.nvim",
-      "nvimtools/none-ls-extras.nvim",
-      "gbprod/none-ls-shellcheck.nvim",
-    },
-    config = function()
-      require("null-ls").register(require("none-ls-shellcheck.diagnostics"))
-      require("null-ls").register(require("none-ls-shellcheck.code_actions"))
+	{
+		"nvimtools/none-ls.nvim",
+		event = { "BufReadPre", "BufNewFile" },
+		dependencies = {
+			"jay-babu/mason-null-ls.nvim",
+			"nvim-lua/plenary.nvim",
+			"nvimtools/none-ls-extras.nvim",
+			"gbprod/none-ls-shellcheck.nvim",
+		},
+		config = function()
+			local null_ls = require("null-ls")
+			local formatting = null_ls.builtins.formatting
+			local diagnostics = null_ls.builtins.diagnostics
+			local code_actions = null_ls.builtins.code_actions
+			local shellcheck = require("none-ls-shellcheck")
 
-      local mason_null_ls = require("mason-null-ls")
-      local null_ls = require("null-ls")
+			local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
-      local null_ls_utils = require("null-ls.utils")
+			-- Load ruff diagnostics only if available
+			local ruff_diag = nil
+			local ok, ruff = pcall(require, "none-ls-extras.diagnostics.ruff")
+			if ok then
+				ruff_diag = ruff
+			end
 
-      mason_null_ls.setup({
-        ensure_installed = {
-          "prettier", -- prettier formatter
-          "stylua",   -- lua formatter
-          "eslint_d", -- js linter
-          "golangci_lint", -- go linter
-          "shellcheck", -- shell linter
-          "buf",      -- buf formatter
-          "shfmt",    -- shell formatter
-          "spell",    -- spell checker
-          "ruff",     -- python formatter
-        },
-      })
+			require("mason-null-ls").setup({
+				ensure_installed = {
+					"black",
+					"isort",
+					"ruff",
+					"prettier",
+					"stylua",
+					"eslint_d",
+					"shfmt",
+					"buf",
+				},
+			})
 
-      local formatting = null_ls.builtins.formatting
-      local diagnostics = null_ls.builtins.diagnostics
-      local code_actions = null_ls.builtins.code_actions
+			-- Collect all sources cleanly
+			local sources = {
+				-- Formatters
+				-- formatting.black.with({ timeout = 5000 }),
+				-- formatting.isort.with({ timeout = 5000 }),
+				formatting.prettier,
+				formatting.stylua,
+				formatting.buf,
+				formatting.shfmt,
 
-      -- local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
+				-- Diagnostics and actions
+				diagnostics.golangci_lint,
+				code_actions.refactoring,
+				shellcheck.diagnostics,
+				shellcheck.code_actions,
+			}
 
-      null_ls.setup({
-        root_dir = null_ls_utils.root_pattern(".null-ls-root", "Makefile", ".git", "package.json"),
+			if ruff_diag then
+				table.insert(sources, ruff_diag)
+			end
 
-        sources = {
-          formatting.stylua,
-          formatting.prettier,
-          -- formatting.gofumpt,
-          formatting.buf,
-          formatting.shfmt,
-          formatting.black,
-
-          -- diagnostics.eslint_d,
-          -- diagnosticsueslint_d.with({ -- js/ts linter
-          --   condition = function(utils)
-          --     return utils.root_has_file({ ".eslintrc.js", ".eslintrc.cjs" }) -- only enable if root has .eslintrc.js or .eslintrc.cjs
-          --   end,
-          -- }),
-          diagnostics.golangci_lint,
-          -- diagnostics.shellcheck,
-
-          -- code_actions.gitsigns,
-          code_actions.refactoring,
-        },
-        -- configure format on save
-        -- on_attach = function(current_client, bufnr)
-        --   if current_client.supports_method("textDocument/formatting") then
-        --     vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
-        --     vim.api.nvim_create_autocmd("BufWritePre", {
-        --       group = augroup,
-        --       buffer = bufnr,
-        --       callback = function()
-        --         vim.lsp.buf.format({
-        --           filter = function(client)
-        --             --  only use null-ls for formatting instead of lsp server
-        --             return client.name == "null-ls"
-        --           end,
-        --           bufnr = bufnr,
-        --         })
-        --       end,
-        --     })
-        --   end
-        -- end,
-      })
-    end,
-  },
+			null_ls.setup({
+				root_dir = require("null-ls.utils").root_pattern(
+					".null-ls-root",
+					"pyproject.toml",
+					"setup.cfg",
+					".git"
+				),
+				sources = sources,
+				on_attach = function(client, bufnr)
+					if client.supports_method("textDocument/formatting") then
+						vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
+						vim.api.nvim_create_autocmd("BufWritePre", {
+							group = augroup,
+							buffer = bufnr,
+							callback = function()
+								vim.lsp.buf.format({
+									filter = function(c)
+										return c.name == "null-ls"
+									end,
+									bufnr = bufnr,
+									timeout_ms = 3000,
+								})
+							end,
+						})
+					end
+				end,
+			})
+		end,
+	},
 }

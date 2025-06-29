@@ -1,8 +1,4 @@
--- ▄• ▄▌▪     ▄▄·        ▐ ▄ ·▄▄▄▪   ▄▄ •
--- █▪██▌██   ▐█ ▌▪▪     •█▌▐█▐▄▄·██ ▐█ ▀ ▪
--- █▌▐█▌▐█·  ██ ▄▄ ▄█▀▄ ▐█▐▐▌██▪ ▐█·▄█ ▀█▄
--- ▐█▄█▌▐█▌  ▐███▌▐█▌.▐▌██▐█▌██▌.▐█▌▐█▄▪▐█
---  ▀▀▀ ▀▀▀  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀ ▀▀▀·▀▀▀▀
+-- uiconfig.lua
 
 local purple1 = "#333352"
 local purple2 = "#232338"
@@ -35,12 +31,12 @@ local bgmagenta = "#433e62"
 -- highlight on yank
 vim.api.nvim_set_hl(0, "IncSearch", { bg = red, fg = black })
 vim.api.nvim_create_autocmd("TextYankPost", {
-	callback = function()
-		vim.highlight.on_yank({
-			higroup = "IncSearch",
-			timeout = 300,
-		})
-	end,
+  callback = function()
+    vim.highlight.on_yank({
+      higroup = "IncSearch",
+      timeout = 300,
+    })
+  end,
 })
 
 -- nvim stuff
