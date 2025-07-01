@@ -7,7 +7,6 @@
 # Aliases
 alias cl="clear && colorscript -r"                # clear command with colorscripts
 alias c="clear && colorscript -e crunchbang-mini" # color script reset (zwaves)
-alias cc="clear"                                  # simple clear (default)
 alias watch="sass --style compressed --watch"     # watches and compiles sass in real time
 alias sb="clear && source ~/.bashrc"              # clears and sources the bashrc file
 alias vim="neovide"                               # neovide
