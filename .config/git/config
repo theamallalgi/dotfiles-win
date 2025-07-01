@@ -57,7 +57,7 @@
   missingCommitsCheck = warn
 
 [commit]
-  gpgSign = true
+  gpgSign = false
 
 [log]
   abbrevCommit = true
