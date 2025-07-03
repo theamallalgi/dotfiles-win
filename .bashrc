@@ -1,8 +1,4 @@
-#   ▄▄▄▄·  ▄▄▄· .▄▄ ·  ▄ .▄▄▄▄   ▄▄·
-#   ▐█ ▀█▪▐█ ▀█ ▐█ ▀. ██▪▐█▀▄ █·▐█ ▌▪
-#   ▐█▀▀█▄▄█▀▀█ ▄▀▀▀█▄██▀▐█▐▀▀▄ ██ ▄▄
-#   ██▄▪▐█▐█ ▪▐▌▐█▄▪▐███▌▐▀▐█•█▌▐███▌
-# ▀ ·▀▀▀▀  ▀  ▀  ▀▀▀▀ ▀▀▀ ·.▀  ▀·▀▀▀
+# ~/.bashrc - index file for bash sessions
 
 # Aliases
 alias cl="clear && colorscript -r"                # clear command with colorscripts
@@ -26,13 +22,14 @@ alias dotbkp="/e/configs/update.sh"               # runs the dotfiles backup scr
 # alias cd="z"                                # setsup zoxide as the cd command (must have it installed)
 
 # Git Aliases
-alias gc="git clone"     # clones a git repo
-alias gw="git commit -m" # commits a change
-alias ga="git add"       # staches changes
-alias gs="git status"    # shows the local status
-alias gp="git push"      # pushes the staged changes
-alias gP="git pull"      # pulls from the repo
-alias gg="lazygit"       # opens lazygit
+alias gc="git clone"                                                                                 # clones a git repo
+alias gw="git commit -m"                                                                             # commits a change
+alias ga="git add"                                                                                   # staches changes
+alias gs="git status"                                                                                # shows the local status
+alias gp="git push"                                                                                  # pushes the staged changes
+alias gP="git pull"                                                                                  # pulls from the repo
+alias gg="lazygit"                                                                                   # opens lazygit
+alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white)%an  %ar%C(auto)  %D%n%s%n'" # fancier git log
 
 # Location Aliases
 alias home='cd /f/amal/'                                  # home folder
@@ -94,16 +91,16 @@ export PS1="$PS1"'\[\033[31m\]\w'    # red text (working directory)
 export PS1="$PS1"'\[\033[33m\] ]'    # yellow text (bracket)
 
 if test -z "$WINELOADERNOEXEC"; then
-	GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
-	COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
-	COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
-	COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
-	if test -f "$COMPLETION_PATH/git-prompt.sh"; then
-		. "$COMPLETION_PATH/git-completion.bash"
-		. "$COMPLETION_PATH/git-prompt.sh"
-		PS1="$PS1"'\[\033[36m\]' # cyan text
-		PS1="$PS1"'`__git_ps1`'  # bash function
-	fi
+  GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+  COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+  COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+  COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+  if test -f "$COMPLETION_PATH/git-prompt.sh"; then
+    . "$COMPLETION_PATH/git-completion.bash"
+    . "$COMPLETION_PATH/git-prompt.sh"
+    PS1="$PS1"'\[\033[36m\]' # cyan text
+    PS1="$PS1"'`__git_ps1`'  # bash function
+  fi
 fi
 export PS1="$PS1"'\[\033[0m\]' # change color
 export PS1="$PS1""\`if [ \$? = 0 ]; then echo '\[\033[32m\] : '; else echo '\[\033[31m\] : '; fi\`"
