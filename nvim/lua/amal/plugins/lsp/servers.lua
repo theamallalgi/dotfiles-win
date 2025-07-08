@@ -1,11 +1,5 @@
 return {
 	pyright = {
-		cmd = {
-			"cmd.exe",
-			"/C",
-			"C:\\Users\\amall\\scoop\\apps\\nodejs\\current\\bin\\pyright-langserver.cmd",
-			"--stdio",
-		},
 		settings = {
 			python = {
 				analysis = {
