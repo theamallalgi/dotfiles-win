@@ -21,26 +21,30 @@ local zitchdog = {
 		b = { fg = colors.lightgray, bg = colors.darkblack },
 		c = { fg = colors.lightgray, bg = colors.darkblack },
 		x = { fg = colors.lightgray, bg = colors.darkblack },
-		y = { fg = colors.lightgray, bg = colors.darkblack },
+		y = { fg = colors.red },
 		z = { fg = colors.green, bg = "#123127" },
 	},
 	insert = {
 		a = { fg = colors.green, bg = "#123127" },
+		b = { fg = colors.red, bg = "#652929" },
 		z = { fg = colors.green, bg = "#123127" },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	visual = {
 		a = { fg = colors.yellow, bg = "#4b3b27" },
+		b = { fg = colors.red, bg = "#652929" },
 		z = { fg = colors.yellow, bg = "#4b3b27" },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	replace = {
 		a = { fg = colors.red, bg = "#652929" },
+		b = { fg = colors.red, bg = "#652929" },
 		z = { fg = colors.red, bg = "#652929" },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	command = {
 		a = { fg = colors.orange, bg = "#4b2424" },
+		b = { fg = colors.red, bg = "#652929" },
 		z = { fg = colors.orange, bg = "#4b2424" },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
@@ -75,8 +79,12 @@ return {
 					"fancy_branch",
 					{ "filename", path = 0, symbols = { modified = "󰫢" } },
 				},
-				lualine_x = {},
-				lualine_y = { "location", "progress" },
+				lualine_x = { "location", "progress" },
+				lualine_y = {
+					function()
+						return vim.fn.reg_recording() ~= "" and "[󰑊]" or ""
+					end,
+				},
 				lualine_z = {
 					function()
 						return _G.copilot_enabled and " " or ""
