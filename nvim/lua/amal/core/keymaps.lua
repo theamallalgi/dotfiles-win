@@ -6,14 +6,14 @@ local builtin = require("telescope.builtin")
 local themes = require("telescope.themes")
 
 -- general
-set("n", "<Leader>s", ":write<CR>", silent)            -- saves the file with (space-s)
-set("n", "Q", "<C-W>q")                                -- quits the window/screen with (shift+q) or (Q)
-set("n", "<Leader>q", "<cmd>wq<cr>")                   -- saves and quits the tab with (shift+q) or (Q)
-set("n", "<Leader>h", ":noh<CR>", silent)              -- clears search highlights (space+h)
+set("n", "<Leader>s", ":write<CR>", silent) -- saves the file with (space-s)
+set("n", "Q", "<C-W>q") -- quits the window/screen with (shift+q) or (Q)
+set("n", "<Leader>q", "<cmd>wq<cr>") -- saves and quits the tab with (shift+q) or (Q)
+set("n", "<Leader>h", ":noh<CR>", silent) -- clears search highlights (space+h)
 set("n", "<leader>/", ":normal gcc<CR><DOWN>", silent) -- comments the line with (space+/) or uncomments it
 set("v", "<leader>/", ":normal gcc<CR><DOWN>", silent) -- comments the line with (space+/) or uncomments it
-set("n", "<C-a>", "ggVG", silent)                      -- selects the entire document
-set({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>")        -- clear search with <esc>
+set("n", "<C-a>", "ggVG", silent) -- selects the entire document
+set({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>") -- clear search with <esc>
 
 -- paste over currently selected text without yanking it
 set("v", "p", '"_dp')
@@ -24,7 +24,7 @@ set({ "n", "x", "o" }, "H", "^", silent)
 set({ "n", "x", "o" }, "L", "g_", silent)
 
 -- neotree config
-set("n", "<C-n>", ":Neotree filesystem toggle<CR>", silent)              -- neotree reveal with (ctrl+n)
+set("n", "<C-n>", ":Neotree filesystem toggle<CR>", silent) -- neotree reveal with (ctrl+n)
 set("n", "<C-b>", ":Neotree reveal=true position=left<CR>y<CR>", silent) -- reveal current file
 
 -- split screen configs
@@ -32,7 +32,7 @@ set("n", "vv", "<C-W>v") -- vertical split with (vv)
 set("n", "ss", "<C-W>s") -- horizontal split with (ss)
 
 -- indentation (in visual mode)
-set("v", "<Tab>", ">gv")   -- tab spaces with (tab)
+set("v", "<Tab>", ">gv") -- tab spaces with (tab)
 set("v", "<S-Tab>", "<gv") -- negative tab spaces with (shit-tab)
 
 -- move to window using the <ctrl> hjkl keys
@@ -66,33 +66,36 @@ set("n", "<C-Left>", "<cmd>vertical resize -2<cr>", silent)
 set("n", "<C-Right>", "<cmd>vertical resize +2<cr>", silent)
 
 -- telescope keymapsAdd commentMore actions
-set("n", "<Leader>b", ":Telescope Buffers<CR>", silent)         -- change the buffers with (ctrl+tab)
-set("n", "<leader>fg", ":Telescope live_grep<CR>", silent)      -- search words inside files (ctrl+shift+f)
-set("n", "<leader>fw", ":Telescope grep_string<CR>", silent)    -- search for word under cursor
+set("n", "<Leader>b", ":Telescope Buffers<CR>", silent) -- change the buffers with (ctrl+tab)
+set("n", "<leader>fg", ":Telescope live_grep<CR>", silent) -- search words inside files (ctrl+shift+f)
+set("n", "<leader>fw", ":Telescope grep_string<CR>", silent) -- search for word under cursor
 set("n", "<leader>:", ":Telescope command_history<CR>", silent) -- show recent `:` commands
-set("n", "<leader>km", ":Telescope keymaps<CR>", silent)        -- all keybindings in a searchable popup
+set("n", "<leader>km", ":Telescope keymaps<CR>", silent) -- all keybindings in a searchable popup
 
-vim.keymap.set("n", "<leader>o", function()                     -- shows old files in telescope (space-o)
-  builtin.oldfiles(themes.get_dropdown({ previewer = false }))
+vim.keymap.set("n", "<leader>o", function() -- shows old files in telescope (space-o)
+	builtin.oldfiles(themes.get_dropdown({ previewer = false }))
 end, { desc = "Recent files (dropdown)", noremap = true, silent = true })
 
 -- snacks
 local with_desc = function(desc)
-  return vim.tbl_extend("force", silent, { desc = desc })
+	return vim.tbl_extend("force", silent, { desc = desc })
 end
 
 set("n", "<leader>gg", function()
-  require("snacks").lazygit()
+	require("snacks").lazygit()
 end, with_desc("Lazygit"))
 set("n", "<leader>n", function()
-  Snacks.notifier.hide()
+	Snacks.notifier.hide()
 end, with_desc("Dismiss All Notifications"))
 set("n", "<leader>nn", function()
-  Snacks.notifier.show_history()
+	Snacks.notifier.show_history()
 end, with_desc("Notification History"))
 set("n", "<C-/>", function()
-  Snacks.terminal()
+	Snacks.terminal()
 end, with_desc("Toggle Terminal"))
+
+-- format
+set("n", "<leader>fs", vim.lsp.buf.format, { desc = "Format File" })
 
 -- terminal config
 -- set("n", "<C-\\>", ":ToggleTerm dir=%:p:h<CR>")
