@@ -6,17 +6,17 @@ alias c="clear && colorscript -e crunchbang-mini" # color script reset (zwaves)
 alias watch="sass --style compressed --watch"     # watches and compiles sass in real time
 alias sb="clear && source ~/.bashrc"              # clears and sources the bashrc file
 # alias vim="neovide"                               # neovide
-alias vi="nvim"                                   # neovim
-alias cat="bat"                                   # better cat command
-alias py="python"                                 # sets python
-alias pc="clear && py"                            # clears the terminal and opens python
-alias ..="cd ../"                                 # goes back one level
-alias x="exit"                                    # well you can read can't you?
-alias ex="explorer ."                             # opens the windows explorer
-alias len="ls -1 | wc -l"                         # prints the count of elements in current folder
-alias rmcr="sed -i 's/\r//g'"                     # function to remove trailing spaces in a file
-alias ac="ani-cli"                                # an alias for the ani-cli client
-alias dotbkp="/e/configs/update.sh"               # runs the dotfiles backup script
+alias vi="nvim"                     # neovim
+alias cat="bat"                     # better cat command
+alias py="python"                   # sets python
+alias pc="clear && py"              # clears the terminal and opens python
+alias ..="cd ../"                   # goes back one level
+alias x="exit"                      # well you can read can't you?
+alias ex="explorer ."               # opens the windows explorer
+alias len="ls -1 | wc -l"           # prints the count of elements in current folder
+alias rmcr="sed -i 's/\r//g'"       # function to remove trailing spaces in a file
+alias ac="ani-cli"                  # an alias for the ani-cli client
+alias dotbkp="/e/configs/update.sh" # runs the dotfiles backup script
 # alias la="ls -al"                           # lists everything
 # alias lt="lsd --tree"                       # tree list view but with lsd
 # alias cd="z"                                # setsup zoxide as the cd command (must have it installed)
@@ -51,6 +51,9 @@ export nv="$ad/Local/nvim/"
 export ds="/f/amal/desktop"
 export dot="/f/amal/desktop/dev/dotfiles"
 export bs="$HOME/.bashrc"
+
+# activate vi mode
+set -o vi
 
 # Directory AutoCorrection
 shopt -s cdspell
@@ -91,16 +94,16 @@ export PS1="$PS1"'\[\033[31m\]\w'    # red text (working directory)
 export PS1="$PS1"'\[\033[33m\] ]'    # yellow text (bracket)
 
 if test -z "$WINELOADERNOEXEC"; then
-  GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
-  COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
-  COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
-  COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
-  if test -f "$COMPLETION_PATH/git-prompt.sh"; then
-    . "$COMPLETION_PATH/git-completion.bash"
-    . "$COMPLETION_PATH/git-prompt.sh"
-    PS1="$PS1"'\[\033[36m\]' # cyan text
-    PS1="$PS1"'`__git_ps1`'  # bash function
-  fi
+	GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+	COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+	COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+	COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+	if test -f "$COMPLETION_PATH/git-prompt.sh"; then
+		. "$COMPLETION_PATH/git-completion.bash"
+		. "$COMPLETION_PATH/git-prompt.sh"
+		PS1="$PS1"'\[\033[36m\]' # cyan text
+		PS1="$PS1"'`__git_ps1`'  # bash function
+	fi
 fi
 export PS1="$PS1"'\[\033[0m\]' # change color
 export PS1="$PS1""\`if [ \$? = 0 ]; then echo '\[\033[32m\] : '; else echo '\[\033[31m\] : '; fi\`"
