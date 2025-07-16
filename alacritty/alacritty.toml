@@ -1,13 +1,4 @@
-#   ▄▄▄· ▄▄▌   ▄▄▄·  ▄▄· ▄▄▄  ▪  ▄▄▄▄▄▄▄▄▄▄ ▄· ▄▌
-#  ▐█ ▀█ ██•  ▐█ ▀█ ▐█ ▌▪▀▄ █·██ •██  •██  ▐█▪██▌
-#  ▄█▀▀█ ██▪  ▄█▀▀█ ██ ▄▄▐▀▀▄ ▐█· ▐█.▪ ▐█.▪▐█▌▐█▪
-#  ▐█ ▪▐▌▐█▌▐▌▐█ ▪▐▌▐███▌▐█•█▌▐█▌ ▐█▌· ▐█▌· ▐█▀·.
-#   ▀  ▀ .▀▀▀  ▀  ▀ ·▀▀▀ .▀  ▀▀▀▀ ▀▀▀  ▀▀▀   ▀ •
-#   ▄▄·        ▐ ▄ ·▄▄▄   ▄▄▄▄▄      • ▌ ▄ ·. ▄▄▌
-#  ▐█ ▌▪▪     •█▌▐█▐▄▄·   •██  ▪     ·██ ▐███▪██•
-#  ██ ▄▄ ▄█▀▄ ▐█▐▐▌██▪     ▐█.▪ ▄█▀▄ ▐█ ▌▐▌▐█·██▪
-#  ▐███▌▐█▌.▐▌██▐█▌██▌.    ▐█▌·▐█▌.▐▌██ ██▌▐█▌▐█▌▐▌
-#  ·▀▀▀  ▀█▄▀▪▀▀ █▪▀▀▀  ▀  ▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀.▀▀▀
+# Alcritty - Core Config
 
 # imports and sets up the colorscheme
 import = [
@@ -39,9 +30,9 @@ program = "C:/Program Files/Git/bin/bash"
 [window]
 decorations = "none" # configs the title bar and the buttons
 title = "Terminal" # the window name
-dimensions = { columns = 132, lines = 49 } # size of the window (116(c), 39(l))
+dimensions = { columns = 130, lines = 50 } # size of the window (116(c), 39(l))
 padding = { x = 8, y = 2 } # padding of the window
-position = { x = 415, y = 13 } # position of the window when starting up (409, 8)
+position = { x = 431, y = 8 } # position of the window when starting up (409, 8)
 
 # hotkey config
 [keyboard]
@@ -69,14 +60,14 @@ draw_bold_text_with_bright_colors = true
 # glyph_offset.y=2
 size=10.5
 [font.normal]
-family = "GohuFont 14 Nerd Font"
+family = "GohuFont 14 Nerd Font Propo"
 style = "Regular"
 [font.bold]
-family = "GohuFont 14 Nerd Font Mono"
+family = "GohuFont 14 Nerd Font Propo"
 style = "Bold"
 [font.italic]
-family = "GohuFont 14 Nerd Font Mono"
+family = "GohuFont 14 Nerd Font Propo"
 style = "Italic"
 [font.bold_italic]
-family = "GohuFont 14 Nerd Font Mono"
+family = "GohuFont 14 Nerd Font Propo"
 style = "Bold Italic"
