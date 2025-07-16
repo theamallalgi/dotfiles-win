@@ -38,6 +38,7 @@
 
   - Jetbrains Mono
   - Cartograph CF
+  - GohuFont 14
 
 - [lazygit](https://github.com/jesseduffield/lazygit)  **(optional)**
 
@@ -61,7 +62,7 @@
 
 - Bash & Zsh **(Yes, I step on two boats at the same time!)**
 
-- Nerd Font **(Jetbrains Mono Nerd font Patch)**
+- Nerd Font **(GohuFont 14 Nerd Font)**
 
 - zoxide **(Directory Jumper)**
 
