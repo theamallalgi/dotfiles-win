@@ -53,7 +53,8 @@ export dot="/f/amal/desktop/dev/dotfiles"
 export bs="$HOME/.bashrc"
 
 # activate vi mode
-set -o vi
+# set -o vi
+# bind ^l:clear-screen # remap ctrl+l to clear screen
 
 # Directory AutoCorrection
 shopt -s cdspell
