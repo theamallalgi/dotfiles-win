@@ -26,7 +26,7 @@
 
 ## The Setup
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk.jpg?raw=true" title="" alt="current desktop" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk.png?raw=true" title="" alt="current desktop" data-align="center">
 
 #### Nvim Requirements
 
