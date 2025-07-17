@@ -5,16 +5,58 @@ return {
 		"MunifTanjim/nui.nvim",
 		{
 			"rcarriga/nvim-notify",
-			opts = {
-				render = "compact", -- default, compact, minimal, simple
-				stages = "fade_in_slide_out", -- fade, fade_in_slide_out, slide, static
-				timeout = 1000,
-				top_down = true,
-			},
 		},
 	},
 	enabled = true,
 	config = function()
+		require("notify").setup({
+			render = function(self, message)
+				local title_win = self.windows.title.win
+				local message_win = self.windows.message.win
+				local icon_win = self.windows.icon.win
+
+				if not title_win or not vim.api.nvim_win_is_valid(title_win) then
+					return
+				end
+
+				local lines = {}
+				for _, part in ipairs(message) do
+					for _, line in ipairs(vim.split(part[1], "\n")) do
+						table.insert(lines, line)
+					end
+				end
+
+				vim.api.nvim_buf_set_lines(self.windows.message.buf, 0, -1, false, lines)
+
+				local height = #lines
+				local width = 0
+				for _, line in ipairs(lines) do
+					width = math.max(width, vim.fn.strwidth(line))
+					end
+
+				local icon_width = self.options.icon_width
+				local icon_text = self.options.icons[message.level]
+
+				vim.api.nvim_win_set_height(message_win, height)
+				vim.api.nvim_win_set_width(message_win, width)
+
+				if icon_win and vim.api.nvim_win_is_valid(icon_win) then
+					vim.api.nvim_win_set_width(icon_win, icon_width)
+					vim.api.nvim_buf_set_lines(self.windows.icon.buf, 0, -1, false, { icon_text })
+				end
+
+				vim.api.nvim_win_set_height(title_win, 0)
+			end,
+		})
+
+
+		-- require("notify").setup({
+		-- 	render = "minimal", -- default, compact, minimal, simple
+		-- 	stages = "static", -- fade, fade_in_slide_out, slide, static
+		-- 	timeout = 1000,
+		-- 	top_down = true,
+		-- })
+
 		local rounded_border_style = {
 			top_left = "╭",
 			top = "─",
@@ -34,6 +76,7 @@ return {
 				lsp_doc_border = true, -- add a border to hover docs and signature help
 			},
 			views = {
+				notify = {},
 				popup = {
 					border = {
 						style = "rounded",
