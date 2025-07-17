@@ -28,6 +28,24 @@ return {
 				cache_picker = {
 					num_pickers = 10, -- Limit the cache for faster repeated access
 				},
+				mappings = {
+					i = {
+						["<C-j>"] = "move_selection_next",
+						["<Down>"] = "move_selection_next",
+						["<C-k>"] = "move_selection_previous",
+						["<Up>"] = "move_selection_previous",
+						["<CR>"] = "select_default",
+						["<C-y>"] = "select_default",
+					},
+					n = {
+						["<C-j>"] = "move_selection_next",
+						["<Down>"] = "move_selection_next",
+						["<C-k>"] = "move_selection_previous",
+						["<Up>"] = "move_selection_previous",
+						["<CR>"] = "select_default",
+						["<C-y>"] = "select_default",
+					},
+				},
 			},
 			extensions = {
 				fzf = {
