@@ -72,6 +72,13 @@ set("n", "<leader>fw", ":Telescope grep_string<CR>", silent) -- search for word 
 set("n", "<leader>:", ":Telescope command_history<CR>", silent) -- show recent `:` commands
 set("n", "<leader>km", ":Telescope keymaps<CR>", silent) -- all keybindings in a searchable popup
 
+-- cmdline keymaps
+set("c", "<C-j>", '<C-n>', { noremap = true })
+set("c", "<C-k>", '<C-p>', { noremap = true })
+set("c", "<Down>", '<C-n>', { noremap = true })
+set("c", "<Up>", '<C-p>', { noremap = true })
+set("c", "<C-y>", '<C-z>', { noremap = true })
+
 vim.keymap.set("n", "<leader>o", function() -- shows old files in telescope (space-o)
 	builtin.oldfiles(themes.get_dropdown({ previewer = false }))
 end, { desc = "Recent files (dropdown)", noremap = true, silent = true })
