@@ -50,7 +50,7 @@ return {
 		-- snacks.rename (lsp rename)
 		rename = { enabled = true },
 		-- snacks.terminal (terminal toggle)
-		terminal = { enabled = true },
+		terminal = { enabled = true, style = "popup" },
 	},
 	keys = {
 		{
@@ -73,13 +73,6 @@ return {
 				Snacks.notifier.show_history()
 			end,
 			desc = "Notification History",
-		},
-		{
-			"<c-/>",
-			function()
-				Snacks.terminal()
-			end,
-			desc = "Toggle Terminal",
 		},
 	},
 }
