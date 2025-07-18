@@ -18,34 +18,50 @@ return {
 			"",
 		}
 
+		dashboard.section.header.opts = {
+			hl = "AlphaHeader",
+			position = "center",
+		}
+
 		-- set menu with custom highlights
 		dashboard.section.buttons.val = {
-			dashboard.button("SPC n", "󰓎  → create new file", "<cmd>ene<CR>"),
-			dashboard.button("SPC e", "󰓎  → toggle explorer", ":Neotree filesystem toggle<CR>"),
-			dashboard.button("SPC r", "󰓎  → recent files", ":Telescope oldfiles<CR>"),
-			dashboard.button("SPC l", "󰓎  → lazy plugins", "<cmd>Lazy<CR>"),
-			dashboard.button("q", "󰓎  → quit neovim", "<cmd>qa<CR>"),
+			dashboard.button("SPC n", "󰓎  →  create new file", "<cmd>ene<CR>"),
+			dashboard.button("SPC f", "󰓎  →  find a file", "<cmd>Telescope find_files<CR>"),
+			dashboard.button("SPC r", "󰓎  →  recent files", ":Telescope oldfiles<CR>"),
+			dashboard.button("SPC e", "󰓎  →  toggle explorer", ":Neotree filesystem toggle<CR>"),
+			dashboard.button("SPC l", "󰓎  →  lazy plugins", "<cmd>Lazy<CR>"),
+			dashboard.button("SPC c", "󰓎  →  config files", "<cmd>Telescope find_files cwd=$nv<CR>"),
+			dashboard.button("q", "󰓎  →  quit neovim", "<cmd>qa<CR>"),
 		}
 
-		-- layout configuration to center everything vertically
-		dashboard.config.layout = {
-			{ type = "padding", val = math.floor(vim.fn.winheight(0) * 0.2) }, -- Adjust top padding to vertically center
-			dashboard.section.header,
-			{ type = "padding", val = 2 }, -- Space between header and buttons
-			dashboard.section.buttons,
-			dashboard.section.footer,
-		}
-
-		-- apply highlight groups to buttons
-		dashboard.section.header.opts.hl = "AlphaHeader"
 		for _, button in ipairs(dashboard.section.buttons.val) do
-			button.opts.hl = "AlphaButtonText" -- text highlight
-			button.opts.hl_shortcut = "AlphaButtonShortcut" -- shortcut highlight
+			button.opts.hl = "AlphaButtonText"
+			button.opts.hl_shortcut = "AlphaButtonShortcut"
 		end
 
-		-- footer configuration
-		local function get_random_quote() -- function to read and load the quotes from the JSON file
-			local file_path = "C:/Users/amall/AppData/Local/nvim/lua/amal/plugins/config/quotes.json" -- update with your actual path
+		-- version info (centered properly)
+		local nvim_version = vim.version()
+		local raw_version =
+			string.format("[ using neovim v%s.%s.%s ]", nvim_version.major, nvim_version.minor, nvim_version.patch)
+
+		dashboard.section.version = {
+			type = "text",
+			opts = {
+				position = "center",
+				hl = "AlphaFooter",
+			},
+		}
+
+		dashboard.section.version.val = {
+			"",
+			"",
+			"",
+			raw_version,
+		}
+
+		-- random quote generator
+		local function get_random_quote()
+			local file_path = "C:/Users/amall/AppData/Local/nvim/lua/amal/plugins/config/quotes.json"
 			local file = io.open(file_path, "r")
 			if not file then
 				return "[ on days like these kids like you should be playing nintendo games. ]"
@@ -58,18 +74,27 @@ return {
 			return quotes[random_index]
 		end
 
-		dashboard.section.footer.val = {
-			"",
-			"",
-			"",
-			get_random_quote(), -- update the footer section with the random quote
+		dashboard.section.footer.val = { get_random_quote() }
+
+		dashboard.section.footer.opts = {
+			hl = "AlphaFooter",
+			position = "center",
 		}
 
-		dashboard.section.footer.opts.hl = "AlphaFooter" -- set footer
+		-- layout configuration
+		dashboard.config.layout = {
+			{ type = "padding", val = math.floor(vim.fn.winheight(0) * 0.2) },
+			dashboard.section.header,
+			{ type = "padding", val = 2 },
+			dashboard.section.buttons,
+			dashboard.section.version,
+			{ type = "padding", val = 1 },
+			dashboard.section.footer,
+		}
 
-		alpha.setup(dashboard.opts) -- send config to alpha
+		alpha.setup(dashboard.opts)
 
-		-- vim commands
-		vim.cmd([[autocmd FileType alpha setlocal nofoldenable]]) -- disable folding on alpha buffer
+		-- disable folding
+		vim.cmd([[autocmd FileType alpha setlocal nofoldenable]])
 	end,
 }
