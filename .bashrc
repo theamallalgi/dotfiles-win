@@ -125,13 +125,14 @@ eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/frozenembers.toml)"
 alias cs="colorscript"                                                           # color script cli
 
 # Config for Cli tools (ensure that fd is installed)
+export BAT_THEME="base16" # Setup Default Bat Theme
 # fzf fuzzy find
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git "
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"                                  # default fzf (folders and files)
 export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git" # fzf navigate to folders
 # default fzf settings
 export FZF_DEFAULT_OPTS="--height 50% --layout=reverse --border=rounded --preview-window=border-rounded --no-scrollbar --info=right --cycle --prompt='▶ ' --color=bg+:#311d42,gutter:-1,hl:#26f96b,fg:#b267e6,bg:-1,hl+:#26f96b,fg+:#b267e6,pointer:#b267e6,prompt:#f92672,border:#b267e6,query:#b267e6,info:#4e2d65,spinner:#f9a826,scrollbar:#4e2d65,scrollbar:#4e2d65,separator:#4e2d65,label:#b267e6"
-export FZF_CTRL_T_OPTS="--preview 'bat --theme='aura-theme' --color=always -n --line-range :500 {}' --border-label=' fuzzy find '"
+export FZF_CTRL_T_OPTS="--preview 'bat --theme='base16' --color=always -n --line-range :500 {}' --border-label=' fuzzy find '"
 export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | head -200' --border-label=' change directory '"
 # eza - next level ls (dir)
 # options :  --no-filesize --no-time --no-permissions --long
