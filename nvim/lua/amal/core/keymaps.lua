@@ -73,36 +73,20 @@ set("n", "<leader>:", ":Telescope command_history<CR>", silent) -- show recent `
 set("n", "<leader>km", ":Telescope keymaps<CR>", silent) -- all keybindings in a searchable popup
 
 -- cmdline keymaps
-set("c", "<C-j>", '<C-n>', { noremap = true })
-set("c", "<C-k>", '<C-p>', { noremap = true })
-set("c", "<Down>", '<C-n>', { noremap = true })
-set("c", "<Up>", '<C-p>', { noremap = true })
-set("c", "<C-y>", '<C-z>', { noremap = true })
+set("c", "<C-j>", "<C-n>", { noremap = true })
+set("c", "<C-k>", "<C-p>", { noremap = true })
+set("c", "<Down>", "<C-n>", { noremap = true })
+set("c", "<Up>", "<C-p>", { noremap = true })
+set("c", "<C-y>", "<C-z>", { noremap = true })
 
 vim.keymap.set("n", "<leader>o", function() -- shows old files in telescope (space-o)
 	builtin.oldfiles(themes.get_dropdown({ previewer = false }))
 end, { desc = "Recent files (dropdown)", noremap = true, silent = true })
 
--- snacks
-local with_desc = function(desc)
-	return vim.tbl_extend("force", silent, { desc = desc })
-end
-
-set("n", "<leader>gg", function()
-	require("snacks").lazygit()
-end, with_desc("Lazygit"))
-set("n", "<leader>n", function()
-	Snacks.notifier.hide()
-end, with_desc("Dismiss All Notifications"))
-set("n", "<leader>nn", function()
-	Snacks.notifier.show_history()
-end, with_desc("Notification History"))
-set("n", "<C-/>", function()
-	Snacks.terminal()
-end, with_desc("Toggle Terminal"))
-
 -- format
 set("n", "<leader>fs", vim.lsp.buf.format, { desc = "Format File" })
 
 -- terminal config
--- set("n", "<C-\\>", ":ToggleTerm dir=%:p:h<CR>")
+set("n", "<leader>tr", function()
+	require("snacks").terminal()
+end, { desc = "Toggle Terminal" })
