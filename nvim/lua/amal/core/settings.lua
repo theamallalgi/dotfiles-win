@@ -58,3 +58,7 @@ vim.opt.updatetime = 100 -- faster completion (4000ms default)
 -- terminal config
 vim.cmd([[let &shell = '"C:/Program Files/Git/bin/bash.exe"']])
 vim.cmd([[let &shellcmdflag = '-s']])
+vim.g.floaterm_width = 0.7
+vim.g.floaterm_height = 0.8
+vim.g.floaterm_position = "center"
+vim.g.floaterm_title = ""
