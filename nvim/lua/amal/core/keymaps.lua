@@ -87,6 +87,7 @@ end, { desc = "Recent files (dropdown)", noremap = true, silent = true })
 set("n", "<leader>fs", vim.lsp.buf.format, { desc = "Format File" })
 
 -- terminal config
-set("n", "<leader>tr", function()
-	require("snacks").terminal()
-end, { desc = "Toggle Terminal" })
+set("n", "<leader>tr", ":FloatermNew<CR>", { desc = "New Terminal Instance" })
+set("n", "<leader>tt", ":FloatermToggle<CR>", { desc = "Toggle Terminal" })
+set("n", "<leader>t[", ":FloatermPrev<CR>", { desc = "Previous Terminal Instance" })
+set("n", "<leader>t]", ":FloatermNext<CR>", { desc = "Next Terminal Instance" })
