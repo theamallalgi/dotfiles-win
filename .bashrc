@@ -128,10 +128,10 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true # Shows % if there are any untracked file
 export GIT_PS1_SHOWUPSTREAM="auto"
 
 # Setup cli tools
-eval "$(zoxide init bash)"                                                        # zoxide
-eval "$(fzf --bash)"                                                              # fzf key bindings and fuzzy completion
-eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zitchdog-pine.toml)" # oh my posh
-alias cs="colorscript"                                                            # color script cli
+eval "$(zoxide init bash)"                                                   # zoxide
+eval "$(fzf --bash)"                                                         # fzf key bindings and fuzzy completion
+eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zitchdog.toml)" # oh my posh
+alias cs="colorscript"                                                       # color script cli
 
 # Config for Cli tools (ensure that fd is installed)
 export BAT_THEME="base16" # Setup Default Bat Theme
