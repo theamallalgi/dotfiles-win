@@ -85,6 +85,15 @@ shopt -s cmdhist
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # loads nvm bash_completion
 
+# function: draw horizontal line on call
+drawline() {
+	local COLUMNS="$COLUMNS"
+	while ((COLUMNS-- > 0)); do
+		printf '\e[90m-'
+	done
+	printf '\e[0m'
+}
+
 # Prompt
 PROMPT_DIRTRIM=1                     # Shorten deep paths in the prompt
 export PS1='\[\033]0;Terminal\007\]' # set window title
@@ -119,10 +128,10 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true # Shows % if there are any untracked file
 export GIT_PS1_SHOWUPSTREAM="auto"
 
 # Setup cli tools
-eval "$(zoxide init bash)"                                                       # zoxide
-eval "$(fzf --bash)"                                                             # fzf key bindings and fuzzy completion
-eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/frozenembers.toml)" # oh my posh
-alias cs="colorscript"                                                           # color script cli
+eval "$(zoxide init bash)"                                                        # zoxide
+eval "$(fzf --bash)"                                                              # fzf key bindings and fuzzy completion
+eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zitchdog-pine.toml)" # oh my posh
+alias cs="colorscript"                                                            # color script cli
 
 # Config for Cli tools (ensure that fd is installed)
 export BAT_THEME="base16" # Setup Default Bat Theme
