@@ -1,77 +1,71 @@
 return {
-	"Saghen/blink.cmp",
-	event = "InsertEnter",
-	dependencies = {
-		"hrsh7th/nvim-cmp", -- completion plugin
-		"hrsh7th/cmp-buffer", -- source for text in buffer
-		"hrsh7th/cmp-path", -- source for file system paths
-		"L3MON4D3/LuaSnip", -- snippets engine
-		"hrsh7th/cmp-nvim-lsp", -- snippets for LSP
-		"saadparwaiz1/cmp_luasnip", -- for autocompletion
-		"rafamadriz/friendly-snippets", -- useful snippets
-		"onsails/lspkind.nvim", -- vs-code like pictograms
-		"FeiyouG/colorful-menu.nvim",
+	{ "L3MON4D3/LuaSnip", keys = {} },
+	{
+		"Saghen/blink.cmp",
+		version = "*",
+		event = "InsertEnter",
+		dependencies = {
+			"hrsh7th/nvim-cmp",
+			"hrsh7th/cmp-buffer",
+			"hrsh7th/cmp-path",
+			"hrsh7th/cmp-nvim-lsp",
+			"saadparwaiz1/cmp_luasnip",
+			"rafamadriz/friendly-snippets",
+			"onsails/lspkind.nvim",
+			"FeiyouG/colorful-menu.nvim",
+		},
+		config = function()
+			local luasnip = require("luasnip")
+			require("luasnip.loaders.from_vscode").lazy_load()
+
+			-- Blink.cmp configuration
+			require("blink.cmp").setup({
+				snippets = { preset = "luasnip" },
+				sources = {
+					default = { "lsp", "path", "snippets", "buffer" },
+				},
+				completion = {
+					menu = {
+						border = "single",
+						scrolloff = 1,
+						scrollbar = false,
+						draw = {
+							columns = {
+								{ "kind_icon" },
+								{ "label", "label_description", gap = 1 },
+								{ "kind" },
+								{ "source_name" },
+							},
+						},
+					},
+					documentation = {
+						window = {
+							border = "single",
+							scrollbar = false,
+						},
+						auto_show = true,
+						auto_show_delay_ms = 500,
+					},
+				},
+				cmdline = {
+					enabled = true,
+					completion = {
+						ghost_text = {
+							enabled = false, -- Specifically disable ghost text for cmdline
+						},
+					},
+				},
+				keymap = {
+					["<C-j>"] = { "select_next", "fallback" },
+					["<C-k>"] = { "select_prev", "fallback" },
+					["<C-b>"] = { "scroll_documentation_up", "fallback" },
+					["<C-f>"] = { "scroll_documentation_down", "fallback" },
+					["<C-Space>"] = { "show", "show_documentation", "hide_documentation" },
+					["<C-e>"] = { "hide", "fallback" },
+					["<C-y>"] = { "accept", "fallback" },
+					["<CR>"] = { "accept", "fallback" },
+				},
+			})
+		end,
 	},
-	config = function()
-		local cmp = require("cmp")
-		local luasnip = require("luasnip")
-
-		require("luasnip.loaders.from_vscode").lazy_load()
-
-		cmp.setup({
-			completion = {
-				completeopt = "menu,menuone,preview,noselect",
-			},
-			snippet = {
-				expand = function(args)
-					luasnip.lsp_expand(args.body)
-				end,
-			},
-			window = {
-				completion = cmp.config.window.bordered({
-					winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:CmpCursorLine,Search:None",
-					scrollbar = false,
-				}),
-				documentation = cmp.config.window.bordered({
-					winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:CmpCursorLine,Search:None",
-					scrollbar = false,
-				}),
-			},
-			mapping = cmp.mapping.preset.insert({
-				["<C-j>"] = cmp.mapping.select_next_item(),
-				["<C-k>"] = cmp.mapping.select_prev_item(),
-				["<C-b>"] = cmp.mapping.scroll_docs(-4),
-				["<C-f>"] = cmp.mapping.scroll_docs(4),
-				["<C-Space>"] = cmp.mapping.complete(),
-				["<C-e>"] = cmp.mapping.close(),
-				["<C-y>"] = cmp.mapping.confirm({
-					behavior = cmp.ConfirmBehavior.Replace,
-					select = true,
-				}),
-				["<CR>"] = cmp.mapping.confirm({
-					behavior = cmp.ConfirmBehavior.Replace,
-					select = true,
-				}),
-			}),
-			formatting = {
-				format = require("lspkind").cmp_format(),
-			},
-
-			sources = cmp.config.sources({
-				{ name = "nvim_lsp" },
-				{ name = "luasnip" },
-				{ name = "buffer" },
-				{ name = "path" },
-				{ name = "nvim_lua" },
-				{ name = "calc" },
-				{ name = "emoji" },
-				{ name = "treesitter" },
-			}),
-		})
-
-		vim.cmd([[
-      set completeopt=menuone,noinsert,noselect
-      highlight! default link CmpItemKind CmpItemMenuDefault
-    ]])
-	end,
 }
