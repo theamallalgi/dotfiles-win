@@ -20,6 +20,9 @@ return {
 
 			-- Blink.cmp configuration
 			require("blink.cmp").setup({
+				fuzzy = {
+					implementation = "lua", -- Use Lua instead of Rust, Slower but no setup needed.
+				},
 				snippets = { preset = "luasnip" },
 				sources = {
 					default = { "lsp", "path", "snippets", "buffer" },
