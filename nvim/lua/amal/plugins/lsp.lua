@@ -8,6 +8,7 @@ return {
 		{ "j-hui/fidget.nvim", opts = {} },
 		{ "b0o/schemastore.nvim" },
 		{ "hrsh7th/cmp-nvim-lsp" },
+		{ "rachartier/tiny-inline-diagnostic.nvim" },
 	},
 	config = function()
 		require("mason").setup({
@@ -69,13 +70,13 @@ return {
 		vim.diagnostic.config({
 			title = false,
 			underline = true,
-			virtual_text = true,
+			virtual_text = false,
 			signs = {
 				text = {
-					[vim.diagnostic.severity.ERROR] = "",
-					[vim.diagnostic.severity.WARN] = "",
-					[vim.diagnostic.severity.INFO] = "",
-					[vim.diagnostic.severity.HINT] = "",
+					[vim.diagnostic.severity.ERROR] = "▎",
+					[vim.diagnostic.severity.WARN] = "▎",
+					[vim.diagnostic.severity.INFO] = "▎",
+					[vim.diagnostic.severity.HINT] = "▎",
 				},
 				texthl = {
 					[vim.diagnostic.severity.ERROR] = "DiagnosticSignError",
