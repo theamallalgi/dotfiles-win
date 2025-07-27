@@ -71,3 +71,28 @@ api.nvim_create_autocmd("VimEnter", {
 		vim.keymap.set("i", "<Right>", warn, opts)
 	end,
 })
+
+-- highlight developer note keywords like TODO, FIXME, etc.
+local tag_group = vim.api.nvim_create_augroup("CodeTagHighlights", { clear = true })
+
+-- Keyword to highlight group mapping
+local keyword_highlights = {
+	TODO = "DiagnosticVirtualTextOk",
+	OPTIMIZE = "DiagnosticVirtualTextOk",
+	NOTE = "DiagnosticVirtualTextInfo",
+	FIXME = "DiagnosticVirtualTextError",
+	BUG = "DiagnosticVirtualTextError",
+	HACK = "DiagnosticVirtualTextWarn",
+	XXX = "DiagnosticVirtualTextHint",
+}
+
+-- Apply match highlights on buffer events
+vim.api.nvim_create_autocmd({ "BufReadPost", "BufNewFile", "InsertLeave", "TextChanged" }, {
+	group = tag_group,
+	callback = function()
+		for word, hl in pairs(keyword_highlights) do
+			local pattern = "\\<" .. word .. "\\>"
+			vim.fn.matchadd(hl, pattern)
+		end
+	end,
+})
