@@ -69,20 +69,20 @@ return {
 
 		vim.diagnostic.config({
 			title = false,
-			underline = true,
+			underline = false,
 			virtual_text = false,
 			signs = {
 				text = {
-					[vim.diagnostic.severity.ERROR] = "▎",
-					[vim.diagnostic.severity.WARN] = "▎",
-					[vim.diagnostic.severity.INFO] = "▎",
-					[vim.diagnostic.severity.HINT] = "▎",
+					[vim.diagnostic.severity.ERROR] = "│",
+					[vim.diagnostic.severity.WARN] = "│",
+					[vim.diagnostic.severity.INFO] = "│",
+					[vim.diagnostic.severity.HINT] = "│",
 				},
 				texthl = {
-					[vim.diagnostic.severity.ERROR] = "DiagnosticSignError",
-					[vim.diagnostic.severity.WARN] = "DiagnosticSignWarn",
-					[vim.diagnostic.severity.INFO] = "DiagnosticSignInfo",
-					[vim.diagnostic.severity.HINT] = "DiagnosticSignHint",
+					[vim.diagnostic.severity.ERROR] = "ZitchMaroon",
+					[vim.diagnostic.severity.WARN] = "ZitchClay",
+					[vim.diagnostic.severity.INFO] = "ZitchTeal",
+					[vim.diagnostic.severity.HINT] = "ZitchIndigo",
 				},
 			},
 			update_in_insert = false,
