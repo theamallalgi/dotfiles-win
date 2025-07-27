@@ -36,9 +36,13 @@
 
 - a [Nerd Font](https://www.nerdfonts.com/) (v3.0 or greater)
 
-  - Jetbrains Mono
-  - Cartograph CF
-  - GohuFont 14
+```sh
+  - Jetbrains Mono Nerd Font
+  - Kode Mono (Custom NF Patch) # My Current Font
+  - GohuFont 14 Nerd Font
+```
+
+ Check the [Fonts Folder](https://github.com/theamallalgi/dotfiles/tree/main/misc/fonts) for Fonts I use.
 
 - [lazygit](https://github.com/jesseduffield/lazygit)  **(optional)**
 
@@ -54,7 +58,7 @@
   - [Alacritty](https://github.com/alacritty/alacritty)  **(Linux, Macos & Windows)**
   - [Windows Terminal](https://github.com/microsoft/terminal)  **(Linux, Macos & Windows)**
 
-* [Aura Theme](https://github.com/daltonmenezes/aura-theme/) **- Dark Theme (optional)**
+* [Zitchdog Theme](https://github.com/theamallalgi/zitchdog/) **- Dark Theme (optional)**
 
 #### Shell/Terminal Setup
 
