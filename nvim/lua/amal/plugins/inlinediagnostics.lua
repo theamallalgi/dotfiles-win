@@ -54,7 +54,7 @@ return {
 					throttle = 20,
 
 					-- Minimum message length before wrapping to a new line
-					softwrap = 30,
+					softwrap = 25,
 
 					-- Configuration for multiline diagnostics
 					-- Can either be a boolean or a table with the following options:
@@ -102,7 +102,7 @@ return {
 					-- Configuration for breaking long messages into separate lines
 					break_line = {
 						-- Enable the feature to break messages after a specific length
-						enabled = false,
+						enabled = true,
 
 						-- Number of characters after which to break the line
 						after = 30,
