@@ -1,22 +1,22 @@
 # ~/.bashrc - index file for bash sessions
 
 # Aliases
-alias cl="clear && colorscript -r"                # clear command with colorscripts
-alias c="clear && colorscript -e crunchbang-mini" # color script reset (zwaves)
-alias watch="sass --style compressed --watch"     # watches and compiles sass in real time
-alias sb="clear && source ~/.bashrc"              # clears and sources the bashrc file
-alias vi="nvim"                                   # neovim
-alias cat="bat"                                   # better cat command
-alias py="python"                                 # sets python
-alias pc="clear && py"                            # clears the terminal and opens python
-alias ..="cd ../"                                 # goes back one level
-alias x="exit"                                    # well you can read can't you?
-alias ex="explorer ."                             # opens the windows explorer
-alias len="ls -1 | wc -l"                         # prints the count of elements in current folder
-alias rmcr="sed -i 's/\r//g'"                     # function to remove trailing spaces in a file
-alias ac="ani-cli"                                # an alias for the ani-cli client
-alias dotbkp="/e/configs/update.sh"               # runs the dotfiles backup script
-alias arch="wsl -d archlinux"                     # opens wsl's arch linux instance
+alias cl="clear && colorscript -r"            # clear command with colorscripts
+alias c="clear && colorscript -e blocks1"     # color script reset (zwaves)
+alias watch="sass --style compressed --watch" # watches and compiles sass in real time
+alias sb="clear && source ~/.bashrc"          # clears and sources the bashrc file
+alias vi="nvim"                               # neovim
+alias cat="bat"                               # better cat command
+alias py="python"                             # sets python
+alias pc="clear && py"                        # clears the terminal and opens python
+alias ..="cd ../"                             # goes back one level
+alias x="exit"                                # well you can read can't you?
+alias ex="explorer ."                         # opens the windows explorer
+alias len="ls -1 | wc -l"                     # prints the count of elements in current folder
+alias rmcr="sed -i 's/\r//g'"                 # function to remove trailing spaces in a file
+alias ac="ani-cli"                            # an alias for the ani-cli client
+alias dotbkp="/e/configs/update.sh"           # runs the dotfiles backup script
+alias arch="wsl -d archlinux --user amal"     # opens wsl's arch linux instance
 # alias vim="neovide"                               # neovide
 # alias la="ls -al"                           # lists everything
 # alias lt="lsd --tree"                       # tree list view but with lsd
