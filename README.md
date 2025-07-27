@@ -1,6 +1,6 @@
-# Amal's Dotfiles and Configurations
-
 <img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/header.jpg?raw=true" title="" alt="header" data-align="center">
+
+# Amal's Dotfiles and Configurations
 
 ## The Contents
 
@@ -26,7 +26,8 @@
 
 ## The Setup
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk.png?raw=true" title="" alt="current desktop" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk-a.png?raw=true" title="" alt="current desktop" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk-b.png?raw=true" title="" alt="current desktop" data-align="center">
 
 #### Nvim Requirements
 
