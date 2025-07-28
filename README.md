@@ -1,6 +1,6 @@
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/header.jpg?raw=true" title="" alt="header" data-align="center">
-
 # Amal's Dotfiles and Configurations
+
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/header.jpg?raw=true" title="" alt="header" data-align="center">
 
 ## The Contents
 
@@ -82,6 +82,7 @@
 ### Neovim
 
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -tail.png?raw=true" alt="alacritty" data-align="center">
 <details>
     <summary>see more of my nvim images</summary>
 
@@ -100,6 +101,22 @@
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -6.png?raw=true" alt="nvim" data-align="center">
   
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -7.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -8.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -9.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -10.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -11.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -12.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -13.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -14.png?raw=true" alt="nvim" data-align="center">
+  
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -15.png?raw=true" alt="nvim" data-align="center">
 
 </details>
 
