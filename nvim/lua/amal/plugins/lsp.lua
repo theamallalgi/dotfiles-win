@@ -63,7 +63,12 @@ return {
 				})
 			end,
 			settings = {
-				Lua = {},
+				Lua = {
+					diagnostics = {
+						disable = { "missing-fields" },
+						globals = { "vim" },
+					},
+				},
 			},
 		})
 

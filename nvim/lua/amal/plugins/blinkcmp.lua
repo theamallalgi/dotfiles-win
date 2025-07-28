@@ -17,7 +17,6 @@ return {
 		config = function()
 			local luasnip = require("luasnip")
 			require("luasnip.loaders.from_vscode").lazy_load()
-
 			-- Blink.cmp configuration
 			require("blink.cmp").setup({
 				fuzzy = {
