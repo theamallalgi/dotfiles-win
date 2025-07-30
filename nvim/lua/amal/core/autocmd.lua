@@ -65,10 +65,10 @@ api.nvim_create_autocmd("VimEnter", {
 		vim.keymap.set("n", "<Left>", warn, opts)
 		vim.keymap.set("n", "<Right>", warn, opts)
 
-		vim.keymap.set("i", "<Up>", warn, opts)
-		vim.keymap.set("i", "<Down>", warn, opts)
-		vim.keymap.set("i", "<Left>", warn, opts)
-		vim.keymap.set("i", "<Right>", warn, opts)
+		-- vim.keymap.set("i", "<Up>", warn, opts)
+		-- vim.keymap.set("i", "<Down>", warn, opts)
+		-- vim.keymap.set("i", "<Left>", warn, opts)
+		-- vim.keymap.set("i", "<Right>", warn, opts)
 	end,
 })
 
