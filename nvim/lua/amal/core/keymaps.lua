@@ -25,7 +25,8 @@ set({ "n", "x", "o" }, "L", "g_", silent)
 
 -- neotree config
 set("n", "<C-n>", ":Neotree filesystem toggle<CR>", silent) -- neotree reveal with (ctrl+n)
-set("n", "<C-b>", ":Neotree reveal=true position=left<CR>y<CR>", silent) -- reveal current file
+set("n", "<C-b>", ":Neotree reveal<CR>", silent) -- reveal current file in neotree
+-- set("n", "<C-b>", ":Neotree reveal=true position=left<CR>y<CR>", silent) -- reveal current file
 
 -- split screen configs
 set("n", "vv", "<C-W>v") -- vertical split with (vv)
