@@ -74,7 +74,7 @@ return {
 
 		vim.diagnostic.config({
 			title = false,
-			underline = false,
+			underline = true,
 			virtual_text = false,
 			signs = {
 				text = {
