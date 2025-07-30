@@ -32,6 +32,11 @@ vim.g.netrw_banner = 0 -- disable the how tos and stuff from netrw window
 vim.g.netrw_mouse = 2 -- mouse config for netrw
 -- vim.cmd("let g:netrw_liststyle = 3") -- sets the default file explorer style to tree structure
 
+-- spell
+-- vim.cmd("set spell")
+-- vim.cmd("set spelllang=en")
+vim.opt.spelllang = { "en_us" }
+
 -- misc config
 vim.o.guifont = "JetBrainsMono Nerd Font:h11" -- sets the default font and height
 vim.g.mapleader = " " -- maps the leader key
