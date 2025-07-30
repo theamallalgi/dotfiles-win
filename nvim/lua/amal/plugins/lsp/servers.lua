@@ -18,8 +18,6 @@ return {
 	html = {},
 	tailwindcss = {},
 	rust_analyzer = {},
-	-- gopls = {},
-	-- clangd = {},
 	bashls = { filetypes = { "sh", "zsh" } },
 	jsonls = {
 		settings = {
@@ -42,6 +40,9 @@ return {
 				},
 				completion = {
 					callSnippet = "Replace",
+				},
+				diagnostics = {
+					globals = { "vim" },
 				},
 			},
 		},
