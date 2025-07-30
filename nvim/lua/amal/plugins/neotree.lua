@@ -26,6 +26,14 @@ return {
 			popup_border_style = "single",
 			enable_modified_markers = true,
 			default_component_configs = {
+				diagnostics = {
+					symbols = {
+						hint = "",
+						info = "",
+						warn = "",
+						error = "",
+					},
+				},
 				modified = {
 					symbol = "󰫢",
 					highlight = "NeoTreeModified",
@@ -57,7 +65,7 @@ return {
 			hide_root_node = true,
 			retain_hidden_root_indent = true,
 			filesystem = {
-				bind_to_cwd = true,
+				bind_to_cwd = false,
 				follow_current_file = { enabled = true },
 				use_libuv_file_watcher = true,
 				hijack_netrw_behavior = "open_current",
