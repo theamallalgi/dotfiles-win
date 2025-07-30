@@ -32,7 +32,7 @@ return {
 				local width = 0
 				for _, line in ipairs(lines) do
 					width = math.max(width, vim.fn.strwidth(line))
-					end
+				end
 
 				local icon_width = self.options.icon_width
 				local icon_text = self.options.icons[message.level]
@@ -48,7 +48,6 @@ return {
 				vim.api.nvim_win_set_height(title_win, 0)
 			end,
 		})
-
 
 		-- require("notify").setup({
 		-- 	render = "minimal", -- default, compact, minimal, simple
@@ -101,13 +100,13 @@ return {
 					-- opts: any options passed to the view
 					-- icon_hl_group: optional hl_group for the icon
 					-- title: set to anything or empty string to hide
-					cmdline = { pattern = "^:", icon = "", lang = "vim" },
-					search_down = { kind = "search", pattern = "^/", icon = " ", lang = "regex" },
-					search_up = { kind = "search", pattern = "^%?", icon = " ", lang = "regex" },
-					filter = { pattern = "^:%s*!", icon = "$", lang = "bash" },
-					lua = { pattern = { "^:%s*lua%s+", "^:%s*lua%s*=%s*", "^:%s*=%s*" }, icon = "", lang = "lua" },
-					help = { pattern = "^:%s*he?l?p?%s+", icon = "" },
-					input = { view = "cmdline_input", icon = "󰥻 " }, -- Used by input()
+					cmdline = { pattern = "^:", icon = "󰁕", lang = "vim" },
+					search_down = { kind = "search", pattern = "^/", icon = " ", lang = "regex" },
+					search_up = { kind = "search", pattern = "^%?", icon = " ", lang = "regex" },
+					filter = { pattern = "^:%s*!", icon = " ", lang = "bash" },
+					lua = { pattern = { "^:%s*lua%s+", "^:%s*lua%s*=%s*", "^:%s*=%s*" }, icon = " ", lang = "lua" },
+					help = { pattern = "^:%s*he?l?p?%s+", icon = "󰋖 " },
+					input = { view = "cmdline_input", icon = "󰘳 " }, -- Used by input()
 					-- lua = false, -- to disable a format, set to `false`
 				},
 			},
