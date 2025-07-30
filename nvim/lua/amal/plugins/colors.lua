@@ -1,4 +1,4 @@
--- colors & schemes
+-- colors.lua: set colorscheme and stuff idk
 
 return {
 	{
@@ -6,7 +6,12 @@ return {
 		lazy = false,
 		priority = 1000,
 		config = function()
-			vim.cmd([[colorscheme zitchdog-grape]])
+			require("zitchdog").load({
+				variant = "grape", -- grape (default)/pine/night
+				-- transparent_bg = true, -- a boolean to toggle transparent background
+				-- italic_comments = false, -- a boolean to toggle italic comments
+				-- colors = {}, -- a table of colors to override the default palette
+			})
 		end,
 	},
 }
