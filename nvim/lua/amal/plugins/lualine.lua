@@ -21,7 +21,7 @@ local zitchdog = {
 		b = { fg = colors.lightgray, bg = colors.darkblack },
 		c = { fg = colors.lightgray, bg = colors.darkblack },
 		x = { fg = colors.lightgray, bg = colors.darkblack },
-		y = { fg = colors.red },
+		y = { fg = colors.red, bg = colors.darkblack },
 		z = { fg = colors.green, bg = "#123127" },
 	},
 	insert = {
