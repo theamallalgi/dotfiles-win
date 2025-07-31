@@ -1,6 +1,6 @@
 -- settings.lua
 
-local vim = vim
+
 
 -- indentation config
 vim.opt.autoindent = true

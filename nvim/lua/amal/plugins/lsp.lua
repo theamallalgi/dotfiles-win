@@ -66,7 +66,7 @@ return {
 				Lua = {
 					diagnostics = {
 						disable = { "missing-fields" },
-						globals = { "vim" },
+						globals = { "vim", "Snacks" },
 					},
 				},
 			},
