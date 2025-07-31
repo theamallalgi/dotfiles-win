@@ -70,6 +70,7 @@ set("n", "<C-Right>", "<cmd>vertical resize +2<cr>", silent)
 set("n", "<Leader>b", ":Telescope Buffers<CR>", silent) -- change the buffers with (ctrl+tab)
 set("n", "<leader>fg", ":Telescope live_grep<CR>", silent) -- search words inside files (ctrl+shift+f)
 set("n", "<leader>fw", ":Telescope grep_string<CR>", silent) -- search for word under cursor
+set("n", "<leader>fm", ":Telescope marks<CR>", silent) -- search for marks made
 set("n", "<leader>:", ":Telescope command_history<CR>", silent) -- show recent `:` commands
 set("n", "<leader>km", ":Telescope keymaps<CR>", silent) -- all keybindings in a searchable popup
 
