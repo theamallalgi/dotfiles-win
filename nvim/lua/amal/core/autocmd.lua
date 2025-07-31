@@ -1,6 +1,6 @@
 -- autocmd.lua - commands and automations to run with nvim
 
-local vim = vim
+
 local api = vim.api
 
 -- don't auto comment new line
@@ -91,7 +91,7 @@ vim.api.nvim_create_autocmd({ "BufReadPost", "BufNewFile", "InsertLeave", "TextC
 	group = tag_group,
 	callback = function()
 		for word, hl in pairs(keyword_highlights) do
-			local pattern = "\\<" .. word .. "\\>"
+			local pattern = "\\<" .. word .. "\\>:"
 			vim.fn.matchadd(hl, pattern)
 		end
 	end,
