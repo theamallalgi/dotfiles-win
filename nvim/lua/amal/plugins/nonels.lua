@@ -66,24 +66,7 @@ return {
 					".git"
 				),
 				sources = sources,
-				on_attach = function(client, bufnr)
-					if client.supports_method("textDocument/formatting") then
-						vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
-						vim.api.nvim_create_autocmd("BufWritePre", {
-							group = augroup,
-							buffer = bufnr,
-							callback = function()
-								vim.lsp.buf.format({
-									filter = function(c)
-										return c.name == "null-ls"
-									end,
-									bufnr = bufnr,
-									timeout_ms = 3000,
-								})
-							end,
-						})
-					end
-				end,
+				
 			})
 		end,
 	},
