@@ -13,7 +13,7 @@ return {
 					filetype = "neo-tree",
 					text = "filesystem",
 					text_align = "left",
-					separator = false,
+					separator = true,
 					highlight = "Function",
 				},
 			},
@@ -26,63 +26,55 @@ return {
 			show_buffer_icons = false,
 		},
 		highlights = {
-			fill = {
-				bg = "#0b080e",
-				fg = "#542a91",
-			},
+			fill = { bg = "#0b080e" },
 			background = {
 				fg = "#542a91",
 				bg = "#0b080e",
 			},
 			buffer_selected = {
-				fg = "#8443e3",
+				fg = "#8443e4",
 				bg = "#0d0910",
 				bold = false,
 				italic = false,
 			},
-			tab = {
-				fg = "#542a91",
-				bg = "NONE",
-			},
+			tab = { bg = "NONE" },
 			tab_selected = {
 				fg = "#8443e3",
 				bg = "#0d0910",
 			},
-			tab_separator = {
-				fg = "#0b080e",
-				bg = "NONE",
-			},
-			tab_separator_selected = {
-				fg = "#0b080e",
-				bg = "NONE",
-			},
+			tab_separator = { bg = "NONE" },
+			tab_separator_selected = { bg = "NONE" },
 			tab_close = {
 				fg = "#191226",
-				bg = "NONE",
+				bg = "#0b080e",
 			},
 			close_button = {
-				fg = "#191226",
-				bg = "NONE",
+				fg = "#201638",
+				bg = "#0b080e",
 			},
 			close_button_visible = {
-				fg = "#191226",
-				bg = "NONE",
+				fg = "#201638",
+				bg = "#0b080e",
 			},
 			close_button_selected = {
 				fg = "#8443e3",
-				bg = "NONE",
+				bg = "#0d0910",
+			},
+			modified = {
+				fg = "#5a3c8d",
+				bg = "#0b080e",
 			},
 			modified_visible = {
-				fg = "#e49068",
-				bg = "NONE",
+				fg = "#5a3c8d",
+				bg = "#0b080e",
 			},
 			modified_selected = {
 				fg = "#e49068",
-				bg = "NONE",
+				bg = "#0d0910",
 			},
 			separator = {
 				fg = "#0b080e",
-				bg = "NONE",
+				bg = "#0b080e",
 			},
 		},
 	},
