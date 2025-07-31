@@ -2,22 +2,23 @@ return {
 	"folke/snacks.nvim",
 	priority = 1000,
 	lazy = false,
+	init = function()
+		-- load snacks global
+		Snacks = require("snacks")
+	end,
 	opts = {
-		-- snacks.bigfile (faster when opening big files)
-		bigfile = { enabled = true },
-		-- snacks.notify (better notify)
-		notify = {
+		bigfile = { enabled = true }, -- snacks.bigfile (faster when opening big files)
+		notify = { -- snacks.notify (better notify)
 			enabled = true,
-							opts = {
-					stages = "static",
-					render = "minimal",
-					title = function(item)
-						return ""
-					end,
-				},
+			opts = {
+				stages = "static",
+				render = "minimal",
+				title = function()
+					return ""
+				end,
+			},
 		},
-		-- snacks.notifier (works best with notify)
-		notifier = {
+		notifier = { -- snacks.notifier (works best with notify)
 			enabled = true,
 			timeout = 1000,
 			render = "minimal",
@@ -43,36 +44,18 @@ return {
 				},
 			},
 		},
-		-- snacks.quickfile (makes opening empty files faster)
-		quickfile = { enabled = true },
-		-- snacks.lazygit (lazygit)
-		lazygit = { enabled = true },
-		-- snacks.rename (lsp rename)
-		rename = { enabled = true },
-		-- snacks.terminal (terminal toggle)
-		terminal = { enabled = true, style = "popup" },
+		quickfile = { enabled = true }, -- snacks.quickfile (makes opening empty files faster)
+		lazygit = { enabled = true }, -- snacks.lazygit (lazygit)
+		rename = { enabled = true }, -- snacks.rename (lsp rename)
+		terminal = { enabled = true, style = "popup" }, -- snacks.terminal (terminal toggle)
 	},
 	keys = {
-		{
-			"<leader>gg",
-			function()
-				require("snacks").lazygit()
-			end,
-			desc = "Lazygit",
-		},
-		{
-			"<leader>n",
-			function()
-				Snacks.notifier.hide()
-			end,
-			desc = "Dismiss All Notifications",
-		},
-		{
-			"<leader>nn",
-			function()
-				Snacks.notifier.show_history()
-			end,
-			desc = "Notification History",
-		},
+		{ "<leader>gg", function() Snacks.lazygit() end, desc = "Lazygit" },
+		{ "<leader>un", function() Snacks.notifier.hide() end, desc = "Dismiss All Notifications" },
+		{ "<leader>nn", function() Snacks.notifier.show_history() end, desc = "Notification History" },
+		{ "<leader>sm", function() Snacks.picker.marks() end, desc = "Show Marks" },
+		{ "<leader>sH", function() Snacks.picker.highlights() end, desc = "Show Highlights" },
+		{ "<leader>sK", function() Snacks.picker.keymaps() end, desc = "Show Keymaps" },
+		{ "<leader>sq", function() Snacks.picker.qflist() end, desc = "Quick Fix List" },
 	},
 }
