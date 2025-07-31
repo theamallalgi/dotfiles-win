@@ -26,11 +26,11 @@ return {
 				-- end,
 				python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
 			},
-			format_on_save = {
-				lsp_fallback = false, -- Prevent conflicts with LSP formatting
-				async = false,
-				timeout_ms = 5000,
-			},
+			-- format_on_save = {
+			-- 	lsp_fallback = false, -- Prevent conflicts with LSP formatting
+			-- 	async = false,
+			-- 	timeout_ms = 5000,
+			-- },
 		})
 
 		vim.keymap.set({ "n", "v" }, "<leader>mp", function()
