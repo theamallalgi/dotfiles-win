@@ -62,6 +62,13 @@ return {
 		"meuter/lualine-so-fancy.nvim",
 	},
 	config = function()
+		local function word_count()
+			local ft = vim.bo.filetype
+			if ft == "tex" or ft == "text" or ft == "plaintex" then
+				return "wc: " .. vim.fn.wordcount().words
+			end
+			return ""
+		end
 		require("lualine").setup({
 			options = {
 				theme = zitchdog,
@@ -79,7 +86,7 @@ return {
 					"fancy_branch",
 					{ "filename", path = 0, symbols = { modified = "󰫢" } },
 				},
-				lualine_x = { "location", "progress" },
+				lualine_x = { word_count, "location", "progress" },
 				lualine_y = {
 					function()
 						return vim.fn.reg_recording() ~= "" and "[󰑊]" or ""
