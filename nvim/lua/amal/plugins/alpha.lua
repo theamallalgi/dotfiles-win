@@ -25,12 +25,12 @@ return {
 
 		-- set menu with custom highlights
 		dashboard.section.buttons.val = {
-			dashboard.button("SPC n", "󰓎  →  create new file", "<cmd>ene<CR>"),
-			dashboard.button("SPC f", "󰓎  →  find a file", "<cmd>Telescope find_files<CR>"),
-			dashboard.button("SPC r", "󰓎  →  recent files", ":Telescope oldfiles<CR>"),
-			dashboard.button("SPC e", "󰓎  →  toggle explorer", ":Neotree filesystem toggle<CR>"),
-			dashboard.button("SPC l", "󰓎  →  lazy plugins", "<cmd>Lazy<CR>"),
-			dashboard.button("SPC c", "󰓎  →  config files", "<cmd>Telescope find_files cwd=$nv<CR>"),
+			dashboard.button("n", "󰓎  →  create new file", "<cmd>ene<CR>"),
+			dashboard.button("f", "󰓎  →  find a file", "<cmd>Telescope find_files<CR>"),
+			dashboard.button("r", "󰓎  →  recent files", ":Telescope oldfiles<CR>"),
+			dashboard.button("e", "󰓎  →  toggle explorer", ":Neotree filesystem toggle<CR>"),
+			dashboard.button("l", "󰓎  →  lazy plugins", "<cmd>Lazy<CR>"),
+			dashboard.button("c", "󰓎  →  config files", "<cmd>Telescope find_files cwd=$nv<CR>"),
 			dashboard.button("q", "󰓎  →  quit neovim", "<cmd>qa<CR>"),
 		}
 
