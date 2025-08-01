@@ -12,7 +12,6 @@ set updatetime=800
 
 " vim-plug setup
 call plug#begin('~/.vim/plugged')
-Plug 'ghifarit53/tokyonight-vim'
 Plug 'theamallalgi/zitchdog.vim'
 call plug#end()
 
