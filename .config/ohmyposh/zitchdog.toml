@@ -1,3 +1,5 @@
+# Oh my Posh - Zitchdog Prompt
+
 console_title_template = 'Terminal ({{ .Shell }})'
 version = 3
 final_space = true
