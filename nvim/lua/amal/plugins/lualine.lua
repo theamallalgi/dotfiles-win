@@ -1,18 +1,22 @@
 local colors = {
-	black = "#100d17", -- 1a1b26 (night)
-	darkblack = "#0b080e", -- 131218 (night)
-	white = "#d0b6d0", -- edecee (night)
-	red = "#e4374b", -- ff6767 (night)
-	green = "#46cea9", -- 61ffca (night)
-	blue = "#8443e3", -- a277ff  (night)
-	magenta = "#8443e3", -- a277ff (night)
-	cyan = "#46cea9", -- 61ffca (night)
-	yellow = "#e49068", -- ffca85 (night)
-	orange = "#e4465e", -- ff7b7b (night)
-	gray = "#191226", -- 29263c (night)
-	darkgray = "#0d0910", -- 15141b (night)
-	lightgray = "#542a91", -- 7153b2 (night)
-	inactivegray = "#272045", -- 3b4261 (night)
+	black = "#100d17",
+	darkblack = "#0b080e",
+	white = "#d0b6d0",
+	red = "#e4374b",
+	darkred = "#652929",
+	green = "#46cea9",
+	darkgreen = "#123127",
+	blue = "#8443e3",
+	magenta = "#8443e3",
+	cyan = "#46cea9",
+	yellow = "#e49068",
+	darkyellow = "#4b3b27",
+	orange = "#e4465e",
+	darkorange = "#4b2424",
+	gray = "#191226",
+	darkgray = "#0d0910",
+	lightgray = "#542a91",
+	inactivegray = "#272045",
 }
 
 local zitchdog = {
@@ -22,30 +26,30 @@ local zitchdog = {
 		c = { fg = colors.lightgray, bg = colors.darkblack },
 		x = { fg = colors.lightgray, bg = colors.darkblack },
 		y = { fg = colors.red, bg = colors.darkblack },
-		z = { fg = colors.green, bg = "#123127" },
+		z = { fg = colors.green, bg = colors.darkgreen },
 	},
 	insert = {
-		a = { fg = colors.green, bg = "#123127" },
-		b = { fg = colors.red, bg = "#652929" },
-		z = { fg = colors.green, bg = "#123127" },
+		a = { fg = colors.green, bg = colors.darkgreen },
+		b = { fg = colors.red, bg = colors.darkred },
+		z = { fg = colors.green, bg = colors.darkgreen },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	visual = {
-		a = { fg = colors.yellow, bg = "#4b3b27" },
-		b = { fg = colors.red, bg = "#652929" },
-		z = { fg = colors.yellow, bg = "#4b3b27" },
+		a = { fg = colors.yellow, bg = colors.darkyellow },
+		b = { fg = colors.red, bg = colors.darkred },
+		z = { fg = colors.yellow, bg = colors.darkyellow },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	replace = {
-		a = { fg = colors.red, bg = "#652929" },
-		b = { fg = colors.red, bg = "#652929" },
-		z = { fg = colors.red, bg = "#652929" },
+		a = { fg = colors.red, bg = colors.darkred },
+		b = { fg = colors.red, bg = colors.darkred },
+		z = { fg = colors.red, bg = colors.darkred },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	command = {
-		a = { fg = colors.orange, bg = "#4b2424" },
-		b = { fg = colors.red, bg = "#652929" },
-		z = { fg = colors.orange, bg = "#4b2424" },
+		a = { fg = colors.orange, bg = colors.darkorange },
+		b = { fg = colors.red, bg = colors.darkred },
+		z = { fg = colors.orange, bg = colors.darkorange },
 		y = { fg = colors.lightgray, bg = colors.darkblack },
 	},
 	inactive = {
@@ -75,7 +79,7 @@ return {
 				globalstatus = true,
 				component_separators = { left = "|", right = "|" },
 				-- icons_enabled = false,
-				section_separators = { left = "", right = "" }, -- { left = "", right = "" }
+				section_separators = { left = "", right = "" },
 				disabled_filetypes = { "alpha" },
 				fmt = string.lower,
 			},
@@ -86,7 +90,10 @@ return {
 					"fancy_branch",
 					{ "filename", path = 0, symbols = { modified = "󰫢" } },
 				},
-				lualine_x = { word_count, "location", "progress" },
+				lualine_x = {
+					{ "location", color = { fg = colors.lightgray, bg = colors.darkblack } },
+					{ "progress", color = { fg = colors.lightgray, bg = colors.darkblack } },
+				},
 				lualine_y = {
 					function()
 						return vim.fn.reg_recording() ~= "" and "[󰑊]" or ""
@@ -96,6 +103,7 @@ return {
 					function()
 						return _G.copilot_enabled and " " or ""
 					end,
+					{ word_count, color = { fg = colors.green, bg = colors.darkgreen } },
 				},
 			},
 			inactive_sections = {},
