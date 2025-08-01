@@ -12,21 +12,28 @@ return {
 		local builtin = require("telescope.builtin")
 		local keymap = vim.keymap
 
+		-- Custom formatter for file entries
+		local function formattedName(_, path)
+			local tail = vim.fs.basename(path)
+			local parent = vim.fs.dirname(path)
+			if parent == "." then
+				return tail
+			end
+      return string.format("%-30s  %s", tail, parent) -- fixed-width file name
+		end
+
 		telescope.setup({
 			defaults = {
 				color_devicons = false,
-				entry_prefix = " ",
 				shorten_path = true,
 				prompt_prefix = "   ",
+        entry_prefix = "    ",
 				selection_caret = " ▶  ",
 				path_display = { "smart" },
-
-				-- Load sorting strategy for faster performance
-				-- sorting_strategy = "ascending",
 				layout_strategy = "vertical",
 				layout_config = { preview_cutoff = 0 },
 				cache_picker = {
-					num_pickers = 10, -- Limit the cache for faster repeated access
+					num_pickers = 10,
 				},
 				mappings = {
 					i = {
@@ -46,6 +53,13 @@ return {
 						["<C-y>"] = "select_default",
 					},
 				},
+				-- ⬇ Add custom entry maker
+				entry_maker = function(entry)
+					local make_entry = require("telescope.make_entry")
+					local item = make_entry.gen_from_file()(entry)
+					item.display = formattedName(nil, item.value)
+					return item
+				end,
 			},
 			extensions = {
 				fzf = {
@@ -57,7 +71,17 @@ return {
 			},
 		})
 
-		-- Lazy-load extensions only when needed
+		-- Autocmd to highlight parent path
+		vim.api.nvim_create_autocmd("FileType", {
+			pattern = "TelescopeResults",
+			callback = function(ctx)
+				vim.api.nvim_buf_call(ctx.buf, function()
+					vim.fn.matchadd("TelescopeParent", "\t\t.*$")
+					vim.api.nvim_set_hl(0, "TelescopeParent", { link = "Comment" })
+				end)
+			end,
+		})
+
 		local load_extension = function(name)
 			pcall(telescope.load_extension, name)
 		end
@@ -73,14 +97,13 @@ return {
 		end, { desc = "Recent files in cwd" })
 		keymap.set("n", "<Leader>fs", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
 		keymap.set("n", "<Leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "String under cursor in cwd" })
-		keymap.set("n", "<Leader>b", builtin.buffers, {}) -- Shows open buffers with (space-b)
+		keymap.set("n", "<Leader>b", builtin.buffers, {})
 
 		keymap.set("n", "<Leader>f", function()
 			local function telescope_buffer_dir()
 				return vim.fn.expand("%:p:h")
 			end
-			load_extension("file_browser") -- Lazy-load file_browser extension only here
-
+			load_extension("file_browser")
 			telescope.extensions.file_browser.file_browser({
 				path = "%:p:h",
 				cwd = telescope_buffer_dir(),
@@ -93,9 +116,8 @@ return {
 			})
 		end, { desc = "Open File Browser with the path of the current buffer" })
 
-		-- Import only if necessary, to delay load
 		vim.defer_fn(function()
 			require("amal.core.uiconfig")
-		end, 100) -- Slight delay to load UI settings
+		end, 100)
 	end,
 }
