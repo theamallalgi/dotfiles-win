@@ -4,45 +4,29 @@
 
 ## The Contents
 
-- Vim configuration (neovim)
-
-- Git Configuration
-
-- Alacritty Configuration
-
+- Editor Configurations (Nvim, Vim etc.)
+- Git & Tmux Configuration
+- Terminal Emu Configs (Alacritty etc.)
 - MPV Configuration
-
-- Editor Configuration
-
-  - VSCode
-  - Sublime Text
-
-- Game Save Files
-
-- Userprofile files
-
-  - Bash & Zsh Configuration
-  - Starship Configuration
+- Shell Configs (bash, zsh, nu)
+- Prompt Themes and Config
+- Much more .dotfiles
 
 ## The Setup
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk-a.png?raw=true" title="" alt="current desktop" data-align="center">
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/desk-b.png?raw=true" title="" alt="current desktop" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/one.png?raw=true" title="" alt="current desktop" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/two.png?raw=true" title="" alt="current desktop" data-align="center">
 
 #### Nvim Requirements
 
 - Neovim >= **0.9.0**
-
 - Git >= **2.19.0** (for partial clones support
-
 - a [Nerd Font](https://www.nerdfonts.com/) (v3.0 or greater)
-
 ```sh
   - Jetbrains Mono Nerd Font
   - Kode Mono (Custom NF Patch) # My Current Font
   - GohuFont 14 Nerd Font
 ```
-
  Check the [Fonts Folder](https://github.com/theamallalgi/dotfiles/tree/main/misc/fonts) for Fonts I use.
 
 - [lazygit](https://github.com/jesseduffield/lazygit)  **(optional)**
@@ -56,37 +40,38 @@
 
 - a terminal that support true color and undercurl:
 
-  - [Alacritty](https://github.com/alacritty/alacritty)  **(Linux, Macos & Windows)**
-  - [Windows Terminal](https://github.com/microsoft/terminal)  **(Linux, Macos & Windows)**
+  - [Alacritty](https://github.com/alacritty/alacritty)  **(Linux, MacOS & Windows)** * My Current Choice
+  - [Ghostty](https://ghostty.org/) **(Linux & MacOS only)**
+  - [Kitty Term](https://github.com/kovidgoyal/kitty) **(Linux & MacOS only)**
 
 * [Zitchdog Theme](https://github.com/theamallalgi/zitchdog/) **- Dark Theme (optional)**
 
-#### Shell/Terminal Setup
+#### Brief Setup Info
 
-- Alacritty **(The best terminal emulator there is!)**
-
-- Bash & Zsh **(Yes, I step on two boats at the same time!)**
-
-- Nerd Font **(GohuFont 14 Nerd Font)**
-
-- zoxide **(Directory Jumper)**
-
-- Fuzzy Finder **(fzf, you know what it does!)**
-
-- Scoop **(Better than Homebrew imo!)**
-
-- Oh my Posh **(Command Line Client)**
+- Windows 11 (Don't Care much for it, I rely to much on Adobe lol!)
+- Term: Alacritty **(The best terminal emulator there is!)**
+- Shell: Bash & Zsh (Mostly Bash)
+- Font: Kode Mono Nerd Font (Custom Patch)
+- Dir Jump: Zoxide (Can't live w/out it!)
+- Fuzzy Finder: fzf
+- Pac: Scoop (Win 11), Pacman (Arch)
+- Cmdline Client: Oh-my-Posh (Win 11), Oh-my-Zsh (Arch)
 
 ## The Gallery
 
 ### Neovim
 
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="alacritty" data-align="center">
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -tail.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/three.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/five.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/four.png?raw=true" alt="alacritty" data-align="center">
 <details>
     <summary>see more of my nvim images</summary>
 
 ## 🪙 Neovim Screengrabs
+
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="nvim" data-align="center">
+
+  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -tail.png?raw=true" alt="nvim" data-align="center">
 
   <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
   
@@ -122,39 +107,13 @@
 
 ### Alacritty
 
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -head.png?raw=true" alt="alacritty" data-align="center">
-<details>
-    <summary>see more alacritty images</summary>
-
-## 🪙 Alacritty Screengrabs
-
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -1.png?raw=true" alt="alacritty" data-align="center">
-  
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -3.png?raw=true" alt="alacritty" data-align="center">
-
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -5.png?raw=true" alt="alacritty" data-align="center">
-
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -2.png?raw=true" alt="alacritty" data-align="center">
-
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -4.png?raw=true" alt="alacritty" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/alacritty -6.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/six.png?raw=true" alt="alacritty" data-align="center">
 
 </details>
 
 ### Mpv Player
 
 <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -head.png?raw=true" alt="mpv" data-align="center">
-<details>
-    <summary>see more images of my mpv config</summary>
-
-## 🪙 Mpv Player Screengrabs
-
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -1.png?raw=true" alt="mpv" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -2.png?raw=true" alt="mpv" data-align="center">
-  
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -3.png?raw=true" alt="mpv" data-align="center">
 
 </details>
 
@@ -188,3 +147,6 @@
 
 - run `rm -rf .git` if you use bash/zsh etc.
 - or just delete the .git folder (will be hidden on windows by default!)
+
+> [!TIP]
+> Feel free to steal whatever you need, no credit necessary, though a shoutout’s always welcome! ;)
