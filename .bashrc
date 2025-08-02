@@ -131,7 +131,6 @@ export GIT_PS1_SHOWUPSTREAM="auto"
 # Setup cli tools
 eval "$(zoxide init bash)"                                                   # zoxide
 eval "$(fzf --bash)"                                                         # fzf key bindings and fuzzy completion
-eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zitchdog.toml)" # oh my posh
 alias cs="colorscript"                                                       # color script cli
 
 # Config for Cli tools (ensure that fd is installed)
@@ -150,13 +149,14 @@ alias ls="eza --no-filesize --no-permissions --all --color=always --icons=never 
 alias la="eza --no-filesize --long --header --group-directories-first --group --all --color=always --icons=always --no-user"
 alias lt="eza --no-filesize --tree --color=always --icons=always"
 
-# Startup
-colorscript --random # displays a random colorscript on startup
-
 # initialize zsh at startup
 # if [ -t 1 ]; then
 #   exec zsh
 # fi
 
-# starship prompt
-# eval "$(starship init bash)"
+# Prompt Setup
+eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zitchdog.toml)" # oh my posh
+# eval "$(starship init bash)" # starship prompt
+
+# Startup
+colorscript --random # displays a random colorscript on startup
