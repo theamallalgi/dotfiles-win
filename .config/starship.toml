@@ -1,20 +1,7 @@
+# format = "$hostname$directory$git_branch$git_status$character"
+
 # Inserts a blank line between shell prompts
 add_newline = false
-
-# # Replace the "❯" symbol in the prompt with "➜"
-# [character]                            # The name of the module we are configuring is "character"
-# success_symbol = "[Amal](bold #DC143C)[ @ ](bold yellow)[Ashton](bold #DC143C)[ 🚀 ➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
-# error_symbol = "[✗ ➜](bold red)"
-
-# # Disable the package module, hiding it from the prompt completely
-# [package]
-# disabled = true
-
-# New Configuration
-
-# Starship command prompt configuration file. Colour choice and over-use of emoji
-# is to help blend in with Ubuntu MATE default theme, Ambiant-Mate.
-
 
 [line_break]
 disabled = true
@@ -22,25 +9,47 @@ disabled = true
 [battery]
 disabled = true
 
-[directory]
-truncation_length = 1
-
-# Replace the "❯" symbol in the prompt with "➟"
-[character]      # The name of the module we are configuring is "character"
-success_symbol = "[➜ ](bold green)"
-error_symbol = "[➜ ](bold red)"
-
-# Hide the username. The username will only show in certain scenarios
-# [username]
-# format = "Amal @ "
-# show_always = true
-# style_user = "bold #DC143C"
-
-
 # shows the hostname on new lines
 [hostname]
 ssh_only = false
-# suffix = ">>"
-format = "[Amal](bold #FF0056)[ @ ](bold #00FF00)[Ashton ](bold #FF0056)[in ](#FFBF29)"
+format = "[ 󰫢  ](#8443e3 bg:#2a1549)"
 trim_at = ".companyname.com"
 disabled = false
+
+[directory]
+truncation_length = 1
+format = '[ $path ](#e4374b bg:#4b2424)'
+
+# Replace the "❯" symbol in the prompt with "➟"
+[character]      # The name of the module we are configuring is "character"
+success_symbol = "[ :](bold #46cea9)"
+error_symbol = "[ :](bold #e4374b)"
+
+[git_status]
+conflicted = "x"
+ahead = "↑${count}"
+behind = "↓${count}"
+diverged = "⇅↑${count}↓${count}"
+up_to_date = ""
+untracked = "%"
+stashed = "s"
+modified = "*"
+staged = "+"
+renamed = "»"
+deleted = "-"
+format = "[$all_status$ahead_behind ](#46cea9 bg:#1a4d40)"
+
+[git_branch]
+symbol = ' '
+truncation_length = 4
+truncation_symbol = ''
+format = '[ $branch ](#46cea9 bg:#1a4d40)'
+
+# [git_metrics]
+# added_style = 'bold blue'
+# format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
+
+[cmd_duration]
+disabled = true
+# min_time = 0
+# format = '[ $duration ](#e49068 bg:#4b3b27)'
