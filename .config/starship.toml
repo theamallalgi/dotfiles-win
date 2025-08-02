@@ -43,7 +43,7 @@ format = "[$all_status$ahead_behind ](#46cea9 bg:#1a4d40)"
 symbol = ' '
 truncation_length = 4
 truncation_symbol = ''
-format = '[ $branch ](#46cea9 bg:#1a4d40)'
+format = '[ $branch](#46cea9 bg:#1a4d40)'
 
 # [git_metrics]
 # added_style = 'bold blue'
