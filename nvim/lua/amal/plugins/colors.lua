@@ -5,6 +5,7 @@ return {
 		"theamallalgi/zitchdog",
 		lazy = false,
 		priority = 1000,
+    branch = 'dev',
 		config = function()
 			require("zitchdog").load({
 				variant = "grape", -- grape (default)/pine/night
