@@ -80,6 +80,7 @@ local keyword_highlights = {
 	TODO = "DiagnosticVirtualTextOk",
 	OPTIMIZE = "DiagnosticVirtualTextOk",
 	NOTE = "DiagnosticVirtualTextInfo",
+	INFO = "DiagnosticVirtualTextInfo",
 	FIXME = "DiagnosticVirtualTextError",
 	BUG = "DiagnosticVirtualTextError",
 	HACK = "DiagnosticVirtualTextWarn",
