@@ -12,22 +12,12 @@ return {
 		local builtin = require("telescope.builtin")
 		local keymap = vim.keymap
 
-		-- Custom formatter for file entries
-		local function formattedName(_, path)
-			local tail = vim.fs.basename(path)
-			local parent = vim.fs.dirname(path)
-			if parent == "." then
-				return tail
-			end
-      return string.format("%-30s  %s", tail, parent) -- fixed-width file name
-		end
-
 		telescope.setup({
 			defaults = {
-				color_devicons = false,
 				shorten_path = true,
+        color_devicons = false,
 				prompt_prefix = "   ",
-        entry_prefix = "    ",
+				entry_prefix = "    ",
 				selection_caret = " ▶  ",
 				path_display = { "smart" },
 				layout_strategy = "vertical",
@@ -53,13 +43,11 @@ return {
 						["<C-y>"] = "select_default",
 					},
 				},
-				-- ⬇ Add custom entry maker
-				entry_maker = function(entry)
-					local make_entry = require("telescope.make_entry")
-					local item = make_entry.gen_from_file()(entry)
-					item.display = formattedName(nil, item.value)
-					return item
-				end,
+        borderchars = {
+          prompt  = { "─", "│", "─", "│", "┌", "┐", "┘", "└" },
+          results = { "─", "│", "─", "│", "┌", "┐", "┘", "└" },
+          preview = { "─", "│", "─", "│", "┌", "┐", "┘", "└" },
+        },
 			},
 			extensions = {
 				fzf = {
@@ -69,17 +57,6 @@ return {
 					case_mode = "smart_case",
 				},
 			},
-		})
-
-		-- Autocmd to highlight parent path
-		vim.api.nvim_create_autocmd("FileType", {
-			pattern = "TelescopeResults",
-			callback = function(ctx)
-				vim.api.nvim_buf_call(ctx.buf, function()
-					vim.fn.matchadd("TelescopeParent", "\t\t.*$")
-					vim.api.nvim_set_hl(0, "TelescopeParent", { link = "Comment" })
-				end)
-			end,
 		})
 
 		local load_extension = function(name)
@@ -100,13 +77,9 @@ return {
 		keymap.set("n", "<Leader>b", builtin.buffers, {})
 
 		keymap.set("n", "<Leader>f", function()
-			local function telescope_buffer_dir()
-				return vim.fn.expand("%:p:h")
-			end
-			load_extension("file_browser")
 			telescope.extensions.file_browser.file_browser({
 				path = "%:p:h",
-				cwd = telescope_buffer_dir(),
+				cwd = vim.fn.expand("%:p:h"),
 				respect_gitignore = false,
 				hidden = true,
 				grouped = true,
@@ -115,9 +88,5 @@ return {
 				layout_config = { height = 40 },
 			})
 		end, { desc = "Open File Browser with the path of the current buffer" })
-
-		vim.defer_fn(function()
-			require("amal.core.uiconfig")
-		end, 100)
 	end,
 }
