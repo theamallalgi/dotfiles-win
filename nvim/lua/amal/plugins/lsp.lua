@@ -11,6 +11,8 @@ return {
 		{ "rachartier/tiny-inline-diagnostic.nvim" },
 	},
 	config = function()
+		local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
 		require("mason").setup({
 			ui = {
 				-- border = "rounded",
@@ -21,6 +23,11 @@ return {
 				},
 			},
 		})
+
+		require("mason-tool-installer").setup({
+			ensure_installed = vim.tbl_keys(require("amal.plugins.lsp.servers")),
+		})
+
 		require("mason-lspconfig").setup({
 			ensure_installed = vim.tbl_keys(require("amal.plugins.lsp.servers")),
 			handlers = {
@@ -35,7 +42,10 @@ return {
 			},
 		})
 
+		require("tiny-inline-diagnostic").setup()
+
 		require("lspconfig").lua_ls.setup({
+			capabilities = capabilities,
 			on_init = function(client)
 				local path = client.workspace_folders[1].name
 				if vim.loop.fs_stat(path .. "/.luarc.json") or vim.loop.fs_stat(path .. "/.luarc.jsonc") then
@@ -67,6 +77,11 @@ return {
 					diagnostics = {
 						disable = { "missing-fields" },
 						globals = { "vim", "Snacks" },
+					},
+					json = {
+						schemastore = {
+							enable = true,
+						},
 					},
 				},
 			},
