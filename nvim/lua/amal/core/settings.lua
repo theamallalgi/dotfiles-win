@@ -12,6 +12,9 @@ vim.opt.expandtab = true
 -- tabline setup
 vim.opt.showtabline = 0
 
+-- disable confirmation dialogs
+vim.o.confirm = false
+
 -- clipboard
 vim.cmd("set clipboard+=unnamedplus")
 -- vim.cmd("set paste") -- deprecated (disables a bunch of features)
