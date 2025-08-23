@@ -64,7 +64,7 @@ return {
 			local file_path = "C:/Users/amall/AppData/Local/nvim/lua/amal/plugins/config/quotes.json"
 			local file = io.open(file_path, "r")
 			if not file then
-				return "[ on days like these kids like you should be playing nintendo games. ]"
+				return "\" on days like these kids like you should be playing nintendo games. \""
 			end
 			local content = file:read("*all")
 			file:close()
