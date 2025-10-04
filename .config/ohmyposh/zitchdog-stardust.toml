@@ -44,8 +44,8 @@ final_space = true
       cache_duration = 'none'
 
   [[blocks.segments]]
-    template = '<magenta> {{ .Path }}</>'
-    foreground = 'blue'
+    template = '<red>{{ .Path }}</>'
+    foreground = 'red'
     background = 'transparent'
     type = 'path'
     style = 'plain'
@@ -55,7 +55,7 @@ final_space = true
       style = 'folder'
 
   [[blocks.segments]]
-    template = ' ({{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }} *{{ end }}{{ if .Working.Untracked }}%{{ end }}{{ if .Working.Deleted }}-{{ end }}{{ if .Working.Added }}+{{ end }}{{ if gt .Behind 0 }} ↓{{ end }}{{ if gt .Ahead 0 }} ↑{{ end }})'
+    template = ' ▌{{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }} *{{ end }}{{ if .Working.Untracked }}%{{ end }}{{ if .Working.Deleted }}-{{ end }}{{ if .Working.Added }}+{{ end }}{{ if gt .Behind 0 }} ↓{{ end }}{{ if gt .Ahead 0 }} ↑{{ end }}'
     foreground = 'cyan'
     background = 'transparent'
     type = 'git'
@@ -72,7 +72,7 @@ final_space = true
   overflow = 'hidden'
 
   [[blocks.segments]]
-    template = '<yellow>¦ </><red>{{ .FormattedMs }}</><yellow> ¦</>'
+    template = '<yellow> ▌</><red>{{ .FormattedMs }}</><yellow></>'
     background = 'transparent'
     type = 'executiontime'
     style = 'plain'
