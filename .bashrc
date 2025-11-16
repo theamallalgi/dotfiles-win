@@ -32,15 +32,6 @@ alias gP="git pull"                                                             
 alias gg="lazygit"                                                                                   # opens lazygit
 alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white)%an  %ar%C(auto)  %D%n%s%n'" # fancier git log
 
-# Location Aliases
-alias home='cd /f/amal/'                                  # home folder
-alias dt="cd /f/amal/desktop"                             # desktop folder
-alias dv="cd /f/amal/desktop/dev"                         # developer folder
-alias doc="cd /f/amal/documents"                          # documents folder
-alias dwn="cd /f/amal/downloads"                          # downloads folder
-alias prj="cd /f/amal/documents/programming/my\ projects" # personal projects folder
-alias d="dt && c"                                         # cds to desktop and clears the window
-
 # Fuzzy Finder Aliases
 # alias fc='cd $(fzf --preview='bat')'
 # alias vif='vi $(fzf --preview='bat')'
@@ -52,6 +43,16 @@ export nv="$ad/Local/nvim/"
 export ds="/f/amal/desktop"
 export dot="/f/amal/desktop/dev/dotfiles"
 export bs="$HOME/.bashrc"
+export todo="$ds/todo.txt"
+
+# Location Aliases
+alias home='cd /f/amal/' # home folder
+alias dt="cd $ds"        # desktop folder
+alias dv="cd $ds/dev/"   # developer folder
+# alias doc="cd /f/amal/documents"                          # documents folder
+# alias dwn="cd /f/amal/downloads"                          # downloads folder
+# alias prj="cd /f/amal/documents/programming/my\ projects" # personal projects folder
+alias d="cd $ds && c" # cds to desktop and clears the window
 
 # activate vi mode
 # set -o vi
@@ -129,9 +130,9 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true # Shows % if there are any untracked file
 export GIT_PS1_SHOWUPSTREAM="auto"
 
 # Setup cli tools
-eval "$(zoxide init bash)"                                                   # zoxide
-eval "$(fzf --bash)"                                                         # fzf key bindings and fuzzy completion
-alias cs="colorscript"                                                       # color script cli
+eval "$(zoxide init bash)" # zoxide
+eval "$(fzf --bash)"       # fzf key bindings and fuzzy completion
+alias cs="colorscript"     # color script cli
 
 # Config for Cli tools (ensure that fd is installed)
 export BAT_THEME="base16" # Setup Default Bat Theme
@@ -147,7 +148,7 @@ export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | 
 # options :  --no-filesize --no-time --no-permissions --long
 alias ls="eza --no-filesize --no-permissions --all --color=always --icons=never --no-user"
 alias la="eza --no-filesize --long --header --group-directories-first --group --all --color=always --icons=always --no-user"
-alias lt="eza --no-filesize --tree --color=always --icons=always"
+alias lt="eza --no-filesize --tree --color=always --icons=never"
 
 # initialize zsh at startup
 # if [ -t 1 ]; then
