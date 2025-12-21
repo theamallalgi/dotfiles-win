@@ -2,10 +2,25 @@ return {
 	"zbirenbaum/copilot.lua",
 	cmd = "Copilot",
 	build = ":Copilot auth",
-	config = function()
-		_G.copilot_enabled = false -- Define a global variable for Copilot toggle
 
-		-- Function to toggle Copilot
+	keys = {
+		{
+			"<leader>cp",
+			function()
+				if _G.toggle_copilot then
+					_G.toggle_copilot()
+				else
+					vim.cmd("Copilot enable")
+					_G.copilot_enabled = true
+				end
+			end,
+			desc = "Toggle Copilot",
+		},
+	},
+
+	config = function()
+		_G.copilot_enabled = false
+
 		function _G.toggle_copilot()
 			if _G.copilot_enabled then
 				vim.cmd("Copilot disable")
@@ -18,10 +33,6 @@ return {
 			end
 		end
 
-		-- Set up keybinding to toggle Copilot
-		vim.api.nvim_set_keymap("n", "<leader>cp", ":lua toggle_copilot()<CR>", { noremap = true, silent = true })
-
-		-- Copilot configuration
 		require("copilot").setup({
 			panel = {
 				enabled = true,
@@ -62,7 +73,7 @@ return {
 				cvs = true,
 				["."] = true,
 			},
-			copilot_node_command = "node", -- Node.js version must be > 18.x
+			copilot_node_command = "node",
 			server_opts_overrides = {},
 		})
 	end,
