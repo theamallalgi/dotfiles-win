@@ -1,0 +1,88 @@
+/* Code block container */
+.theme-dark .markdown-preview-view pre,
+.theme-dark .markdown-source-view pre {
+  background-color: #0d0910; /* black / charcoal */
+  border: 1px solid #272045; /* graphite */
+}
+
+/* Base code text */
+.theme-dark .markdown-preview-view pre code,
+.theme-dark .markdown-source-view pre code {
+  color: #db94e3; /* white */
+}
+
+/* Prism syntax tokens */
+.token.comment {
+  color: #513b50; /* gray */
+  font-style: italic;
+}
+
+.token.keyword,
+.token.operator {
+  color: #8543e4; /* purple */
+}
+
+.token.function,
+.token.method {
+  color: #64aae2; /* blue */
+}
+
+.token.string {
+  color: #46cda8; /* green */
+}
+
+.token.number,
+.token.boolean {
+  color: #e09066; /* yellow */
+}
+
+.token.constant {
+  color: #d95be2; /* pink */
+}
+
+.token.class-name,
+.token.type {
+  color: #5a3c8d; /* lilac */
+}
+
+.token.builtin {
+  color: #17c5cb; /* cyan */
+}
+
+.token.variable {
+  color: #e39069; /* orange */
+}
+
+.token.punctuation {
+  color: #542a91; /* slate */
+}
+
+/* Edit mode code block background */
+.theme-dark .cm-editor .cm-content pre {
+  background-color: #0d0910; /* black */
+  border: 1px solid #272045; /* graphite */
+}
+
+/* Base text */
+.theme-dark .cm-editor .cm-content {
+  --code-normal: #db94e3; /* white */
+  --code-comment: #513b50; /* gray */
+  --code-keyword: #8543e4; /* purple */
+  --code-string: #46cda8;  /* green */
+  --code-number: #e09066;  /* yellow */
+  --code-function: #64aae2;/* blue */
+  --code-variable: #e39069;/* orange */
+  --code-operator: #8543e4;
+  --code-type: #5a3c8d;    /* lilac */
+}
+
+/* Apply variables */
+.theme-dark .cm-keyword { color: var(--code-keyword); }
+.theme-dark .cm-string { color: var(--code-string); }
+.theme-dark .cm-comment { color: var(--code-comment); font-style: italic; }
+.theme-dark .cm-number { color: var(--code-number); }
+.theme-dark .cm-def,
+.theme-dark .cm-function { color: var(--code-function); }
+.theme-dark .cm-variable { color: var(--code-variable); }
+.theme-dark .cm-operator { color: var(--code-operator); }
+.theme-dark .cm-type { color: var(--code-type); }
