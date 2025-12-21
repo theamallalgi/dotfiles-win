@@ -1,26 +1,23 @@
 # ~/.bashrc - index file for bash sessions
 
 # Aliases
-alias cl="clear && colorscript -r"            # clear command with colorscripts
-alias c="clear && colorscript -e blocks1"     # color script reset (zwaves)
-alias watch="sass --style compressed --watch" # watches and compiles sass in real time
-alias sb="clear && source ~/.bashrc"          # clears and sources the bashrc file
-alias vi="nvim"                               # neovim
-alias cat="bat"                               # better cat command
-alias py="python"                             # sets python
-alias pc="clear && py"                        # clears the terminal and opens python
-alias ..="cd ../"                             # goes back one level
-alias x="exit"                                # well you can read can't you?
-alias ex="explorer ."                         # opens the windows explorer
-alias len="ls -1 | wc -l"                     # prints the count of elements in current folder
-alias rmcr="sed -i 's/\r//g'"                 # function to remove trailing spaces in a file
-alias ac="ani-cli"                            # an alias for the ani-cli client
-alias dotbkp="/e/configs/update.sh"           # runs the dotfiles backup script
-alias arch="wsl -d archlinux --user amal"     # opens wsl's arch linux instance
-# alias vim="neovide"                               # neovide
-# alias la="ls -al"                           # lists everything
-# alias lt="lsd --tree"                       # tree list view but with lsd
-# alias cd="z"                                # setsup zoxide as the cd command (must have it installed)
+alias cl="clear && colorscripts -r"             # clear command with colorscripts
+alias c="clear && colorscripts -e blocks1"      # color script reset (zwaves)
+alias watch="sass --style compressed --watch"   # watches and compiles sass in real time
+alias sb="clear && source ~/.bashrc"            # clears and sources the bashrc file
+alias vi="nvim"                                 # neovim
+alias cat="bat"                                 # better cat command
+alias py="python"                               # sets python
+alias pc="clear && py"                          # clears the terminal and opens python
+alias ..="cd ../"                               # goes back one level
+alias x="exit"                                  # well you can read can't you?
+alias ex="explorer ."                           # opens the windows explorer
+alias len="ls -1 | wc -l"                       # prints the count of elements in current folder
+alias rmcr="sed -i 's/\r//g'"                   # function to remove trailing spaces in a file
+alias ac="ani-cli"                              # an alias for the ani-cli client
+alias dotbkp="/e/configs/update.sh"             # runs the dotfiles backup script
+alias arch="wsl -d archlinux --user amal"       # opens wsl's arch linux instance
+alias colorscripts="~/colorscripts/colorscript" # call colorscript script
 
 # Git Aliases
 alias gc="git clone"                                                                                 # clones a git repo
@@ -32,56 +29,42 @@ alias gP="git pull"                                                             
 alias gg="lazygit"                                                                                   # opens lazygit
 alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white)%an  %ar%C(auto)  %D%n%s%n'" # fancier git log
 
+# Custom Location variables
+export ad="$HOME/AppData"
+export nv="$ad/Local/nvim/"
+export ds="~/Desktop/"
+export dot="~/dotfiles"
+export bs="$HOME/.bashrc"
+export todo=".config/todo/todo.txt"
+
 # Fuzzy Finder Aliases
 # alias fc='cd $(fzf --preview='bat')'
 # alias vif='vi $(fzf --preview='bat')'
 # alias vimf='vim $(fzf --preview='bat')'
 
-# Custom Location variables
-export ad="$HOME/AppData"
-export nv="$ad/Local/nvim/"
-export ds="/f/amal/desktop"
-export dot="/f/amal/desktop/dev/dotfiles"
-export bs="$HOME/.bashrc"
-export todo="$ds/todo.txt"
-
 # Location Aliases
-alias home='cd /f/amal/' # home folder
-alias dt="cd $ds"        # desktop folder
-alias dv="cd $ds/dev/"   # developer folder
-# alias doc="cd /f/amal/documents"                          # documents folder
+alias home='cd ~'                     # home folder
+alias dt="cd $ds"                     # desktop folder
+alias doc="cd ~/Documents"            # documents folder
+alias dev="cd ~/Documents/Developer/" # developer folder
+alias d="cd $ds && c"                 # cds to desktop and clears the window
 # alias dwn="cd /f/amal/downloads"                          # downloads folder
 # alias prj="cd /f/amal/documents/programming/my\ projects" # personal projects folder
-alias d="cd $ds && c" # cds to desktop and clears the window
 
 # activate vi mode
 # set -o vi
 # bind ^l:clear-screen # remap ctrl+l to clear screen
 
-# Directory AutoCorrection
-shopt -s cdspell
-
-# Directory Path Trim
-export PROMPT_DIRTRIM=3
+export PROMPT_DIRTRIM=3     # Directory Path Trim
+HISTFILESIZE=99999          # The maximum number of lines in the history file.
+HISTSIZE=99999              # The number of entries to save in the history file.
+PROMPT_COMMAND='history -a' # Set Bash to save each command to history, right after it has been executed.
+shopt -s cmdhist            # Save multi-line commands in one history entry.
+shopt -s cdspell            # Directory AutoCorrection
 
 # Enable the ** globstar recursive pattern in file and directory expansions.
 # For example, ls **/*.txt will list all text files in the current directory hierarchy.
 shopt -s globstar
-
-# Ignore saving short- and other listed commands to the history file.
-# HISTIGNORE=?:??:history
-
-# The maximum number of lines in the history file.
-HISTFILESIZE=99999
-
-# The number of entries to save in the history file.
-HISTSIZE=99999
-
-# # Set Bash to save each command to history, right after it has been executed.
-PROMPT_COMMAND='history -a'
-
-# Save multi-line commands in one history entry.
-shopt -s cmdhist
 
 # export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
@@ -160,4 +143,4 @@ eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zitchdog.toml)" # o
 # eval "$(starship init bash)" # starship prompt
 
 # Startup
-colorscript --random # displays a random colorscript on startup
+colorscripts --random # displays a random colorscript on startup
