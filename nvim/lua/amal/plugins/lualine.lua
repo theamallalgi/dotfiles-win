@@ -91,9 +91,25 @@ return {
           { "filename", path = 0, symbols = { modified = "󰫢" } },
         },
         lualine_x = {
-          -- { "location", color = { fg = colors.lightgray, bg = colors.darkblack } },
-          -- { "progress", color = { fg = colors.lightgray, bg = colors.darkblack } },
-          "location", "progress",
+          {
+            "diagnostics",
+            sources = { "nvim_diagnostic" },
+            sections = { "error", "warn" },
+            symbols = {
+              error = "",
+              warn  = "",
+            },
+            diagnostics_color = {
+              error = { fg = colors.red, bg = colors.darkred },
+              warn  = { fg = colors.orange, bg = colors.darkorange },
+            },
+            colored = true,
+            update_in_insert = false,
+            always_visible = false,
+            separator = "",
+          },
+          "location",
+          "progress",
         },
         lualine_y = {
           function()
