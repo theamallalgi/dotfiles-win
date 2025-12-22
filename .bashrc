@@ -11,19 +11,16 @@ alias py="python"                               # sets python
 alias pc="clear && py"                          # clears the terminal and opens python
 alias ..="cd ../"                               # goes back one level
 alias x="exit"                                  # well you can read can't you?
-alias ex="explorer ."                           # opens the windows explorer
 alias len="ls -1 | wc -l"                       # prints the count of elements in current folder
-alias rmcr="sed -i 's/\r//g'"                   # function to remove trailing spaces in a file
+alias rmcr="sed -i 's/\r//g'"                   # removes windows crlf in a file
 alias ac="ani-cli"                              # an alias for the ani-cli client
-alias dotbkp="/e/configs/update.sh"             # runs the dotfiles backup script
-alias arch="wsl -d archlinux --user amal"       # opens wsl's arch linux instance
-alias colorscripts="~/colorscripts/colorscript" # call colorscript script
+alias colorscripts="$HOME/colorscripts/colorscript" # call colorscript script
 alias exp="explorer"                            # opens explorer (windows only), append with '.' or path
 
 # Git Aliases
 alias gc="git clone"                                                                                 # clones a git repo
 alias gw="git commit -m"                                                                             # commits a change
-alias ga="git add"                                                                                   # staches changes
+alias ga="git add"                                                                                   # prepare files for staging
 alias gs="git status"                                                                                # shows the local status
 alias gp="git push"                                                                                  # pushes the staged changes
 alias gP="git pull"                                                                                  # pulls from the repo
@@ -33,10 +30,10 @@ alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white)%an  %ar
 # Custom Location variables
 export ad="$HOME/AppData"
 export nv="$ad/Local/nvim/"
-export ds="~/Desktop/"
-export dot="~/dotfiles"
+export ds="$HOME/Desktop/"
+export dot="$HOME/dotfiles"
 export bs="$HOME/.bashrc"
-export todo=".config/todo/todo.txt"
+export todo="$HOME/.config/todo/todo.txt"
 
 # Fuzzy Finder Aliases
 # alias fc='cd $(fzf --preview='bat')'
@@ -68,7 +65,7 @@ shopt -s cdspell            # Directory AutoCorrection
 shopt -s globstar
 
 # export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # loads nvm bash_completion
 
 # function: draw horizontal line on call
