@@ -18,6 +18,7 @@ alias ac="ani-cli"                              # an alias for the ani-cli clien
 alias dotbkp="/e/configs/update.sh"             # runs the dotfiles backup script
 alias arch="wsl -d archlinux --user amal"       # opens wsl's arch linux instance
 alias colorscripts="~/colorscripts/colorscript" # call colorscript script
+alias exp="explorer"                            # opens explorer (windows only), append with '.' or path
 
 # Git Aliases
 alias gc="git clone"                                                                                 # clones a git repo
