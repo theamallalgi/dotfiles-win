@@ -49,6 +49,9 @@ alias d="cd $ds && c"                 # cds to desktop and clears the window
 # alias dwn="cd /f/amal/downloads"                          # downloads folder
 # alias prj="cd /f/amal/documents/programming/my\ projects" # personal projects folder
 
+# Extentions and Misc
+alias bws='bw login && export BW_SESSION="$(bw unlock --raw)"'
+
 # activate vi mode
 # set -o vi
 # bind ^l:clear-screen # remap ctrl+l to clear screen
@@ -127,9 +130,12 @@ export FZF_CTRL_T_OPTS="--preview 'bat --theme='base16' --color=always -n --line
 export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | head -200' --border-label=' change directory '"
 # eza - next level ls (dir)
 # options :  --no-filesize --no-time --no-permissions --long
-alias ls="eza --no-filesize --no-permissions --all --color=always --icons=never --no-user"
-alias la="eza --no-filesize --long --header --group-directories-first --group --all --color=always --icons=always --no-user"
-alias lt="eza --no-filesize --tree --color=always --icons=never"
+alias ls="echo '' && eza --no-filesize --no-permissions --all --color=always --icons=never --no-user && echo ''"
+alias la="echo '' && eza --long --group-directories-first --group --all --color=always --icons=never --no-user && echo ''"
+alias lt="echo '' && eza --no-filesize --tree --color=always --icons=never && echo ''"
+alias ll="echo '' && eza --no-filesize --color=always --icons=never --width 1 && echo ''"
+alias ld="echo '' && eza --only-dirs && echo ''"
+alias lf="echo '' && eza --only-files && echo ''"
 
 # initialize zsh at startup
 # if [ -t 1 ]; then

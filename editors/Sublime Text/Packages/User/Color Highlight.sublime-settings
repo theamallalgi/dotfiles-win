@@ -1,8 +1,0 @@
-/*
-	Color Highlight user settings in here override the default
-*/
-{
-	"user": {
-		"gutter_icon": false,
-	}
-}
