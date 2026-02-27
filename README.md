@@ -14,8 +14,8 @@
 
 ## The Setup
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/one.png?raw=true" title="" alt="current desktop" data-align="center">
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/two.png?raw=true" title="" alt="current desktop" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/one.png?raw=true" title="" alt="current desktop" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/two.png?raw=true" title="" alt="current desktop" data-align="center">
 
 #### Nvim Requirements
 
@@ -27,7 +27,7 @@
   - Kode Mono (Custom NF Patch) # My Current Font
   - GohuFont 14 Nerd Font
 ```
- Check the [Fonts Folder](https://github.com/theamallalgi/dotfiles/tree/main/misc/fonts) for Fonts I use.
+ Check the [Fonts Folder](https://github.com/theamallalgi/dotfiles-win/tree/main/misc/fonts) for Fonts I use.
 
 - [lazygit](https://github.com/jesseduffield/lazygit)  **(optional)**
 
@@ -61,59 +61,59 @@
 
 ### Neovim
 
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/three.png?raw=true" alt="alacritty" data-align="center">
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/five.png?raw=true" alt="alacritty" data-align="center">
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/four.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/three.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/five.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/four.png?raw=true" alt="alacritty" data-align="center">
 <details>
     <summary>see more of my nvim images</summary>
 
 ## 🪙 Neovim Screengrabs
 
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -head.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -head.png?raw=true" alt="nvim" data-align="center">
 
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -tail.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -tail.png?raw=true" alt="nvim" data-align="center">
 
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -1.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -2.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -2.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -3.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -3.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -4.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -4.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -5.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -5.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -6.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -6.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -7.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -7.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -8.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -8.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -9.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -9.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -10.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -10.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -11.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -11.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -12.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -12.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -13.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -13.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -14.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -14.png?raw=true" alt="nvim" data-align="center">
   
-  <img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/nvim -15.png?raw=true" alt="nvim" data-align="center">
+  <img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/nvim -15.png?raw=true" alt="nvim" data-align="center">
 
 </details>
 
 ### Alacritty
 
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/six.png?raw=true" alt="alacritty" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/six.png?raw=true" alt="alacritty" data-align="center">
 
 </details>
 
 ### Mpv Player
 
-<img title="" src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/mpv -head.png?raw=true" alt="mpv" data-align="center">
+<img title="" src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/mpv -head.png?raw=true" alt="mpv" data-align="center">
 
 </details>
 
@@ -125,7 +125,7 @@
 
   nvim folder: `~/.config/nvim`
 
-  - Download the zip file or clone the this repo: `github.com/theamallalgi/dotfiles/`
+  - Download the zip file or clone the this repo: `github.com/theamallalgi/dotfiles-win/`
   - Open the dotfiles folder, move or copy the nvim folder
   - Paste the folder within the `~/.config` folder
   - Open nvim with `nvim`
@@ -136,7 +136,7 @@
 
   nvim folder: `c:/user/appdata/local/nvim`
 
-  - Download the zip file or clone the this repo: `github.com/theamallalgi/dotfiles/`
+  - Download the zip file or clone the this repo: `github.com/theamallalgi/dotfiles-win/`
   - Open the dotfiles folder, move or copy the nvim folder
   - Paste the folder within the `%LocalAppData%` folder
   - Open nvim with `nvim`
