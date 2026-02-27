@@ -1,6 +1,6 @@
 # Amal's Dotfiles and Configurations (For Windows)
 
-<img src="https://github.com/theamallalgi/dotfiles/blob/main/dependencies/header.jpg?raw=true" title="" alt="header" data-align="center">
+<img src="https://github.com/theamallalgi/dotfiles-win/blob/main/dependencies/header.jpg?raw=true" title="" alt="header" data-align="center">
 
 ## The Contents
 
